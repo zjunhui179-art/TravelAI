@@ -1,0 +1,432 @@
+attraction_name,attraction_category,attraction_level,longitude,latitude,image_url,url_status
+Xuan Kong Si,Religious Culture,4A,113.7079908,39.6596954,https://img2.chinadaily.com.cn/images/202603/30/69c9c8eea310d68600faa8e8.jpeg,broken (HTTP 403)
+Kai Feng Fu,Historical Culture,4A,114.4492205,34.6859611,https://www.tour-beijing.com/blog/wp-content/uploads/Kaifeng-Fu.jpg,ok
+Zhou Zhuang Gu Zhen,Ancient Town,5A,120.2366499,30.4739336,"https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_863/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/bzpjjn7kqlqkkkfcut5b/One-daytourfromShanghaitoSuzhouAncientTown(NetMasterGardenBeijing-HangzhouGrandCanalZhouzhuangAncientTown).jpg",ok
+Zhu Jia Jiao Gu Zhen,Ancient Town,4A,121.0459843,31.1161648,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGcsT64cgnPWtpjX9CRp7XS1Ynq2b30YIg_cVx7rpv5A&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Lu Shan,Natural Culture,5A,112.726914,33.741738,https://www.orienttrove.com/wp-content/uploads/2025/07/1570.webp,ok
+Shang Rao Ji Zhong Ying,Revolutionary Site,4A,117.9578914,28.4163848,https://i.ytimg.com/vi/5l4A-iVlliw/maxresdefault.jpg,ok
+Ya Lu Jiang Duan Qiao,Revolutionary Site,4A,124.3899493,40.1159825,https://live.staticflickr.com/121/310209321_9bfef31955_b.jpg,ok
+Bei Da Hu Hua Xue Chang,Sports & Leisure,4A,126.6201404,43.419641,https://production.media.dcx.clubmed/?url=https://assets.dream.clubmed/pm_7531_341_341512-9n03jfy8hv-swhr.jpg&format=webp&width=720&height=456&quality=60,ok
+Zhong Guo Xue Xiang,Natural Scenery,4A,113.4782185,23.1796024,https://vocenaneve.com.br/wp-content/uploads/2022/12/Zhongguo-Xuexiang.jpg,ok
+Fu Shun He Tu A La Cheng,Historical Culture,4A,124.84988,41.6888381,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzFrQUMGP7tZM3ytr2y0ekHjYqU4m9ZnMSNkASbNkL4A&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+De Tian Pu Bu,Natural Scenery,5A,121.4704371,31.2219311,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1_5XDn4p-bppiCcIvUWSzo9cljCpYFiLW8MHgqFoLg&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Bei Jing Zhi Wu Yuan,Botanical Garden,4A,116.2078957,40.1161944,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUC82Xk70Uo9W8yofDEaB7wO8NbILafj9-OqoDPWXpuQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Shen Yang Shi Bo Yuan,Theme Park,5A,113.6984751,37.611247,http://subsites.chinadaily.com.cn/liaoning/img/attachement/jpg/site48/20201026/1603679675013.jpg,ok
+Long Yan Guan Zhi Shan,Natural Scenery,4A,116.7480511,25.6764127,https://ak-d.tripcdn.com/images/0100l12000ivbe0l9EB07_C_880_350_R5.jpg?proc=source/trip,ok
+San Xing Dui Yi Zhi,Historical Site,4A,,,https://govt.chinadaily.com.cn/images/202104/22/608135e9498e7a025738ba99.jpeg,ok
+Jin Si Xia,Natural Scenery,5A,110.574164,33.452234,https://images.softwaresuggest.com/software_logo/microsoftword-20231010164838.png,ok
+Ying Hu,Natural Scenery,4A,121.4255899,31.0212898,https://english.news.cn/20240622/747b5ffc05bc43448bd43f4d5582dcbb/20240622747b5ffc05bc43448bd43f4d5582dcbb_20240622f0338a27e2574f2abda683983bc4217a.jpg,ok
+Da Lian Xing Hai Guang Chang,Urban Landscape,4A,121.5814688,38.8768824,https://www.scenerytrip.com/wp-content/uploads/2025/12/Xinghai-Square-1024x745.webp,ok
+Wu Song Dao,Zi Ran Qi Guan,4A,109.1980785,28.1586075,https://i.ytimg.com/vi/gg105gw4xdM/maxresdefault.jpg,ok
+Zha Long Zi Ran Bao Hu Qu,Natural Scenery,4A,124.3353102,47.1588764,http://images.china.cn/attachement/jpg/site1007/20150209/c03fd54abe801642671b08.jpg,ok
+Lai Bin Jin Xiu Sheng Tang Shan,Natural Scenery,4A,,,https://images.moondeveloper.com/attractions/2025/01/25/679443a16a9be.jpg,ok
+Zhang Zhou Dong Shan Dao,Natural Scenery,4A,113.928875,22.5204836,https://l450v.alamy.com/450v/2stymkb/fengdong-stone-scenic-area-dongshan-island-zhangzhou-city-fujian-province-china-2stymkb.jpg,unstable-source (alamy.com)
+Shao Lin Si,Religious Culture,5A,109.8469329,34.4807717,http://www.asiaculturaltravel.co.uk/wp-content/uploads/2017/01/Shaolin-Temple01.jpg,ok
+Hang Zhou Xi Xi Shi Di,Natural Scenery,5A,120.4291244,30.2368729,https://www.cathaypacific.com/content/dam/focal-point/cx/inspiration/2024/09/When_and_how_to_visit_10_spectacular_natural_wonders_of_China-Spring_Scenery_In_Hangzhou-VCG-Gettyimages-19.renditionimage.600.900.jpg,ok
+Chang Chun Shi Jie Diao Su Yuan,Wen Hua Yi Shu,5A,125.3285508,43.8163539,"https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/fdwsscmsfdj38mb47aqp.jpg",ok
+Fen Jie Zhou Dao,Natural Scenery,5A,120.6087389,31.3166697,https://news.cgtn.com/news/2023-05-22/Live-Scenic-view-of-Fenjiezhou-Island-in-S-China-s-Hainan-Province-1k0wYKRfoeA/img/be0eecc4e0724f7595aa494472763b05/be0eecc4e0724f7595aa494472763b05.png,ok
+Xiang Ge Li La,Natural Culture,5A,99.7040577,27.8363076,https://images.unsplash.com/photo-1692065637379-cde22f4cdd3b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==,ok
+Hua Qing Gong,Historical Culture,5A,120.3039598,30.0567996,http://www.ecns.cn/visual/hd/2014/07-04/U542P886T15D42666F104DT20140704155401.jpg,ok
+Shi Jie Gong Yuan,Theme Park,4A,113.5523053,22.211104,https://images.chinahighlights.com/attraction/beijing/the-shijingshan-amusement-park/shijingshanamusementpark-travel.jpg,ok
+Xiao Gan Shuang Feng Shan,Natural Scenery,4A,,,https://www.wufeng-tea.com/wp-content/uploads/2018/02/1-The-beautiful-scenery-of-Huangshan-1-768x549.jpg,ok
+Tong Ling Tian Jing Hu,Natural Scenery,4A,117.2107398,31.7860361,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/a4/74/10/nice.jpg?w=1200&h=-1&s=1,ok
+Qu Fu San Kong,Historical Culture,5A,113.2924093,22.8655198,https://www.visitourchina.com/FileUpload/newpicture/cities/jilin/kongmiao1.jpg,ok
+Qi Tai He Bo Li Xi Da Quan,Natural Scenery,4A,,,https://www.easytourchina.com/images/Photo/jade-spring-park/p565_d20190506101828.jpg,broken (HTTP 403)
+Xi An Zhong Gu Lou,Historical Architecture,4A,108.9376054,34.2595869,https://regiopia.com/fileadmin/user_upload/Asien/China/Xian/sights/xi_an-sehenswuerdigkeiten-glockenturm-zhong-lou-xian-china-sights.jpg,ok
+Gui Lin Liang Jiang Si Hu,Natural Scenery,5A,109.9762376,25.274803,https://news.cgtn.com/news/3d3d514e35637a4e34457a6333566d54/img/b58bb27931be464ab8b79b71758e0558/b58bb27931be464ab8b79b71758e0558.jpg,ok
+Lao Jun Shan,Natural Culture,5A,87.5202559,43.7999876,https://chinaexplorertour.com/wp-content/uploads/2025/04/1.jpg,ok
+Da Qing Tie Ren Ji Nian Guan,Revolutionary Site,4A,,,http://www.cnfocus.com/wp-content/uploads/2021/08/kang-ri-gen-ju-di-ji-nian-guan.png,ok
+Qu Zhou Jiang Lang Shan,Natural Scenery,5A,,,https://navigatechina.com/content/uploadfile/202410/8e5d1730297412.jpeg,ok
+E Mei Shan,Natural Culture,5A,114.20378,22.2914299,https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Emeishan.jpg,ok
+Chang Bai Shan,Natural Scenery,5A,127.6041997,42.0682456,https://news.cgtn.com/news/2022-08-24/Live-Extraordinary-view-of-Changbai-Mountains-in-NE-China-Ep-12-1cKD5Q53HAA/img/617621e9f780494d8626d900e6ccabaa/617621e9f780494d8626d900e6ccabaa.png,ok
+Jian Men Guan,Historical Culture,5A,105.5620096,32.2002899,https://i.ytimg.com/vi/XzBocehOiZM/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLBgdonNR-CPhg1ly9vsDzKjvJsZuQ,broken (HTTP 404)
+Qian Shan,Natural Scenery,5A,108.999693,18.4046123,https://i.pinimg.com/originals/14/0a/b5/140ab5584fba03c81b91510c42cf231b.jpg,unstable-source (pinimg.com)
+Yang Shuo Xi Jie,Ancient Town,4A,110.4807811,24.7717947,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4gb-8-Yr5ajrU8VHLQqMcDXI8UE2bkV-yCrd069g2QQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Yue Lu Shan,Natural Culture,5A,116.6911967,35.0359351,https://i.pinimg.com/originals/39/fc/f4/39fcf432d024c3d63e453cd447c0924c.jpg,unstable-source (pinimg.com)
+Shen Zhen Dong Bu Hua Qiao Cheng,Theme Park,5A,,,"https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/lmf8k2f42jyiqt14ngff.jpg",ok
+Tai Yuan Fen He Gong Yuan,Cheng Shi Gong Yuan,4A,117.3266404,31.7774565,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOxhIwJscWsYv12HjRJRThu2xLsSVCAxZ3FB2kL-em1Q&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Sui Hua Jin Gui Shan Zhuang,Natural Scenery,4A,,,https://99bitcoins.com/wp-content/uploads/2025/10/SUI.jpg,ok
+He Chi Ba Ma Chang Shou Cun,Min Su Wen Hua,4A,,,https://dlyp184jmtbyy.cloudfront.net/TourPackageItineraryCityImage/638890384577728961.jpg,ok
+Tian Tang Zhai,Natural Scenery,5A,115.7418027,31.1124681,https://govt.chinadaily.com.cn/images/202206/16/62aaf39f498ea27454aa157b.png,ok
+Hei He Ai Hui Gu Cheng,Historical Culture,4A,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_eG9mBD_LAoipF6KEIugfcSv-uOVR68QMMoq-oPNmQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Da Lian Lao Hu Tan Hai Yang Gong Yuan,Theme Park,5A,121.6734492,38.8729816,https://webspace.clarkson.edu/projects/reushen/public_html/reu_china/Dalian+2005/images/IMG_5234.jpg,broken (HTTP 404)
+Gui Feng,Natural Scenery,5A,110.3166267,25.1946435,https://www.alamy.com/aggregator-api/download?url=https://c8.alamy.com/comp/WA2N6N/guifeng-scenic-spot-in-jiangxi-WA2N6N.jpg,unstable-source (alamy.com)
+Dan Xia Shan,Natural Scenery,5A,113.7017207,24.9698579,https://www.loongwander.com/upload/2025/04/196379dd129ae3370b4f.webp,ok
+Gong Wang Fu,Historical Architecture,5A,116.5767197,30.6397295,https://c8.alamy.com/comp/T091RA/prince-gongs-mansion-gong-wang-fu-in-beijing-china-T091RA.jpg,unstable-source (alamy.com)
+Yun Gang Shi Ku,Historical Culture,5A,118.6226866,28.7674264,https://www.thechinajourney.com/wp-content/uploads/2024/11/Aerial-view-of-Yungang-Grottoes-highlighting-the-grand-Buddha-statues-and-ancient-cliff-carvings-1024x768.webp,ok
+Qing Dong Ling,Historical Site,5A,123.508872,41.743384,https://c8.alamy.com/comp/2T2955B/zunhua-city-china-august-27-2023-aerial-photo-taken-of-the-scenic-area-of-the-qing-dongling-jingling-mausoleum-kangxi-mausoleum-2T2955B.jpg,unstable-source (alamy.com)
+Cha Ya Shan,Natural Scenery,5A,118.4202905,35.2505959,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQly-xCyQp1X_u_hQoxvpcVHtVD9JV4jjp0yhgTY1LOyA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+An Yuan Lu Kuang Gong Ren Yun Dong Ji Nian Guan,Revolutionary Site,4A,,,https://www.whyvisitchina.com/wp-content/uploads/2014/01/20140104_144104.jpg,ok
+Fu Rong Zhen,Ancient Town,4A,102.6390991,29.3496596,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5AbUeD0LDqIMEPfH9bQltOQeAFCN0px-516F42hhVCg&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Lang Zhong Gu Cheng,Ancient Town,5A,118.0612005,24.4525541,https://chengduprivatetour.com/upload/ueditor/image/20200826/6373405886360186386765262.jpg,ok
+Bei Hai Gong Yuan,Cheng Shi Gong Yuan,4A,116.4389539,39.7653984,https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/60/70.jpg,ok
+Zi Que Jie Ti Tian,Natural Scenery,4A,,,https://www.chinadiscovery.com/assets/images/zhangjiajie/things-to-do/tianziMountainNatureReserve(1).jpg,ok
+Jin Ci,Historical Culture,4A,118.7779978,32.0110385,https://p9.itc.cn/images01/20230224/2ece9c2cc60447cfbea9c54467956814.jpeg,ok
+Yan Tai Shan,Natural Scenery,4A,116.6297012,34.972093,https://static.travelchina.org.cn/mct/contents/1/image/2025/12/20251201144248697_d3im12qgx2j5.jpg,ok
+Da Li Gu Cheng,Ancient Town,4A,113.697944,40.4294247,https://www.asiaodysseytravel.com/images/china-tours/group-tours/dali-old-town-700-5.jpg,ok
+Liu Ding Shan,Religious Culture,5A,114.0882874,22.355507,https://watermark.lovepik.com/photo/20211210/large/lovepik-dunhua-liu-dingshan-jinding-big-buddha-shooting-picture_501779879.jpg,broken (HTTP 403)
+Hu Lu Dao Xing Cheng Gu Cheng,Historical Culture,4A,,,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/75/24/0c/caption.jpg?w=1200&h=1200&s=1,ok
+Hai Luo Gou,Natural Scenery,5A,119.3754916,41.4832544,https://www.chengduprivatetour.com/upload/tourslide/201901091700217654434.jpg,ok
+Xi An Cheng Qiang,Historical Architecture,5A,108.9581839,34.279927,https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/6a/dd.jpg,ok
+Wu Yi Shan,Natural Culture,5A,117.9030925,30.0142707,https://www.chinadiscovery.com/assets/images/fujian/wuyi-mountain/tianyou-peak-500-1.jpg,ok
+Xi Bai Po,Revolutionary Site,5A,111.7994453,34.4510933,http://www.whatchina.cn/wp-content/uploads/2021/12/Chinas-Top-10-Red-Tourist-Attractions-xibaipo.jpg,broken (HTTP 404)
+Jiu Yi Ba Li Shi Bo Wu Guan,Revolutionary Site,4A,,,https://1.bp.blogspot.com/-t6uuUdEAjT8/Un-oil8Z5TI/AAAAAAAACu4/7IlR9X8ygwE/s1600/IMG_2350.JPG,ok
+Wu Dang Shan,Natural Culture,5A,110.9067736,32.5925827,https://www.touropia.com/gfx/b/2011/09/Wudang_Mountains.jpg,ok
+Bo Zhou Hua Xi Lou,Historical Architecture,4A,119.9396361,37.1773852,https://intotravelchina.com/upload/1756808793509.jpg,ok
+Nan Shan Wen Hua Lv You Qu,Religious Culture,5A,,,https://blog.breadandletters.com/assets/images/post/general/hiking/nanshan.png,ok
+Xi Tang Gu Zhen,Ancient Town,5A,120.8842345,30.9460627,https://images.chinahighlights.com/allpicture/2017/10/e51f662beff2455eb4757c87_cut_800x500_117.jpg,ok
+Han Yang Ling,Historical Site,4A,108.9425919,34.4430016,https://chinatripedia.com/wp-content/uploads/2023/03/han-yang-ling-mausoleum-1024x575.webp,ok
+Shao Shan,Revolutionary Site,5A,92.0023686,27.7895848,https://p1-tt-ipv6.byteimg.com/origin/pgc-image/0a9feac7d83c45f5a71e221fbdee6060.jpg,ok
+Hui Min Jie,Food Street,3A,121.2620551,38.8102387,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCSvq4uw_5JN1utr42SvMeaCUb1X10yJtRMgE2ct_RhQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Huang He Lou,Historical Architecture,5A,114.2970471,30.547081,https://c8.alamy.com/comp/ACP065/yellow-crane-chamber-huang-he-lou-wuhan-hubei-province-china-ACP065.jpg,unstable-source (alamy.com)
+Hong Qi Qu,Revolutionary Site,5A,114.065746,22.5602872,https://p1-tt.byteimg.com/origin/pgc-image/2897891a286f46f8b33ab298ad6db17f.jpg,ok
+Gu Gong Bo Wu Yuan,Historical Culture,5A,116.3907694,39.9172757,https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/4b/70/85.jpg,ok
+Yi Chun Wu Ying Guo Jia Sen Lin Gong Yuan,Natural Scenery,4A,,,https://farm4.staticflickr.com/3877/33332342672_311481715d_o.jpg,ok
+Shang Hai Huan Le Gu,Theme Park,4A,,,https://www.synotrip.com/sites/default/files/beijng_guide_terry/e72cf2ef5fdc0d29adafd512.jpg,ok
+Qin Shi Huang Bing Ma Yong,Historical Site,5A,109.277673,34.3873627,https://c8.alamy.com/comp/W46HR5/august-18-2015-xian-china-the-terracotta-warriors-of-emperor-qin-shi-huang-in-the-largest-archeological-site-or-pit-one-in-the-city-of-lintong-W46HR5.jpg,unstable-source (alamy.com)
+Gu Lang Yu,Historical Culture,5A,118.0624293,24.4473841,https://news.cgtn.com/news/3d67444d3359444e/img/baa46a8a-5693-4ccb-8761-cda5a2f06a0a.jpg,ok
+Bai Shan Chang Bai Shan Da Xia Gu,Natural Scenery,4A,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPAGcU3ch2LkZkwcnes-YznrZluPqwK_LlblcQNEX5vw&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Wei Fang Qing Zhou Gu Cheng,Ancient Town,5A,119.6346739,31.7226555,https://chinaexplorertour.com/wp-content/uploads/2026/04/93126172ef3d47119fd9622193d9b99a.jpg,ok
+Da Lian Sen Lin Dong Wu Yuan,Zoo,4A,121.6084489,38.8744233,https://chineseforliving.com/wp-content/uploads/2024/12/v2-mw7b1-s5rpg-1024x702.jpg,ok
+Fu Jian Tu Lou,Historical Architecture,5A,105.0422308,29.5716751,https://img.freepik.com/premium-photo/tulou-cluster-fujian-china-february-17th-2021-tulou-fujian-province-china-hakka-architecture-earthen-building-horizontal-view-inner-circle_941247-1868.jpg?w=2000,ok
+Kun Ming Shi Bo Yuan,Theme Park,5A,94.6790576,40.1140829,https://www.gokunming.com/images/store/large/4757.jpg,ok
+Shan Xi Li Shi Bo Wu Guan,Wen Bo Yuan Guan,4A,108.8595291,34.4080454,https://1.bp.blogspot.com/-t6uuUdEAjT8/Un-oil8Z5TI/AAAAAAAACu4/7IlR9X8ygwE/s1600/IMG_2350.JPG,ok
+Zhu Hai Zhang Long Hai Yang Wang Guo,Theme Park,5A,,,https://amusementlogic.com/wp-content/uploads/2024/04/The-worlds-largest-indoor-theme-park-Zhuhai-China-4.jpg,ok
+Fang Chuan Feng Jing Qu,Natural Scenery,4A,120.7930733,33.0528039,https://p1-tt.byteimg.com/origin/tos-cn-i-qvj2lq49k0/17becf955b84451faac7621c37b16de6.jpg,ok
+Quan Zhou Kai Yuan Si,Religious Culture,4A,113.5199194,23.168844,https://www.asiaodysseytravel.com/images/china-tours/group-tours/quanzhou-kaiyuan-temple-700-3.jpg,ok
+Sui Zhou Yan Di Gu Li,Historical Culture,4A,113.2915422,31.8515858,https://media.gadventures.com/media-server/dynamic/blogs/posts/daniel-james/2018/07/SuzhouFeature.jpg,ok
+Shou Xi Hu,Natural Scenery,5A,119.4167325,32.4298628,https://www.visitourchina.com/FileUpload/Guide/Attraction/110426162816.jpg,ok
+Yue Yang Jun Shan Dao,Natural Scenery,5A,120.8978742,30.0242985,https://img.lovepik.com/photo/20220225/medium/lovepik-aerial-photography-of-junshan-island-5a-scenic-picture_502361264.jpg,ok
+Yi Meng Shan,Natural Scenery,5A,105.731,27.2188,https://i.pinimg.com/originals/25/10/d6/2510d652c6cdbf8400e4032cb1d2d38f.png,unstable-source (pinimg.com)
+Jia Xing Nan Hu,Revolutionary Site,5A,120.7595032,30.7665039,https://img2.chinadaily.com.cn/images/202105/19/60a4c92aa31024adbdc8a391.jpeg,broken (HTTP 403)
+Dong Fang Ming Zhu,Urban Landmark,5A,113.5595274,22.2127456,https://www.guideoftheworld.com/wp-content/uploads/2023/06/Oriental-Pearl-Tower-Dongfang-Mingzhu.jpg,ok
+Nan Jing Bo Wu Yuan,Wen Bo Yuan Guan,4A,118.819887,32.0422995,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/59/7a/17/edificio-principal-del.jpg?w=1200&h=-1&s=1,ok
+Ming Huang Ling,Historical Site,4A,124.7968718,41.7081041,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo6DVLH8DjdAVXXlJvZd_K-Rss9xLFZ0ts648Mhv-JIw&s,unstable-source (encrypted-tbn0.gstatic.com)
+Quan Zhou Qing Jing Tao Yuan,Natural Scenery,4A,,,https://c8.alamy.com/comp/2SRF5RW/scenery-of-qingyuan-mountain-in-quanzhou-fujian-province-china-2SRF5RW.jpg,unstable-source (alamy.com)
+Jin Zhou Bi Jia Shan,Natural Scenery,4A,115.5121744,28.0806609,"https://gbaike-image.cdn.bcebos.com/242dd42a2834349b033b9b5eb2a602ce36d3d4391091/242dd42a2834349b033b9b5eb2a602ce36d3d4391091_url?x-bce-process=image/format,f_auto/resize,m_lfit,w_400,limit_1",ok
+Fu Xin Hai Tang Shan,Natural Culture,4A,120.1513112,35.9871881,https://i.ytimg.com/vi/FG10zU9nuzI/maxresdefault.jpg,ok
+Xiang Hai Zi Ran Bao Hu Qu,Natural Scenery,4A,122.254487,29.4347138,http://images.china.cn/site1007/2018-08/21/c03fd55e7108190928a601.jpg,ok
+Ha Er Bin Bing Xue Da Shi Jie,Theme Park,4A,126.6283625,45.7088083,http://leaveyourdailyhell.com/wp-content/uploads/2015/01/Harbin-7.jpg,ok
+Da Xing An Ling Mo He Bei Ji Cun,Natural Scenery,4A,122.7652777,52.9437761,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCOyd6-GN86o_ZbDwQGFX4eEy6Tp6qCWXakg0HwOUaSQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Bai Shui Yang,Natural Scenery,5A,112.2285511,26.138651,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1jRhsNWqX82tWX5MB5vkD_ZPNXDubwsrC88DDoWEm-Q&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Wang Jia Da Yuan,Historical Architecture,4A,114.3457103,30.5867305,http://images.china.cn/attachement/jpg/site1007/20120516/001422373e19111da1084f.jpg,ok
+Fu Zhou San Shan Liang Ta,Historical Culture,4A,120.3989509,30.1991272,https://thumbs.dreamstime.com/z/historic-chinese-tower-fuzhou-china-zhenhai-49922833.jpg,unstable-source (dreamstime.com)
+Tian Zi Fang,Wen Hua Yi Shu,3A,119.4733337,36.6566887,https://i.pinimg.com/736x/16/b8/ff/16b8ffa6a346817cff9460e680360664.jpg,unstable-source (pinimg.com)
+Cheng Du Da Xiong Mao Fan Yu Ji Di,Zoo,4A,,,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/01/64/a4/caption.jpg?w=1200&h=1200&s=1,ok
+Shi Lin,Zi Ran Qi Guan,5A,106.7086936,26.5878031,https://www.myanmartours.net/userfiles/images/shilin.jpg,broken (ReadTimeout)
+Gui Lin Li Jiang,Natural Scenery,5A,110.2976094,25.3317707,https://nationalparksassociation.org/wp-content/uploads/2024/02/Guilin-Li-River-National-Park.jpg,ok
+Yu Yuan,Historical Architecture,4A,121.4879752,31.2289274,https://c8.alamy.com/comp/DMAWX9/yu-yuan-garden-and-market-in-shanghaichina-tradition-chine`s-architecture-DMAWX9.jpg,unstable-source (alamy.com)
+Bai Se Qi Yi Ji Nian Guan,Revolutionary Site,4A,106.6371822,23.9050152,https://cdn.thecollector.com/wp-content/uploads/2022/11/general-qui-juang-great-wall-china.jpg,ok
+Nan Xun Gu Zhen,Ancient Town,5A,120.4317932,30.8851144,https://i.ytimg.com/vi/DT4nynExAjY/maxresdefault.jpg,ok
+Shang Hai Ke Ji Guan,Ke Pu Jiao Yu,5A,8.7716025,3.7519985,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWzkFtn-oBbAs6ekXOCSM4OzngPQjRvlYLFdacfp1NVQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Huang Di Ling,Historical Culture,5A,118.4157712,29.1581784,https://www.globaltimes.cn/Portals/0/attachment/2025/2025-03-26/0574bbe9-3205-4ea9-bfc9-c4a70c2b478c.jpeg,ok
+Ri Zhao Hai Bin Guo Jia Sen Lin Gong Yuan,Natural Scenery,4A,119.6220098,35.5423361,https://farm4.staticflickr.com/3877/33332342672_311481715d_o.jpg,ok
+Xian Tao Meng Li Shui Xiang,Natural Scenery,4A,113.0151545,30.3009267,https://images.moondeveloper.com/attractions/2024/11/26/674542060e8d5.jpg,ok
+Xian Ning Jiu Gong Shan,Natural Scenery,4A,117.1128006,37.0405854,https://news.cgtn.com/news/346b544e3451544f3459444e354d7a4e3145444f31457a6333566d54/img/82683717187649abb38ae5b1ee06eda3/82683717187649abb38ae5b1ee06eda3.png,ok
+Tian Men Lu Yu Gu Li,Historical Culture,4A,115.8922614,28.5354333,https://www.chinajourneyguide.com/wp-content/uploads/2025/11/Tianmen-Cave.jpeg,ok
+Gui Lin Xiang Bi Shan,Natural Scenery,4A,102.6054999,24.9491736,https://cdn.audleytravel.com/2598/1859/79/1316364-li-river-guilin.jpg,ok
+Du Jiang Yan,Historical Site,5A,129.6186509,44.5400121,https://www.loongwander.com/upload/2025/04/195b33ee7a428d3a4a64.webp,ok
+Wu Xi Ying Shi Ji Di,Theme Park,5A,118.1791741,33.9581452,"https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/0daf47d7a0ecc8304fe011066dda382a.jpg",ok
+Guang Zhou Zhang Long Lv You Du Jia Qu,Theme Park,5A,,,https://www.orienttrove.com/wp-content/uploads/2025/09/3594.webp,ok
+Shang Hai Shi Ji Gong Yuan,Cheng Shi Gong Yuan,4A,121.3161526,30.7416559,https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d3837393939323937,ok
+Ben Xi Shui Dong,Zi Ran Qi Guan,5A,119.4051914,36.8439594,https://p1-tt.byteimg.com/origin/tos-cn-i-qvj2lq49k0/08fe00c77b2e458ca9a623b54a04a4a2.jpg,ok
+Yong He Gong,Religious Culture,4A,116.4110049,39.9455793,https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/07/Yonghegong-Lama-Temple.jpg,ok
+Wen Chang Dong Jiao Ye Lin,Natural Scenery,3A,,,http://abenteuerliche-reisen.de/wordpress/wp-content/uploads/2014/06/Hong-Shu-Lin-Mangrovenwald.jpg,ok
+He Gang Luo Bei Ming Shan Dao,Natural Scenery,4A,,,http://images.china.cn/site1007/2021-07/28/2785b853-9280-4fdf-b73e-1dd10d5dc512.jpg,ok
+Gui Gang Gui Ping Xi Shan,Natural Culture,4A,116.1247975,28.250831,https://c8.alamy.com/comp/CC6C37/qianfo-palace-mt-xishan-scenic-resort-of-guiping-guigang-guangxi-china-CC6C37.jpg,unstable-source (alamy.com)
+Da Jue Shan,Natural Scenery,5A,108.9365277,34.2633867,https://news.cgtn.com/news/7a596a4e3067544f3255544d306b7a4d79497a4e31457a6333566d54/img/f08e2f2a671e4f99b8d8acf3e84f3037/f08e2f2a671e4f99b8d8acf3e84f3037.jpg,ok
+Shang Hai Ye Sheng Dong Wu Yuan,Zoo,5A,121.7132324,31.0388737,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/34/a4/3d/caption.jpg?w=1400&h=1400&s=1,ok
+Bei Jing Dong Wu Yuan,Zoo,4A,120.1828876,35.9843011,https://chineseforliving.com/wp-content/uploads/2024/12/v2-mw7b1-s5rpg.jpg,ok
+Tong Tian Yan,Natural Culture,4A,113.9643236,22.3963421,https://www.chinahistorytrip.com/wp-content/uploads/2025/09/tongtianyan-grottoes-4260.jpg,ok
+Nan Luo Gu Xiang,Historical Culture,4A,116.3976888,39.9323094,https://1.bp.blogspot.com/-qaWTu3L4cRI/YLcv2jNbSrI/AAAAAAAEjTY/G6ypo_B31q0ZVs_-baQJ-sSzdH7LXX5jgCLcBGAsYHQ/s2048/P3270828.JPG,ok
+Nan Yue Heng Shan,Natural Culture,5A,114.0012031,22.2631202,https://intotravelchina.com/upload/1756884596542.jpg,ok
+Hua Guo Shan,Natural Culture,5A,119.1801694,34.4129201,https://lostplate.com/wp-content/uploads/2020/07/1_mount_hua_shan_china_2011-2048x968.jpg,ok
+Chong Sheng Si San Ta,Religious Culture,5A,119.2384252,36.6904729,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_J7ies0UE-ilq3EIROlPhki2VJccaImGlXVwJvH6XemhtXXQhAXmkcubM4oLw4f76lXExIPtgi4N8YRfbrsCZ0WOs6kr4R5xznGgah7yIYqa_xtwIP41MgtIl05AwPAsxB3MbBN17khc/w1200-h630-p-k-no-nu/CSS.JPG,ok
+Qing Xi Ling,Historical Site,5A,107.4626732,29.7992404,https://chinaadvent.com/wp-content/uploads/2024/10/image1468397685784166155.jpg,ok
+Mang Shan,Natural Scenery,4A,115.2196231,39.7878127,https://musculoskeletalkey.com/wp-content/uploads/2016/08/B9781416058847000053_gr6.jpg,ok
+Fang Cheng Gang Shi Wan Da Shan,Natural Scenery,4A,119.4051914,36.8439594,https://i.ytimg.com/vi/8nbYW-ixE_M/hq720_2.jpg?sqp=-oaymwEkCJYDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLBj3Te1KeDoUNiIPgNvVB_79XHlaQ,ok
+Xian Nv Hu,Natural Scenery,4A,,,https://media.gettyimages.com/id/1319224010/photo/xi-an-hu-city-mei-vicious-lake-natural-scenery.jpg?s=612x612&w=gi&k=20&c=8xNMTbXlHIfKyF8INPOXU45_iZiwESekaXdMgS7uu48=,unstable-source (gettyimages.com)
+Kuan Zhai Xiang Zi,Historical Culture,3A,104.0510185,30.6665316,https://c8.alamy.com/comp/TAMBMY/chengdu-kuan-zhai-xiang-zi-historic-city-sichuan-china-TAMBMY.jpg,unstable-source (alamy.com)
+He Shun Gu Zhen,Ancient Town,4A,120.3177314,49.1787917,https://ancientyunnan.com/wp-content/uploads/2019/07/6-1.jpg,ok
+Liu Ye Hu,Natural Scenery,4A,111.7351083,29.0864796,https://img2.chinadaily.com.cn/images/201909/07/5d73072aa310cf3e979b2078.jpeg,broken (HTTP 403)
+Cha Gan Hu,Natural Scenery,4A,104.662042,38.378216,https://c8.alamy.com/comp/BMG1B8/mongolian-folk-village-chagan-lake-natural-reserve-songyuan-jilin-BMG1B8.jpg,unstable-source (alamy.com)
+Dan Dong Feng Huang Shan,Natural Scenery,4A,121.3890989,29.9738396,https://www.westchinago.com/wp-content/uploads/2024/04/huangshan-20240418i1h.jpg,ok
+Ming Yue Shan,Natural Scenery,5A,114.3125724,27.5853611,https://navigatechina.com/content/uploadfile/202411/cbf41730539119.jpg,ok
+Song Hua Hu,Natural Scenery,4A,126.3368681,46.4804636,"https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_971/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/pveuyyqkocv9nwrwyflf/2-DayHarbinTour|IceandSnowWorldSonghuaRiverNortheastTigerForestPark.jpg",ok
+Jin Ji Hu,Urban Landscape,5A,116.384639,30.431674,https://intotravelchina.com/upload/1/article/1768299395428.webp,ok
+Po Yang Hu,Natural Scenery,4A,98.85208,25.85688,"https://static.wixstatic.com/media/b97502_0811b3ce702045ab83121f3c945cb7be~mv2.jpg/v1/fill/w_980,h_577,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b97502_0811b3ce702045ab83121f3c945cb7be~mv2.jpg",ok
+Tong Li Gu Zhen,Ancient Town,5A,113.6471177,40.4126775,https://www.sunnychinatravel.com/assets/uploads/img_20260122_145830_6971ca962736d.jpg,ok
+Zhong Yang Da Jie,Historical Culture,4A,123.5395185,41.834324,https://thumbs.dreamstime.com/z/entrance-to-zhongyang-dajie-also-known-as-central-street-walking-street-harbin-entrance-to-zhongyang-dajie-also-336579182.jpg,unstable-source (dreamstime.com)
+San Ya Ya Long Wan,Natural Scenery,4A,114.1146903,22.2285151,https://www.chinadiscovery.com/assets/images/sanya/tours/yalongBay-300.jpg,ok
+Yan Bian Chao Xian Zu Min Su Yuan,Min Su Wen Hua,4A,,,https://www.chinadaily.com.cn/china/images/attachement/jpg/site1/20120903/d4bed9d5345511aed3613a.jpg,ok
+Wen Zhou Nan Xi Jiang,Natural Scenery,4A,113.4978407,27.6557601,https://sillysuitcase.com/wp-content/uploads/2026/01/Nanxi-River-Scenic-Area.jpg,ok
+Long Hu Shan,Natural Culture,5A,116.7120999,23.3740077,http://images.china.cn/site1007/2022-06/07/521f7e8d-b05d-4242-8a22-0cf2f6871aea.jpg,ok
+Qian Fo Shan,Natural Culture,4A,117.0401276,36.6412759,https://i.pinimg.com/originals/14/0a/b5/140ab5584fba03c81b91510c42cf231b.jpg,unstable-source (pinimg.com)
+Qing Cheng Shan,Religious Culture,5A,120.5750329,36.2628263,https://www.chinadiscovery.com/assets/images/travel-guide/dujiangyan/mount-qingcheng/mount-qingcheng-head.jpg,ok
+Da Tong Huo Shan Qun,Zi Ran Qi Guan,4A,,,https://www.thechinajourney.com/wp-content/uploads/2025/02/Huoshan-Scenic-Area.webp,ok
+Yu Long Xue Shan,Natural Scenery,5A,117.3537751,34.7935678,https://c8.alamy.com/comp/E5PJ98/pagodas-with-yu-long-xue-shan-jade-dragon-snow-mountain-in-jade-spring-E5PJ98.jpg,unstable-source (alamy.com)
+Zheng Ding Long Xing Si,Religious Culture,4A,,,https://www.chinahistorytrip.com/wp-content/uploads/2025/09/longxing-temple-9018.jpg,ok
+Tian Tai Shan,Natural Culture,5A,116.6915771,34.9528516,https://www.iroamly.com/images/mount-tai.webp,ok
+Sheng Suo Fei Ya Jiao Tang,Historical Architecture,4A,116.2822537,39.8085892,https://p16-va.lemon8cdn.com/tos-alisg-v-a3e477-sg/o4QCeTlEDAZB5o9oAAA2O4PIepBigCiygEYIbD~tplv-tej9nj120t-origin.webp,ok
+Nan Ping He Ping Gu Zhen,Ancient Town,4A,113.3872542,40.7335143,https://chinaexplorertour.com/wp-content/uploads/2026/01/cbe05241006a45cc937146b7d55e51cc.jpg,ok
+Ji Xi Xing Kai Hu,Natural Scenery,4A,115.9005974,28.768736,https://english.news.cn/northamerica/20220710/5a5a877e64c64cdbb6d1214546dcb79e/20220710d6ee232909b7446d952d3668060f4aad_20220710c4042abb5543453596629b0d9f2ba1b0.jpg,ok
+Hui Zhou Xi Hu,Natural Scenery,4A,86.6870066,44.3478012,https://sawasdee.thaiairways.com/wp-content/uploads/2024/07/AugEN4-1.jpg,ok
+Ji Gong Shan,Natural Scenery,4A,120.4059329,30.2296395,https://navigatechina.com/content/uploadfile/202412/070f1734920680.jpg,ok
+Yun Nan Min Zu Cun,Theme Park,4A,102.8514383,26.0573228,https://ak-d.tripcdn.com/images/1lo2912000hi4sl746924.jpg,ok
+Dong Guan Ke Yuan,Historical Architecture,4A,117.167676,31.7867276,https://c8.alamy.com/comp/B67P8H/keyuan-garden-in-dongguan-guangdong-china-2008-B67P8H.jpg,unstable-source (alamy.com)
+Lu Shui He Guo Jia Sen Lin Gong Yuan,Natural Scenery,4A,,,https://farm4.staticflickr.com/3877/33332342672_311481715d_o.jpg,ok
+Hu Nan Sheng Bo Wu Guan,Wen Bo Yuan Guan,4A,120.1465083,30.225126,https://chineseforliving.com/wp-content/uploads/2025/06/v2-wtnxe-bqm1p-1024x702.jpg,ok
+Chen Jia Ci,Historical Architecture,4A,113.2401325,23.1298279,https://thumbs.dreamstime.com/z/ancestral-shrine-famous-tourist-attraction-guangzhou-china-entrance-to-ancestral-temple-chen-jia-ci-91632800.jpg,unstable-source (dreamstime.com)
+Bai Ma Si,Religious Culture,4A,112.5981357,34.7243309,https://www.visitourchina.com/FileUpload/Guide/Attraction/20071818010201237.jpg,ok
+Dong Lin Si,Religious Culture,4A,114.0592487,22.56808,https://images.pexels.com/photos/21764277/pexels-photo-21764277.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200,ok
+Zhao Yang Feng Huang Shan,Natural Culture,4A,103.6809374,27.2817292,http://images.china.cn/site1007/2022-06/07/521f7e8d-b05d-4242-8a22-0cf2f6871aea.jpg,ok
+San Ming Tai Ning Da Jin Hu,Natural Scenery,5A,,,http://subsites.chinadaily.com.cn/fujian/att/20200518/1589788008053007127.jpg,ok
+Lu Gu Hu ( Yun Nan Bu Fen ),Natural Scenery,4A,,,https://www.visitourchina.com/FileUpload/newpicture/cities/lijiang/luguhu1.jpg,ok
+Feng Huang Gu Cheng,Ancient Town,4A,112.3576792,39.0937792,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDry1UBgeFAYZ3Rp-647XE2QeJYY8ipcCutFdJ386Tmg&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Wei Zhou Dao,Natural Scenery,5A,109.1101668,21.0416149,https://www.visitourchina.com/FileUpload/newpicture/cities/beihai/weizhoudao2.jpg,ok
+Jing De Zhen Gu Yao,Historical Culture,5A,111.4701314,40.7544778,https://images.chinahighlights.com/allpicture/2020/12/11956e21585645c2a491eda6_cut_800x500_66.jpg,ok
+Shou Xian Gu Cheng,Historical Culture,4A,113.6241822,40.4864788,https://www.chinaculturetrip.com/wp-content/uploads/2025/09/huainan-shouxian-guchengqiang-9124.jpg,ok
+Wu Yuan,Natural Scenery,5A,116.4745286,31.7401713,https://www.chinaxiantour.com/media/2021/03/wuyuan1-min-350x225.jpg,ok
+Fu Zhou Gu Shan,Natural Scenery,4A,118.6012258,28.8499756,https://www.visitourchina.com/FileUpload/newpicture/cities/fuzhou/gushan1.jpg,ok
+Ning Bo Tian Yi Ge,Historical Architecture,4A,117.2173165,31.8203837,https://img.freepik.com/premium-photo/ningbo-tianyi-pavilion-ancient-buildings_1417-9806.jpg?w=2000,ok
+Jin Shan Ling Chang Cheng,Historical Culture,4A,117.494011,40.7865868,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7qTRCZgYdrn5dNWjy02IT05i3SiXNmtPsoVuMPoCyA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Shen Nong Jia,Natural Scenery,5A,110.681307,31.7426228,https://www.yangtze-river-cruises.com/assets/images/destinations/shennongjia/15.jpg,ok
+Jin Shi Tan,Natural Scenery,5A,122.0010346,39.0854014,https://www.visitourchina.com/FileUpload/china-photos/cities/dalian/jinshitan-scenic-area/Jinshitan-Scenic-Area-2.jpg,ok
+Liao Yang Guang You Si,Religious Culture,4A,114.758388,22.6841649,https://thumbs.dreamstime.com/z/liaoning-china-aug-guangyou-temple-scenic-area-fa-famous-historic-site-liaoyang-90775834.jpg,unstable-source (dreamstime.com)
+Li Shui Yun He Ti Tian,Natural Scenery,4A,,,https://news.cgtn.com/news/2024-02-07/21-scenic-sites-newly-granted-top-rating-in-China-1qZWEZLTMM8/img/b7208ffbb8734b63b6a8aabc260115d5/b7208ffbb8734b63b6a8aabc260115d5.jpeg,ok
+Qing Yuan Shan,Natural Culture,5A,110.4105362,25.3219859,https://www.hangzhouprivatetour.com/upload/ueditor/image/20181220/6368092222362500009322188.jpg,ok
+Qi Yun Shan,Natural Culture,4A,120.0755026,30.1368888,https://www.hangzhouprivatetour.com/upload/ueditor/image/20181220/6368092222362500009322188.jpg,ok
+Shang Hai Chen Shan Zhi Wu Yuan,Botanical Garden,4A,121.1754575,31.0715239,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH9rxBE6oWs21wZP9M_TCqk8EBxAP3PB9nnSZTrOTxTw&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Yan Cheng Dan Ding He Shi Di,Natural Scenery,4A,120.5048125,33.608442,https://www.globaltimes.cn/Portals/0/attachment/2023/2023-12-06/9dd4a336-e9bc-4088-91cf-762835cfe60c.jpeg,ok
+Jiu Zhai Gou,Natural Scenery,5A,116.1731166,39.9809,https://media.odynovotours.com/article/78000/jiuzhaigou-valley_76783.jpg,ok
+Long Wan Qun Guo Jia Sen Lin Gong Yuan,Natural Scenery,4A,,,https://ak-d.tripcdn.com/images/1me6l12000cpk5rjlC18F.jpg,ok
+Wei Hai Hua Xia Cheng,Theme Park,5A,117.2517335,31.785348,https://videocdn.cdnpk.net/videos/feb988a0-a005-4661-9c2f-dbd0dabfe2fe/horizontal/thumbnails/large.jpg,ok
+San Fang Qi Xiang,Historical Culture,5A,119.2919836,26.0850946,https://img.freepik.com/premium-photo/sanfang-qixiang-historical-block-fuzhou-city-fujian-province-china_1112-15074.jpg,ok
+Chang Jia Zhuang Yuan,Historical Architecture,4A,114.689645,38.2803561,https://gna.org.gh/web/wp-content/uploads/2022/11/Bailong-Elevator-at-Zhangjiajie-National-Forest-Park.jpg,ok
+Mao Shan,Religious Culture,5A,118.6824896,29.7159738,https://chinatripedia.com/wp-content/uploads/2023/11/maoshan-mountain-jpg.webp,ok
+Tian Tan Gong Yuan,Historical Culture,5A,114.077048,22.4976051,https://www.torstenb.de/wp-content/uploads/2019/06/3_Peking-10.jpg,ok
+Qi Kou Gu Zhen,Ancient Town,4A,106.4466489,29.5833399,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzsrrNgeoS7qIGVncLQVFVGzeIxHsRVzD9OFGCLKLpjQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+An Qing Zhen Feng Ta,Historical Architecture,4A,113.545249,22.1969527,https://c8.alamy.com/comp/2T8TGWM/qingfeng-tower-bao-zheng-park-family-tombs-of-bao-zheng-hefei-anhui-bao-zheng-was-a-minister-of-the-northern-song-noted-for-being-entirely-honest-and-impartial-2T8TGWM.jpg,unstable-source (alamy.com)
+Yuan Ming Yuan Yi Zhi Gong Yuan,Historical Site,4A,129.4699945,42.9072782,https://c8.alamy.com/comp/APAB7X/yuanmingyuan-park-beijing-APAB7X.jpg,unstable-source (alamy.com)
+Liu Gong Dao,Revolutionary Site,5A,122.183439,37.5057084,https://www.chinadiscovery.com/assets/images/shandong/weihai/things-to-do/liugong-island-1.jpg,ok
+San He Gu Zhen,Ancient Town,5A,105.95,38.85,https://images.moondeveloper.com/attractions/2024/11/25/674486e591f04.jpg,ok
+Shen Zhen Hua Qiao Cheng,Theme Park,5A,113.8580342,22.653116,https://thehkhub.com/wp-content/uploads/2023/09/hongqiao-park-shenzhen.jpg,ok
+Gao Ju Li Yi Zhi,Historical Site,5A,126.1785726,41.1210258,https://preview.redd.it/gaoyiling-or-gaoyi-ridge-national-geopark-in-chenzhou-hunan-v0-2ondmg5wwv191.jpg?width=1080&crop=smart&auto=webp&s=54705394826abce47b059712807c34eb2dc4f2b4,ok
+Yan Di Ling,Historical Culture,5A,113.842812,26.382384,https://www.travelchinaguide.com/images/photogallery/2025/han-yangling-south-gate.jpg,ok
+Tai Xing Da Xia Gu,Natural Scenery,4A,113.6053816,35.9414803,https://c8.alamy.com/comp/D1RP85/scenic-view-at-west-sea-grand-canyon-xi-hai-da-xia-gu-D1RP85.jpg,unstable-source (alamy.com)
+Ji Lin Bei Shan,Natural Culture,4A,108.0641068,34.2617412,https://i.pinimg.com/originals/db/f3/ea/dbf3ea1934a6ec2b7bc205aa64fa901e.jpg,unstable-source (pinimg.com)
+Kai Ping Diao Lou,Historical Architecture,5A,112.5617153,22.3537239,https://www.thevintagenews.com/wp-content/uploads/sites/65/2016/04/The-Kaiping-diaolou-towers-were-built-in-a-variety-of-architectural-styles-featuring-a-perfect-combination-of-traditional-Chinese-watchtowers-and-classical-European-architecture..jpg,ok
+Xiang Shan Gong Yuan,Natural Scenery,4A,114.1614152,22.2756563,https://www.visitourchina.com/FileUpload/newpicture/cities/beijing/xiangshangongyuan3.jpg,ok
+Jing Zhou Gu Cheng,Historical Culture,4A,126.8002244,45.7086718,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNM37sa_-_IaumuZMfVYd43oj8-Fj-qBfZMQt_AlGucA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Tai Ji Dong,Zi Ran Qi Guan,4A,116.0712279,34.7902636,https://www.asiaodysseytravel.com/images/china-tours/group-tours/temple-of-heaven-700-2.jpg,ok
+Nan Chang Ba Yi Qi Yi Ji Nian Guan,Revolutionary Site,4A,117.2223187,31.7504489,https://news.cgtn.com/news/2023-08-16/Live-A-look-at-Nanchang-s-Bayi-Square-in-China-s-Jiangxi-Province-1mjhQFxr0yI/img/554124064a7b4ab89496ee2dbb3b3c26/554124064a7b4ab89496ee2dbb3b3c26.png,ok
+Heng Shui Hu,Natural Scenery,4A,115.6224123,37.6385601,https://images.moondeveloper.com/attractions/2024/11/26/67454178626f3.jpg,ok
+San Xia Ren Jia,Natural Culture,5A,114.0105255,22.4527305,https://thumbs.dreamstime.com/z/three-gorges-people-located-most-magical-xiling-gorge-three-gorges-yangtze-river-three-160426015.jpg,unstable-source (dreamstime.com)
+Zhong Shan Sun Zhong Shan Gu Ju,Revolutionary Site,5A,,,https://www.chinaculturetrip.com/wp-content/uploads/2025/09/zhongshan-sunzhongshan-guju-9674.jpg,ok
+Mu Lan Wen Hua Sheng Tai Lv You Qu,Natural Culture,5A,,,https://www.loongwander.com/upload/2025/04/19632a80892f5ed66efe.webp,ok
+Da Yan Ta,Historical Culture,5A,112.022,39.1554,https://thumbs.dreamstime.com/z/da-yan-tower-dayan-scenic-area-xi-city-shanxi-province-china-big-wild-goose-pagoda-great-mercy-temple-monk-82335032.jpg,unstable-source (dreamstime.com)
+Lao Shan,Natural Scenery,5A,109.3889607,36.3582734,https://upload.wikimedia.org/wikipedia/commons/8/8b/20240730_Dabiao_Mountain_of_Mount_Lao_01.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original,ok
+Qian Dao Hu,Natural Scenery,5A,118.3731963,28.6694331,https://wendyweitour.com/wp-content/uploads/2023/03/qiandao-lake-center-lake-area_orig.jpg,ok
+Ping Yao Gu Cheng,Ancient Town,5A,112.1802114,37.2084023,https://images.chinahighlights.com/allpicture/2020/04/3a8656728cb74d3ea191a3cf_cut_800x500_70.jpg,ok
+Sha Jia Bang,Revolutionary Site,5A,120.8430163,31.5472373,http://images.china.cn/attachement/jpg/site1007/20090717/000d87ad3cdd0bca71733b.jpg,ok
+Huang Long,Natural Scenery,5A,118.4157712,29.1581784,https://www.asiaodysseytravel.com/images/china-tours/group-tours/huanglong-park-jiuzhaigou-700-28.jpg,ok
+Wei Man Huang Gong Bo Wu Yuan,Historical Culture,5A,125.3418854,43.9032769,https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/4b/70/85.jpg,ok
+Hu Kou Pu Bu,Natural Scenery,4A,109.732227,21.609772,https://c8.alamy.com/comp/JRNX28/london-uk-uk-5th-aug-2017-mayor-of-london-sadiq-khan-leaves-with-his-JRNX28.jpg,unstable-source (alamy.com)
+Xu Zhou Yun Long Hu,Natural Scenery,5A,117.2502406,34.1843733,https://image.freepik.com/free-photo/landscape-architecture-natural-landscape-yunlong-lake-xuzhou_1417-6382.jpg,ok
+Li Jiang Gu Cheng,Ancient Town,5A,100.2335849,26.879957,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTod1Bh6kWTpB53I1yJZv4ftRgnRbUUsbnW5jivjNlD0Q&s,unstable-source (encrypted-tbn0.gstatic.com)
+Bai Yun Shan,Natural Scenery,5A,118.111191,24.6634841,https://dejden21ty4r6dpe.public.blob.vercel-storage.com/baiyun-mountain-panorama.webp,ok
+Huang Shi Guo Jia Kuang Shan Gong Yuan,Gong Ye Lv You,4A,,,https://images.chinagotrip.com/huangshi-village-01.jpg,ok
+Teng Wang Ge,Historical Architecture,5A,115.8784289,28.6803568,https://english.news.cn/20250707/830cea43d1384e339310d0c3feebac5e/20250707830cea43d1384e339310d0c3feebac5e_20250707ff2d21c1fb5742eeb9d1ee64097d70fb.jpg,ok
+Gu Hui Zhou Wen Hua Lv You Qu,Historical Culture,5A,,,https://img.lovepik.com/photo/50249/6797.jpg_wh860.jpg,ok
+Su Zhou Hu Qiu,Historical Culture,5A,120.5755139,31.3257095,https://media.istockphoto.com/id/1209371425/photo/huqiu-tower-or-tiger-hill-pagoda-in-suzhou-known-as-leaning-tower-of-china.jpg?s=1024x1024&w=is&k=20&c=C869aGPmzZgS2TEuSGMnBT4W8E2kHEY5DEBGhsypFhk=,unstable-source (istockphoto.com)
+Ba Li Gou,Natural Scenery,4A,120.7668808,41.9066826,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWsns_sKC_SDsVFxqUSzXcvgotuBcwc6wBw3n002nMUA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Da Tang Fu Rong Yuan,Theme Park,5A,108.9657949,34.2229974,https://thumbs.dreamstime.com/z/building-datangfurongyuan-garden-xian-city-shaanxi-province-china-here-was-royal-garden-ancient-tang-empire-106519239.jpg,unstable-source (dreamstime.com)
+Hang Zhou Song Cheng,Theme Park,4A,120.2087334,30.2937959,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuC4k8KwnTj7ath7fv7KIKwDG2g542suj29USdf0T05g&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Su Zhou Yuan Lin,Historical Culture,5A,119.5338743,32.25825,https://i.pinimg.com/originals/55/22/0f/55220f8f748e24a2e29f0bb37e97add8.jpg,unstable-source (pinimg.com)
+Hu Tiao Xia,Natural Scenery,4A,100.1642759,27.2554875,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f1/ba/4c/hiking-the-tiger-leaping.jpg?w=1400&h=800&s=1,ok
+Jia Mu Si Tong Jiang San Jiang Kou,Natural Scenery,4A,,,https://www.highestbridges.com/wiki/images/e/e2/SanjiangkouGorgeWaterfall.JPG,ok
+Wu Hou Ci,Historical Culture,4A,104.0446667,30.6493242,https://www.easytourchina.com/images/Photo/wuhou-memorial-temple/wu-hou-temple-front-gate.jpg,broken (HTTP 403)
+Huang Cheng Xiang Fu,Historical Architecture,5A,114.0676264,22.5226617,https://www.scenerytrip.com/wp-content/uploads/2024/12/Huangcheng-Xiangfu-785x1024.webp,ok
+Ling Shan Da Fu,Religious Culture,5A,99.9811604,25.6605159,https://wentchina.com/wp-content/uploads/2022/08/Grand-Buddha-at-Ling-Shan-灵山大佛.webp,ok
+Mang Dang Shan,Historical Culture,5A,113.5177896,34.9318012,https://sothebys-com.brightspotcdn.com/dims4/default/038e693/2147483647/strip/true/crop/4000x3330+0+0/resize/2880x2397!/quality/90/?url=http://sothebys-brightspot-migration.s3.amazonaws.com/97/48/2e/02c9ee0e2ad837c2e5ea899ce30a0d9a1f4512824d1c77036b869dc692/018l11132-5zfvn.jpg,ok
+Dian Chi,Natural Scenery,4A,102.7190378,24.8466152,https://english.news.cn/20251211/9bd0de96bfee4579a7595c2457478a51/202512119bd0de96bfee4579a7595c2457478a51_20251211fce1a1d1810347f7b03ee600ee0200cf.jpg,ok
+Teng Chong Re Hai,Zi Ran Qi Guan,5A,98.4866145,25.0051161,https://omo-oss-image.thefastimg.com/portal-saas/new2023041917565628659/cms/image/2ead8d3e-bf92-4807-90a9-60cfc2a40888.jpg,broken (HTTP 567)
+Shang Hai Huan Qiu Jin Rong Zhong Xin,Urban Landmark,4A,,,https://www.asiaodysseytravel.com/images/china-tours/group-tours/the-bund-700-13.jpg,ok
+Guang Fu Gu Cheng,Ancient Town,5A,114.4159193,30.4798219,https://aos-comment.amap.com/B013600EA5/comment/content_media_external_file_100004658_1765622679770_75930987.jpg,ok
+San Jiang Cheng Yang Ba Zhai,Min Su Wen Hua,4A,,,"https://static.wixstatic.com/media/a27d24_b02e1187b6a14faf849cf65b8142f59a~mv2.jpg/v1/fill/w_750,h_520,al_c,q_85,enc_avif,quality_auto/a27d24_b02e1187b6a14faf849cf65b8142f59a~mv2.jpg",ok
+Xi Shuang Ban Na Ye Xiang Gu,Natural Scenery,4A,100.8432611,22.175841,https://fbk-photography.com/wp-content/uploads/2023/02/Xishuangbanna_Mengye_Buddhist_Temple_Reflecting_in_Water_10mm.jpg,ok
+Tao Hua Yuan,Natural Culture,4A,116.4785116,31.76446,http://images.china.cn/attachement/jpg/site1007/20150604/c03fd55e710816d9e78a43.jpg,ok
+Chao Zhou Guang Ji Qiao,Historical Architecture,4A,116.5917914,23.6770173,https://img.freepik.com/premium-photo/ancient-city-city-wall-ruins-chaozhou-guangdong-province-china-plaque-up-down-both-are-name-this-building-called-guangji-gate-tower_11208-2341.jpg,ok
+Dong Jiang Hu,Natural Scenery,5A,113.2534218,25.9529127,https://ak-d.tripcdn.com/images/0100512000jhzssxyA0F5_D_1180_558.jpg,ok
+Pu Tuo Shan,Religious Culture,5A,122.3604503,29.9350153,https://www.chinadiscovery.com/assets/images/travel-guide/putuoshan/putuoshan-788.jpg,ok
+Liu Zhou Long Tan Gong Yuan,Natural Scenery,4A,109.4087893,24.2835191,https://4.bp.blogspot.com/-1_kWT7g3oU0/W3EsNx0Ng9I/AAAAAAAAASY/hIzPjNsTwn8DS-mM0oNfjmwIV0HYBCaKQCPcBGAYYCw/s1600/%E6%9F%B3%E5%B7%9E%E9%BE%99%E6%BD%AD%E5%85%AC%E5%9B%AD2.jpg,ok
+Lang Fang Tian Xia Di Yi Cheng,Theme Park,4A,,,https://www.alamy.com/aggregator-api/download?url=https://c8.alamy.com/comp/2H342WF/tian-xia-di-yi-qiao-is-a-natural-stone-arch-in-zhangjiajie-national-forest-park-hunan-china-it-is-40m-long-10-m-wide-and-15-m-thick-it-is-357-m-2H342WF.jpg,unstable-source (alamy.com)
+Bao Tu Quan,Natural Scenery,4A,117.0094849,36.6605675,http://en.baoquanlvyou.com/templates/default/images/nybqgk_content_r.jpg,ok
+Pu Da Cuo Guo Jia Gong Yuan,Natural Scenery,5A,99.9067185,27.8056734,https://farm4.staticflickr.com/3877/33332342672_311481715d_o.jpg,ok
+Fang Te Huan Le Shi Jie,Theme Park,5A,117.7332149,39.1535147,"https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/zvuprzly41fasnucrij1/Fangte+Adventure+Theme+Park+Ticket+in+Tianjin.jpg",ok
+Yu Lin Yun Tian Wen Hua Cheng,Theme Park,4A,,,http://images.china.cn/site1007/2018-11/20/e8771d02-445c-4df4-a75d-2bb4543f1008.jpg,ok
+Shang Hai Zhang Feng Hai Yang Shi Jie,Shui Zu Guan,4A,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOuBMt2-yxROylvyKowT04RutmamTbNJVPTIjC9YeQ3w&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Hang Zhou Xi Hu,Natural Scenery,5A,120.2290839,30.1474891,https://www.asiaodysseytravel.com/images/china-tours/group-tours/quyuanfenghe-700-2.jpg,ok
+Bei Dai He,Natural Scenery,4A,119.0540389,39.6646933,https://thumbs.dreamstime.com/b/pigeon-park-sunrise-photo-was-taken-beidaihe-district-qinhuangdao-city-hebei-province-china-time-was-october-37102986.jpg,unstable-source (dreamstime.com)
+Lang Shan,Natural Scenery,5A,114.0452182,22.4419401,https://www.chinatoptrip.com/wp-content/uploads/2018/12/V7jyEz.png,ok
+Nan Ning Qing Xiu Shan,Natural Scenery,5A,108.3460083,22.7757717,https://www.scenerytrip.com/wp-content/uploads/2025/08/Qingxiu-Mountain.webp,ok
+Luo Fu Shan,Natural Scenery,5A,114.0320873,23.2675245,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL_3K3tewBOKhU-yZP8_zRsFVwgMVz6HvtHzN7KQhipg&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Nan Tong Lang Shan,Natural Culture,4A,114.1661798,22.2474116,http://subsites.chinadaily.com.cn/nantong/att/20240925/1727248671492023598.jpg,ok
+San Ya Da Xiao Dong Tian,Natural Culture,5A,,,https://i.ytimg.com/vi/6S-29xwmIHI/maxresdefault.jpg,ok
+Shang Hai Zi Ran Bo Wu Guan,Wen Bo Yuan Guan,4A,121.4827264,31.2336057,https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/5e/d5.jpg,ok
+De Hang Da Xia Gu,Natural Scenery,4A,120.3394816,30.2928086,https://www.visitourchina.com/FileUpload/newpicture/cities/zhangjiajie/boliqiao10.jpg,ok
+Xi Di Hong Cun,Ancient Town,5A,117.9830813,30.0051838,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjqAx4LiqegbiRdPpt-5F0n0e0UGx0minOh3uOSkI8FgHL9mQH6u5NBMh3CWrfSVkEz1xcfVOK9LNh0fy34X8RVXUHuW0YxxFOA2TrZcW022VjrhaXgW9oPSa6qonHbe5Kz34Bt4hbqZzbO9weDZu5nHFaEGZ24Me_J5Uwi8WdBqCiR7Lze1IBErI0dy4/s1280/Hongcun-Xidi-Anhui-2025.jpg.jpg,ok
+Qing Jiang Hua Lang,Natural Scenery,5A,111.3097256,30.7052876,https://live.staticflickr.com/2379/2104817753_e19f004aef_b.jpg,ok
+Yan Men Guan,Historical Culture,5A,112.5065815,22.1231744,https://wildgreatwall.com/wp-content/uploads/2024/09/Yanmen-Pass-2-1024x1024.jpg,ok
+Zhong Guo Ke Ji Guan,Ke Pu Jiao Yu,4A,112.9949229,28.2290273,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7KxJa8uT9QwdrOTZWdw-IyJ8kx88hXZroaena3gxkgw&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Mei Zhou Dao,Natural Culture,5A,115.9301372,29.7126916,https://static.vecteezy.com/system/resources/previews/024/513/063/non_2x/happy-diwali-indian-family-celebrating-the-festival-of-lights-free-png.png,ok
+Shu Nan Zhu Hai,Natural Scenery,4A,105.0157313,28.4849722,https://asiatrek.de/wp-content/uploads/2021/12/wasserfall-shunan.jpg,broken (HTTP 404)
+Bei Jing Ye Sheng Dong Wu Yuan,Zoo,4A,116.3479125,40.0019476,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwWKbxEFVt9nHIvzI5JqMMhu-cjL7wg1nrd6nk1KxgBJzBeAe-KnISHco8XWTTIZxTtkO1v7vUHeaXIDXfVzWsYK7s4-AEd4I3J60_ZtKLz2cxbX5j5v8jIFdAxec83GY25VtXz4EzCUM/s1600/20170310_123916.jpg,ok
+Ya Bu Li Hua Xue Chang,Sports & Leisure,4A,128.4542495,44.7752383,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThDLoHP021Ib51x8R1SED-Z8MJhLB46w_kNF09WeuJbg&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Heng Dian Ying Shi Cheng,Theme Park,5A,112.5810932,26.922911,http://subsites.chinadaily.com.cn/ezhejiang/att/20200805/1596595163273020650.jpg,ok
+Fu Xian Hu,Natural Scenery,4A,121.8021006,31.1514477,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4d/cd/49/caption.jpg?w=1200&h=-1&s=1,ok
+Mo Gan Shan,Natural Scenery,4A,103.1938505,27.9760971,https://www.chinadiscovery.com/assets/images/huzhou/tours/moganshan-512.jpg,ok
+Zhang Jia Jie Wu Ling Yuan,Natural Scenery,5A,110.4274678,29.3086674,https://lp-cms-production.imgix.net/2019-06/131954275_high.jpg,ok
+Chang Chun Dian Ying Zhi Pian Chang,Gong Ye Lv You,4A,125.2859978,43.8613036,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXqv-oaY4mJN3heUcuRfgX3sw3t84bGm9u8W8j-_THMg&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Wu Tai Shan,Religious Culture,5A,114.1113049,22.2229657,https://sacredsites.com/images/asia/china/Wu-Tai-Shan-temples.webp,ok
+Hong Dong Da Huai Shu,Historical Culture,5A,111.6693621,36.2538756,https://www.chinahistorytrip.com/wp-content/uploads/2025/09/hongdong-dahuaishu-ancestor-memorial-garden-1400-1024x684.jpg,ok
+Yi He Yuan,Historical Culture,5A,112.4569634,34.441075,https://media.tacdn.com/media/attractions-splice-spp-674x446/07/02/ab/27.jpg,ok
+Bing Lang Gu,Min Su Wen Hua,5A,118.0684726,24.4477852,"https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/nmgu6lnxli7s2csx6rth.jpg",ok
+E Zhou Liang Zi Hu,Natural Scenery,4A,119.9187403,30.1135705,https://www.ezhou.gov.cn/english/Overview/202209/W020220927353693204829.png,ok
+Wu Qiao Za Ji Da Shi Jie,Theme Park,4A,116.3800755,37.6398995,http://images.china.cn/attachement/jpg/site1007/20130703/001ec949f81b133dd4ed01.jpg,ok
+Qiong Hai Bo Ao Ya Zhou Lun Tan,Theme Park,4A,,,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/39/70/be/bo-ao-bhuddist-temple.jpg?w=1200&h=1200&s=1,ok
+Shang Hai Hai Yang Shui Zu Guan,Shui Zu Guan,4A,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Rde9A8h0-vx7ebUJBYR7y-dfkXRwcGT84rMnEtePcQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Qian Ling,Historical Site,4A,118.5075044,35.8879723,https://c8.alamy.com/comp/2RN1875/tourists-visit-qianling-mausoleum-a-tourist-site-in-xianyang-city-northeast-china-s-shaanxi-province-dec-4-2014-some-stone-sculptures-at-the-site-were-eroded-by-biological-bacteria-whether-to-clear-the-biological-bacteria-is-still-a-controversial-issue-because-the-new-appearance-of-the-sculptures-may-impact-the-cultural-relics-sense-of-history-qianling-mausoleum-is-the-double-tomb-of-li-zhi-a-tang-dynasty-618-907-emperor-and-his-wife-empress-wu-zetian-wu-zetian-was-china-s-only-female-monarch-ry-china-shaanxi-xianyang-cultural-relics-cn-dingxhaitao-publicationxnotxinxchn-2RN1875.jpg,unstable-source (alamy.com)
+Guo Jia Bo Wu Guan,Wen Bo Yuan Guan,4A,116.3177326,39.9418409,https://chineseforliving.com/wp-content/uploads/2025/06/v2-wtnxe-bqm1p-1024x702.jpg,ok
+Tai Hang Shan Da Xia Gu,Natural Scenery,5A,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPV_L1zFEOwjXAEnns4ZpF0Z8Dt2tP_QzRpasW-gLEdg&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+De Zhou Tai Yang Gu,Theme Park,4A,,,https://img2.chinadaily.com.cn/images/202103/09/6046f2caa31024adbdb9bad4.jpeg,broken (HTTP 403)
+Xia Men Yuan Lin Zhi Wu Yuan,Botanical Garden,4A,103.0249667,35.7337251,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGpO4BtoK-l1yrhh6P0kAoxjZR4Xk0Gwp0PUoR1nbGng&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Shang Hai Di Shi Ni Le Yuan,Theme Park,5A,121.6620642,31.1379487,https://images.travelandleisureasia.com/wp-content/uploads/sites/5/2025/07/07161532/Shanghai-Disneyland-1.jpg?tr=w-1366,ok
+Shang Hai Dong Wu Yuan,Zoo,4A,102.6334205,37.9572767,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/34/a4/3d/caption.jpg?w=1400&h=1400&s=1,ok
+Wu Da Lian Chi,Zi Ran Qi Guan,5A,114.1952934,22.3326825,https://thelandmarkpractice.com/wp-content/uploads/WUDALIANCHI-Main-Photo-1280x800.jpg,ok
+Jing Yue Tan,Natural Scenery,5A,125.4207774,43.8245708,https://www.chinadaily.com.cn/m/2016jilin/att/site1/20200225/8cec4b5a94891fbf0e820b.jpeg,ok
+Tang Shan Nan Hu,Cheng Shi Gong Yuan,4A,112.9203649,28.1022047,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuCYjzn2X0inaYF2II8Szd41pMFSoQt4kiEt2CqzuSuA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Ya Nuo Da Yu Lin,Natural Scenery,5A,119.1206593,43.4524601,https://cushlatea.com/cdn/shop/articles/Da-Yu-Lin-1200x868.jpg?v=1684249542,ok
+Huang He Feng Jing Qu,Natural Scenery,4A,115.3210611,22.9047002,https://image.cdn2.seaart.me/2025-08-17/d2gov6te878c739inmn0-2/0932f154ae676f1f935a2946c6805329_high.webp,ok
+Jin Li,Historical Culture,3A,135.5427161,34.6656828,https://i.pinimg.com/736x/6a/f6/b7/6af6b7bac70b69b0a8478b6787dc8164.jpg,unstable-source (pinimg.com)
+Qin Zhou San Niang Wan,Natural Scenery,4A,,,https://ak-d.tripcdn.com/images/1mi0212000dqc9tnfAA46.jpg?proc=source/trip,ok
+Tai Yang Dao,Natural Scenery,5A,116.1291575,30.9330593,https://travel.com/wp-content/uploads/2025/03/Sun-Island-Tai-Yang-Dao-China-Best-Things-to-Do-Top-Picks.webp,ok
+Zhou Shan Zhu Jia Jian,Natural Scenery,4A,,,https://i.pinimg.com/originals/8e/ce/92/8ece923af04ee5ab96c342385e242f85.jpg,unstable-source (pinimg.com)
+Tie Ling Long Shou Shan,Natural Scenery,4A,,,https://st4.depositphotos.com/21607914/24194/i/450/depositphotos_241946706-stock-photo-landscape-lushan-mountain-mount-lushan.jpg,unstable-source (depositphotos.com)
+Wu Zhen,Ancient Town,5A,109.794444,37.834722,https://www.westchinago.com/wp-content/uploads/2025/01/wuzhen-20250108i8.jpg,ok
+Long Ji Ti Tian,Natural Scenery,4A,79.0764734,34.3305558,https://www.holidayasia.net/wp-content/uploads/2023/10/long-ji-ti-tian-04.jpg,ok
+Hua Shan Mi Ku,Zi Ran Qi Guan,4A,117.263829,40.6719524,https://wildgreatwall.com/wp-content/uploads/2024/01/Mount-Huashan-Map-3-1024x1024.jpg,ok
+Tian Men Shan,Natural Scenery,5A,110.4808814,29.0459839,https://img.freepik.com/premium-photo/tianmen-shan-cave-heaven-gate-tianmenshan-mountain-national-forest-park-chinese-people-traveler-travel-visit-walking-stairs-respect-wish-holy-zhangjiajie-may-9-2024-hunan-china_258052-13353.jpg?w=1480,ok
+Xi Qiao Shan,Natural Culture,5A,112.9817066,22.9411591,https://www.loongwander.com/upload/2025/04/19637a470f5c2cf6f027.webp,ok
+Tian Zhu Shan,Natural Scenery,5A,117.0555074,30.5855134,http://www.chinatoday.com.cn/ctenglish/2018/tourism/202309/W020230904467599022555.jpg,ok
+Shang Hai Da Guan Yuan,Theme Park,4A,101.745717,36.6253882,https://cdn.images.express.co.uk/img/dynamic/25/590x/secondary/shanghai-theme-park-tp-6165499.jpg?r=1747333213073,ok
+Zhong Nan Shan,Natural Culture,4A,90.9996486,28.2601619,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShmZdCdrqmeoBwgILNTysATWq4S-5xpUOK9BlH-gYmpA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Tai Shan,Natural Culture,5A,114.0290738,22.3220395,https://www.asiaodysseytravel.com/images/china-tours/group-tours/mount-taishan-700-7.jpg,ok
+Gu Bei Shui Zhen,Ancient Town,4A,113.4123477,23.0256497,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHc22WT65f0kZQohzrL9v0dSnX2AMom4oluZwVPQMgA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Wu Zhi Zhou Dao,Natural Scenery,5A,118.6645655,31.1034406,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/b5/ed/20/caption.jpg?w=1200&h=1200&s=1,ok
+Jiu Hua Shan,Religious Culture,5A,115.8013207,29.4773222,https://www.chinadiscovery.com/assets/images/mount-jiuhua/tiantai-temple-512.jpg,ok
+Jing Po Hu,Natural Scenery,5A,113.5171077,23.3248959,https://www.chinadiscovery.com/assets/images/heilongjiang/jingpo-lake/jingpo-lake-512-jingpohu-wechat-public-account.jpg,ok
+Shao Xing Lu Xun Gu Li,Historical Culture,5A,,,https://thumbs.dreamstime.com/z/lu-xun-residence-scenic-area-shaoxing-china-famous-birthplace-lu-xun-shaoxing-china-zhejiang-province-192910029.jpg,unstable-source (dreamstime.com)
+Long Men Shi Ku,Historical Culture,5A,112.4707112,34.5571154,https://www.shutterstock.com/image-photo/longmen-grottoes-buddhas-figures-starting-260nw-189759851.jpg,unstable-source (shutterstock.com)
+Yun Tai Shan,Natural Scenery,5A,115.9119049,28.6077589,https://static.travelchina.org.cn/mct/contents/1/image/2025/12/20251201144248697_d3im12qgx2j5.jpg,ok
+Qing Dao Pi Jiu Bo Wu Guan,Gong Ye Lv You,4A,,,https://i.pinimg.com/736x/a5/57/bc/a557bc3582f72c7ea025ff54d6b57929.jpg,unstable-source (pinimg.com)
+Bai Yang Dian,Natural Scenery,5A,110.0798763,33.7808869,https://www.chinadaily.com.cn/m/hebei/travel/images/attachement/jpg/site1/20110510/0023ae80a2120f3335e20b.jpg,ok
+Long Ting Gong Yuan,Historical Culture,4A,114.372528,34.8477956,https://www.visitourchina.com/FileUpload/newpicture/cities/kaifeng/longtinggongyuan1.jpg,ok
+Jing Gang Shan,Revolutionary Site,5A,113.9362703,22.2958885,http://en.people.cn/mediafile/pic/BIG/20230630/16/12138863252690952140.png,ok
+Pu Tian Jiu Li Hu,Natural Scenery,4A,,,https://chinaexplorertour.com/wp-content/uploads/2026/01/34069d45f0fa4d8ca6ffccd3168a99d9.jpg,ok
+Tai Er Zhuang Gu Cheng,Ancient Town,5A,116.6808628,40.369673,https://i0.wp.com/themindcircle.com/wp-content/uploads/2023/07/The-Ancient-City-of-Taierzhuang-2.jpg,ok
+Liao Yuan Kuang Gong Mu,Revolutionary Site,4A,,,https://www.chinaculturetrip.com/wp-content/uploads/2025/09/liaoyuan-kuanggongmu-3825.jpg,ok
+Dong Hu,Natural Scenery,5A,112.6418698,29.3676956,http://en.people.cn/mediafile/pic/BIG/20231201/25/122652906354350305.png,ok
+Tai Zhou Shen Xian Ju,Natural Scenery,5A,120.6103881,28.7390647,https://www.chinaxiantour.com/media/2016/05/shenxianju-scenic-area-in-taizhou-zhejiang.webp,ok
+Yin Xu,Historical Site,5A,114.3027921,36.1395296,https://cnto.org.au/wp-content/uploads/2024/10/yinxu.jpg,broken (SSLError)
+Cheng De Bi Shu Shan Zhuang,Historical Culture,5A,117.2081998,31.8048037,https://www.visitourchina.com/FileUpload/Guide/Picture/1307161121591047049.jpg,ok
+Tian Ya Hai Jiao,Natural Scenery,4A,116.7410667,23.4747357,https://www.discoverchinatours.com/upload/image/202507/20250731102458_1180.webp,broken (HTTP 403)
+He Zhou Huang Yao Gu Zhen,Ancient Town,4A,,,https://cdn.britannica.com/95/262895-050-3F6536BA/map-showing-main-routes-of-the-camino-de-santiago-spain-france-portugal.jpg,ok
+Yuan Tou Zhu,Natural Scenery,5A,113.5487738,22.1952123,http://en.ytz.com.cn/static/upload/image/20210906/1630914753336443.jpg,ok
+Du Fu Cao Tang,Historical Culture,4A,104.0262287,30.6628531,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyf37c4IV7kj3_RvBSN3WEp4qyy_tkBZ874iX-SBymbw&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Zhang Jia Kou Da Jing Men,Historical Culture,4A,,,https://cdn.getyourguide.com/img/tour/a03ff04603c32f794c8d194e1f919047ed1b59d66d468ab9d8c1d90a6f52a398.jpeg/146.jpg,ok
+Le Shan Da Fu,Religious Culture,5A,103.7693136,29.5469169,https://thumbs.dreamstime.com/b/wide-angle-view-leshan-giant-buddha-dafo-river-boat-china-sichuan-156277934.jpg,unstable-source (dreamstime.com)
+Ning De Yuan Yang Xi,Natural Scenery,5A,112.5611865,37.7423539,https://www.chinaxiantour.com/media/2023/06/Yuanyang-Rice-Terraces.webp,ok
+Wu Zhou Qi Lou Cheng,Historical Culture,4A,117.2779472,34.2839461,https://preview.gettyimagesbank.com/1/2018/03/62/380/928762380.jpg?s=1024,unstable-source (gettyimagesbank.com)
+Lang Ya Shan,Natural Culture,4A,115.1368476,39.0876045,https://backiee.com/static/wallpapers/3840x2160/187991.jpg,ok
+Xi Ling Xue Shan,Natural Scenery,4A,117.5557041,34.8727394,https://video.cgtn.com/news/2024-01-19/Breathtaking-winter-wonderland-in-SW-China-s-Xiling-Snow-Mountain-1quLlXELu0w/video/1946a20bb8b640e68140685ed8931401/1946a20bb8b640e68140685ed8931401.jpg,ok
+Ba Li He,Natural Scenery,5A,118.1513646,31.8071315,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj2AKV15uyHBUSw3snHsuNw0ISD6PfHjx86SUU9Cu1F2Ir398flc0F-pQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Xia Men Ceng Cuo An,Historical Culture,3A,,,https://www.asiaodysseytravel.com/images/china-tours/group-tours/xiamen-south-putuo-temple-700-7.jpg,ok
+Dong Bei Hu Lin Yuan,Zoo,4A,114.6025113,30.5149849,https://d2dzi65yjecjnt.cloudfront.net/677628.jpg,ok
+Peng Lai Ge,Historical Culture,5A,120.748865,37.826258,https://thumbs.dreamstime.com/b/aerial-photography-penglai-tourist-attraction-ancient-architecture-china-architecture-coastal-castle-blue-sky-white-clouds-sea-206763953.jpg?w=992,unstable-source (dreamstime.com)
+Da Ming Hu,Natural Scenery,4A,113.7602051,27.6825335,http://images.china.cn/attachement/jpg/site1007/20160923/c03fd55e7108194ec1a80b.jpg,ok
+Jing De Zhen Tao Ci Bo Wu Guan,Wen Bo Yuan Guan,4A,,,https://chineseforliving.com/wp-content/uploads/2025/06/v2-wtnxe-bqm1p-768x527.jpg,ok
+Tian Xia Di Yi Quan,Natural Scenery,5A,114.1126594,22.3797036,https://c8.alamy.com/comp/2H342X8/tian-xia-di-yi-qiao-is-a-natural-stone-arch-in-zhangjiajie-national-forest-park-hunan-china-it-is-40m-long-10-m-wide-and-15-m-thick-it-is-357-m-2H342X8.jpg,unstable-source (alamy.com)
+Bai Shi Shan,Natural Scenery,4A,126.4183792,41.936895,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7J6-eTwBivGLjJYo6Vu6XFbbvJWdFTdNcA5NSYzKSqA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Si Ping Zhan Yi Ji Nian Guan,Revolutionary Site,4A,,,https://p1-tt.byteimg.com/origin/tos-cn-i-qvj2lq49k0/0864c297dbe648c3858b6257a9dd1893.jpg,ok
+798 Yi Shu Qu,Wen Hua Yi Shu,4A,100.4646742,24.2102427,http://www.bj.xinhuanet.com/20250719/b9bb7c16025941d1bb5842c207a83c19/20250719b9bb7c16025941d1bb5842c207a83c19_202507192f678c572d454749b5b8477c69adc856.jpg,ok
+Mian Shan,Natural Culture,5A,106.6823531,33.1745038,https://www.chinatoptrip.com/wp-content/uploads/2018/12/IJNvAr.jpg,ok
+Hua Shan,Natural Scenery,5A,102.346864,24.54591,https://thumbs.dreamstime.com/b/chinese-shaanxi-province-tourist-attractions-huashan-mountain-china-to-west-just-rising-sun-light-shining-89939798.jpg,unstable-source (dreamstime.com)
+Qiao Jia Da Yuan,Historical Architecture,5A,111.3870976,30.7087586,https://www.visitourchina.com/FileUpload/newpicture/cities/jinzhong/qiaojiadayuan2.jpg,ok
+Shen Zhen Shi Jie Zhi Chuang,Theme Park,5A,,,https://www.agoda.com/wp-content/uploads/2019/10/Window-of-the-World-things-to-do-in-Shenzhen-China.jpg,ok
+Hai Kou Qi Lou Lao Jie,Historical Culture,3A,110.339709,20.0414173,https://english.news.cn/20230827/e37193cb0e4f4ff289374c9c45b20d37/20230827e37193cb0e4f4ff289374c9c45b20d37_20230827ed0a1b14373b4b15bce18b632039a168.jpg,ok
+Shuang Ya Shan Qi Xing Feng,Natural Scenery,4A,,,https://drinkteatravel.com/wp-content/uploads/Huangshan-8531.jpg,ok
+Xiao Lang Di,Shui Li Gong Cheng,4A,114.0263801,22.4438793,https://upload.wikimedia.org/wikipedia/commons/7/70/Xiaolangdi.png,ok
+Shang Hai Ying Shi Le Yuan,Theme Park,4A,,,https://www.thechinajourney.com/wp-content/uploads/2025/04/Yuyuan-Garden-lit-up-with-traditional-Chinese-architecture-at-dusk-1024x768.webp,ok
+Zhao Qing Xing Hu,Natural Scenery,5A,113.9782711,22.4120102,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaCt5LEX_02sZFwZz2oRG9doKLb70Q9bKU7vwHaxJ4sQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Fu Zi Miao Qin Huai Feng Guang Dai,Historical Culture,5A,,,https://live.staticflickr.com/14/14470295_0de1906918_b.jpg,ok
+Yan Dang Shan,Natural Scenery,5A,121.027942,28.3935799,https://wentchina.com/wp-content/uploads/2022/11/6.webp,ok
+Rui Jin Gong He Guo Yao Lan,Revolutionary Site,5A,,,http://www.chinadaily.com.cn/showbiz/images/red_tourism/attachement/gif/site1/20090828/0023ae9885da0c01b3b64e.gif,ok
+San Qing Shan,Natural Scenery,5A,114.3797804,30.6421206,https://media.istockphoto.com/id/482091464/photo/climbing-mountains-of-china-mount-sanqing.jpg?s=1024x1024&w=is&k=20&c=94POvZTT94qe_z3aq14GMtBLClylaCFT07mc_Mn2SBQ=,unstable-source (istockphoto.com)
+Huang Shan,Natural Scenery,5A,117.6990395,29.4601866,https://peakvisor.com/photo/Huangshan-National-Scenic-Area-China.jpg,ok
+Mao Ling,Historical Site,4A,114.3648686,22.4155795,https://www.wendyweitours.com/wp-content/uploads/2023/03/maoling-mausoleum_orig.jpg,ok
+Zhao Zhou Qiao,Historical Architecture,4A,112.9063882,24.2056984,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmUgkUXtJ7YB2QbberxjD2Jzy9kMunU_2cCv9eqlMTxw&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Zhong Du Gou,Natural Scenery,4A,111.6605432,33.9285037,https://www.chinahistorytrip.com/wp-content/uploads/2025/09/chongdugou-scenic-area-3349.jpg,ok
+Chang Sha Shi Jie Zhi Chuang,Theme Park,4A,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQejkBWcEX5WE_vayXBJfX6M_IP-K5Ry2xlg9CLJzOClg&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Wan Nian Bing Dong,Zi Ran Qi Guan,4A,112.2568052,32.0024203,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/3d/64/7a/caption.jpg?w=1200&h=1200&s=1,ok
+Hai Kou Huo Shan Kou,Natural Scenery,4A,110.3403727,19.9889319,https://www.chinadiscovery.com/assets/images/hainan/haikou/tour/huoshankou-595.jpg,ok
+Jing Men Ming Xian Ling,Historical Site,4A,,,https://govt.chinadaily.com.cn/images/202307/04/64a39e7d498ea27454d5856d.jpeg,ok
+Fa Men Si,Religious Culture,5A,100.1301509,24.4472546,https://www.westchinago.com/wp-content/uploads/2024/02/famen-temple-20240227i5f.jpg,ok
+Shan Hai Guan,Historical Culture,5A,120.3329267,36.0636494,https://png.pngtree.com/background/20220720/original/pngtree-shanhaiguan-is-the-world-s-first-pass-city-building-classical-chinese-picture-image_1677910.jpg,ok
+Lu Ya Shan,Natural Scenery,4A,110.4372172,29.3451921,https://i.pinimg.com/originals/39/fc/f4/39fcf432d024c3d63e453cd447c0924c.jpg,unstable-source (pinimg.com)
+Shang Hai Bo Wu Guan,Wen Bo Yuan Guan,4A,121.9154534,30.8988774,https://d1bb1mccaihlpl.cloudfront.net/variants/wte86q1j34sq5harwqz3zcfh3zbp/5495488087431af32265aaaaa1b8a274541d70555aa4d7c01d8d0fed27e7c152,ok
+Si Gu Niang Shan,Natural Scenery,4A,118.148277,39.6871055,https://www.chinadragontravel.com/wp-content/uploads/2025/11/f5befd2d7f1ac15.jpg,ok
+Bei Hai Yin Tan,Natural Scenery,4A,109.2037545,21.4177851,https://c8.alamy.com/comp/3BHHN2C/tourists-admire-scenery-on-sightseeing-boats-at-beihai-park-in-beijing-china-7-june-2025-3BHHN2C.jpg,unstable-source (alamy.com)
+Shen Yang Gu Gong,Historical Culture,4A,118.7292405,28.3973609,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXehYMAAXjqucevNKg85bDhVBeypwQ5j9mPi0Nm-dOeQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Xi Shuang Ban Na Re Dai Zhi Wu Yuan,Botanical Garden,5A,101.272758,21.9173632,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTvPAqnCCf55_hZA_m_E38lze8AlHuprV1di-JZ3JH-Q&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Ye San Po,Natural Scenery,5A,113.5698649,22.1253063,"https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/mzh6kddwsn53iuphrtk6/Ye+San+Po+Scenic+Area+Ticket.jpg",ok
+Shang Hai Du Sha Fu Ren La Xiang Guan,Zhu Ti Zhan Lan,4A,121.4689971,31.2365391,https://www.thechinajourney.com/wp-content/uploads/2025/06/Night-aerial-view-of-Lujiazui-skyline-with-Shanghai-Tower-and-Oriental-Pearl-Tower.webp,ok
+Qian Jiang Cao Yu Gong Yuan,Cheng Shi Gong Yuan,4A,84.1517523,43.0292738,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREOQ-UG9YwcAG9R4F886mDZMq_puNMBuyWtmWEnVAOrA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Yan An Ge Ming Ji Nian Guan,Revolutionary Site,5A,109.4719553,36.6096314,http://www.whatchina.cn/wp-content/uploads/2021/12/Chinas-Top-10-Red-Tourist-Attractions-yanan.jpg,broken (HTTP 404)
+Lu Gu Hu,Natural Scenery,4A,112.8829764,28.2232646,https://www.visitourchina.com/FileUpload/newpicture/cities/lijiang/luguhu1.jpg,ok
+Mei Zhou Ke Tian Xia,Wen Hua Lv You,4A,116.2669166,24.375542,"https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_728/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fcx9jsiwfjmwpjlhi2va/MeizhouPrivateTour1HariMeizhouHakkaWorldScenicAreaThousandBuddhaPagodaYeJianyingMemorialParkMarshalYesFormerResidence.jpg",ok
+Mei Li Xue Shan,Natural Scenery,4A,118.5859513,39.2019243,https://media.gettyimages.com/id/534629339/photo/peak-of-meili-xue-shan.jpg?s=1024x1024&w=gi&k=20&c=T-Yrv71cpDq---UGGpFwmshhYXu-DoUNsxwW1ovWwAg=,unstable-source (gettyimages.com)
+Liao Cheng Dong Chang Hu,Natural Scenery,4A,115.9403887,36.4360478,https://thumbs.dreamstime.com/z/scenery-dongchang-lake-dongchang-lake-formerly-known-as-huancheng-lake-fengcheng-lake-located-dongchangfu-331857674.jpg,unstable-source (dreamstime.com)
+Ying Kou Ba Yu Quan,Natural Scenery,4A,122.1152742,40.2241925,https://swt.ln.gov.cn/commerce/imageDir/2025/01/img_pc_site/2025010815484870344.jpg,ok
+Ba Da Ling Chang Cheng,Historical Culture,5A,116.4370605,28.4513766,https://wendyweitours.com/wp-content/uploads/2023/03/badaling-great-wall-of-china_orig.jpg,ok
+Sha Mian Dao,Historical Culture,4A,113.2362815,23.1096297,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXr4xakvdkwJ95PuylqQvkuYN46O63UXe8Lz_vFEBdLQ&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Jian Shui Gu Cheng,Ancient Town,4A,117.518422,36.7226765,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN7z5lcgJ4Aj2ENIEXgrbbXULpyeVR0ug5bIf36US1CA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Yun Cheng Yan Hu,Natural Scenery,4A,111.0345441,35.1178139,https://c8.alamy.com/comp/2AETJ1M/aerial-view-of-the-yanhu-salt-lake-in-yuncheng-city-north-chinas-shanxi-province-13-november-2019-2AETJ1M.jpg,unstable-source (alamy.com)
+Yue Yang Lou,Historical Architecture,5A,113.0883327,29.3846862,https://l450v.alamy.com/450v/2w941tb/china-hunan-yueyang-yueyang-tower-yueyang-tower-is-one-of-chinas-three-major-ancient-towers-ancient-architectural-structures-famous-tourist-landm-2w941tb.jpg,unstable-source (alamy.com)
+Wu Gong Shan,Natural Scenery,5A,109.2539431,34.3790372,https://thumbs.dreamstime.com/b/wugongshan-wu-kung-mountains-now-tourist-resort-range-mountains-located-west-jiangxi-china-258225577.jpg,unstable-source (dreamstime.com)
+Zhan Jiang Hu Guang Yan,Natural Scenery,4A,,,https://www.fodors.com/wp-content/uploads/2019/03/10_20NaturalWondersinChina__ZhangjiajieNationalPark_shutterstock_140065924.jpg,ok
+Cai Shi Ji,Historical Culture,5A,116.3992881,29.4828674,https://govt.chinadaily.com.cn/images/202102/22/60336984498e7a0257381e9d.jpeg,ok
+San Xia Da Ba,Shui Li Gong Cheng,5A,106.457349,29.5598515,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuxsNzMdiss0at-XCSlx7FdiYfifo_dmwqnnZ8SH2XWABo48s-GikMUa_XKoTCnzY9YB_sx8MNxjfJzq4adhV81x5U4jyeiAOjTqPB4I92VQUJ2wPO6n6zNZ5w2-zHAnslre_CNc2_y1mB/s2048/SH2A.++gCFNiFeQ.jpeg,ok
+Xiang Yang Gu Long Zhong,Historical Culture,5A,112.526401,34.6737792,https://www.orienttrove.com/wp-content/uploads/2025/04/727.webp,ok
+Chao Hu,Natural Scenery,4A,117.4479782,31.5748169,http://www.ecns.cn/hd/2019/05/29/8383325d5913496ead4b96e135baa938.jpg,ok
+Wan Ning Xing Long Re Dai Zhi Wu Yuan,Botanical Garden,4A,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrB6WBriRLJVhcI7f5TTUasHs0cJgG4bAsR8l6NL3Awg&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Zi Bo Zhou Cun Gu Shang Cheng,Ancient Town,4A,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoIxJ5Tp3ZUmF1vSDR93hlp15CuWiZIM8RryZIuZoV6w&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Yuan Yang Ti Tian,Natural Scenery,4A,117.8578895,36.109688,https://www.chinaxiantour.com/media/2023/06/Yuanyang-Rice-Terraces.webp,ok
+Tai Lao Shan,Natural Scenery,5A,112.5089348,37.8615695,https://thumbs.dreamstime.com/z/experience-grandeur-tai-shan-mountains-stunning-panoramic-landscape-photograph-misty-peaks-pierce-clouds-lush-357677783.jpg,unstable-source (dreamstime.com)
+Qing Dao Hai Bin Feng Jing Qu,Natural Scenery,4A,119.9851455,35.8252254,https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100003116318725,"not-an-image (Content-Type: text/html; charset=""utf-8"")"
+Tai Bai Shan,Natural Scenery,5A,112.5064647,37.8601282,https://govt.chinadaily.com.cn/images/202001/20/5e254f5a498e1ed179bbaa9c.jpeg,ok
+Guan Lin,Historical Culture,4A,125.3340247,43.8715653,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDRLps47QGzdKoSo2iuaRS3RJ8YEf-UhlHf-xMqxV33A&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Zhong Shan Ling,Revolutionary Site,5A,131.1389078,46.5638573,https://c8.alamy.com/comp/B2KY8H/china-nanjing-sun-yat-sen-mausoleum-zhongshan-ling-B2KY8H.jpg,unstable-source (alamy.com)
+Dao Cheng Ya Ding,Natural Scenery,5A,100.0605535,29.3162802,https://www.asiaodysseytravel.com/images/china-tours/group-tours/sichuan-daocheng-yading-nature-reserve-700-4.jpg,ok
+Bei Jing Huan Le Gu,Theme Park,4A,116.5017066,39.8639097,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeexn4NMUNRP4T4Spl9FcyA6XugUP9HbR3aaXWR0zq-g&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Xing Tai Da Xia Gu,Natural Scenery,4A,113.6053816,35.9414803,https://p1-tt.byteimg.com/origin/pgc-image/a94bec3718cf4cf1b6ac6ad11e629f62.jpg,ok
+Hong Hai Tan,Natural Scenery,5A,113.9871891,22.375698,"https://d3fphkxyf5o5bm.cloudfront.net/image-resize/format=webp,w=1200/QwRY54Li1HMwD7oNfoWRvttt2QSHiaZcIDodWpBOMF",ok
+Mu Tian Yu Chang Cheng,Historical Culture,4A,119.451041,31.4188349,https://thumbs.dreamstime.com/z/section-great-wall-mu-tian-yu-chang-cheng-filmed-winter-sunny-day-against-backdrop-mountains-national-pride-main-187609617.jpg,unstable-source (dreamstime.com)
+Tian Mu Hu,Natural Scenery,5A,119.4794753,31.3743563,https://wentchina.com/wp-content/uploads/2022/10/Tianmu-Lake-天目湖1.webp,ok
+Guang Zhou Ta,Urban Landmark,4A,113.237096,23.1116412,https://media.istockphoto.com/id/2187528944/photo/guangzhou-tower-a-landmark-building-in-guangzhou-china.jpg?s=1024x1024&w=is&k=20&c=w9J0hDg7BAw5XrFApPc7C9W1EYgex8fKxiVJuMd8-yk=,unstable-source (istockphoto.com)
+En Shi Da Xia Gu,Natural Scenery,5A,109.4597252,30.3501387,https://c8.alamy.com/comp/D1RP85/scenic-view-at-west-sea-grand-canyon-xi-hai-da-xia-gu-D1RP85.jpg,unstable-source (alamy.com)
+Qing Ming Shang He Yuan,Theme Park,5A,115.1862635,34.6396549,https://thedanaedition.com/wp-content/uploads/2025/11/Qing-Ming-Shang-He-Tu-Walkway-812x1024.jpg,ok
+Ju Zi Zhou,Cheng Shi Gong Yuan,5A,98.9162038,28.4831249,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThqo-zBKylN0cXxR18rmwVAwj0hymRY83ObGShhqsYTA&s=10,unstable-source (encrypted-tbn0.gstatic.com)
+Wa Huang Gong,Religious Culture,5A,120.8941689,38.3885136,https://www.chinahistorytrip.com/wp-content/uploads/2025/09/wahuang-palace-7301.jpg,ok
+Wai Tan,Urban Landscape,4A,118.6269791,29.6903532,https://i.pinimg.com/736x/fe/a2/c3/fea2c3eb90a22f71575dd2036919087b.jpg,unstable-source (pinimg.com)
+Chang Zhou Zhong Hua Kong Long Yuan,Theme Park,5A,119.9963602,31.8254229,"https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_925/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/hefnocpoxlzntl0xvxah/TicketsforChinaDinosaurParkinChangzhou.jpg",ok

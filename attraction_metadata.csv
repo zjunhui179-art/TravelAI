@@ -1,0 +1,432 @@
+attraction_name,attraction_category,attraction_level,city,province,ticket_price,price_tier,item_idx,soup
+798 Yi Shu Qu,Wen_Hua_Yi_Shu,4A,Beijing,Beijing,0.0,MidRange,0,Wen_Hua_Yi_Shu Wen_Hua_Yi_Shu Wen_Hua_Yi_Shu Beijing Beijing 4A Beijing MidRange
+An Qing Zhen Feng Ta,Historical_Architecture,4A,An_Qing_Shi,Anhui,20.0,Premium,1,Historical_Architecture Historical_Architecture Historical_Architecture An_Qing_Shi An_Qing_Shi 4A Anhui Premium
+An Yuan Lu Kuang Gong Ren Yun Dong Ji Nian Guan,Revolutionary_Site,4A,Ping_Xiang_Shi,Jiangxi,0.0,MidRange,2,Revolutionary_Site Revolutionary_Site Revolutionary_Site Ping_Xiang_Shi Ping_Xiang_Shi 4A Jiangxi MidRange
+Ba Da Ling Chang Cheng,Historical_Culture,5A,Beijing,Beijing,40.0,Premium,3,Historical_Culture Historical_Culture Historical_Culture Beijing Beijing 5A Beijing Premium
+Ba Li Gou,Natural_Scenery,4A,Xin_Xiang_Shi,Henan,80.0,Premium,4,Natural_Scenery Natural_Scenery Natural_Scenery Xin_Xiang_Shi Xin_Xiang_Shi 4A Henan Premium
+Ba Li He,Natural_Scenery,5A,Fu_Yang_Shi,Anhui,90.0,Premium,5,Natural_Scenery Natural_Scenery Natural_Scenery Fu_Yang_Shi Fu_Yang_Shi 5A Anhui Premium
+Bai Ma Si,Religious_Culture,4A,Luo_Yang_Shi,Henan,35.0,Premium,6,Religious_Culture Religious_Culture Religious_Culture Luo_Yang_Shi Luo_Yang_Shi 4A Henan Premium
+Bai Se Qi Yi Ji Nian Guan,Revolutionary_Site,4A,Bai_Se_Shi,Guangxi,0.0,MidRange,7,Revolutionary_Site Revolutionary_Site Revolutionary_Site Bai_Se_Shi Bai_Se_Shi 4A Guangxi MidRange
+Bai Shan Chang Bai Shan Da Xia Gu,Natural_Scenery,4A,Bai_Shan_Shi,Jilin,125.0,Premium,8,Natural_Scenery Natural_Scenery Natural_Scenery Bai_Shan_Shi Bai_Shan_Shi 4A Jilin Premium
+Bai Shi Shan,Natural_Scenery,4A,Bao_Ding_Shi,Hebei,135.0,Premium,9,Natural_Scenery Natural_Scenery Natural_Scenery Bao_Ding_Shi Bao_Ding_Shi 4A Hebei Premium
+Bai Shui Yang,Natural_Scenery,5A,Ning_De_Shi,Fujian,120.0,Premium,10,Natural_Scenery Natural_Scenery Natural_Scenery Ning_De_Shi Ning_De_Shi 5A Fujian Premium
+Bai Yang Dian,Natural_Scenery,5A,Bao_Ding_Shi,Hebei,185.0,Premium,11,Natural_Scenery Natural_Scenery Natural_Scenery Bao_Ding_Shi Bao_Ding_Shi 5A Hebei Premium
+Bai Yun Shan,Natural_Scenery,5A,Guang_Zhou_Shi,Guangdong,38.03370786516854,Premium,12,Natural_Scenery Natural_Scenery Natural_Scenery Guang_Zhou_Shi Guang_Zhou_Shi 5A Guangdong Premium
+Bao Tu Quan,Natural_Scenery,4A,Ji_Nan_Shi,Shandong,40.0,Premium,13,Natural_Scenery Natural_Scenery Natural_Scenery Ji_Nan_Shi Ji_Nan_Shi 4A Shandong Premium
+Bei Da Hu Hua Xue Chang,Sports_&_Leisure,4A,Ji_Lin_Shi,Jilin,300.0,Premium,14,Sports_&_Leisure Sports_&_Leisure Sports_&_Leisure Ji_Lin_Shi Ji_Lin_Shi 4A Jilin Premium
+Bei Dai He,Natural_Scenery,4A,Qin_Huang_Dao_Shi,Hebei,0.0,MidRange,15,Natural_Scenery Natural_Scenery Natural_Scenery Qin_Huang_Dao_Shi Qin_Huang_Dao_Shi 4A Hebei MidRange
+Bei Hai Gong Yuan,Cheng_Shi_Gong_Yuan,4A,Beijing,Beijing,10.0,Premium,16,Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Beijing Beijing 4A Beijing Premium
+Bei Hai Yin Tan,Natural_Scenery,4A,Bei_Hai_Shi,Guangxi,0.0,MidRange,17,Natural_Scenery Natural_Scenery Natural_Scenery Bei_Hai_Shi Bei_Hai_Shi 4A Guangxi MidRange
+Bei Jing Dong Wu Yuan,Zoo,4A,Beijing,Beijing,15.0,Premium,18,Zoo Zoo Zoo Beijing Beijing 4A Beijing Premium
+Bei Jing Huan Le Gu,Theme_Park,4A,Beijing,Beijing,299.0,Premium,19,Theme_Park Theme_Park Theme_Park Beijing Beijing 4A Beijing Premium
+Bei Jing Ye Sheng Dong Wu Yuan,Zoo,4A,Beijing,Beijing,150.0,Premium,20,Zoo Zoo Zoo Beijing Beijing 4A Beijing Premium
+Bei Jing Zhi Wu Yuan,Botanical_Garden,4A,Beijing,Beijing,10.0,Premium,21,Botanical_Garden Botanical_Garden Botanical_Garden Beijing Beijing 4A Beijing Premium
+Ben Xi Shui Dong,Zi_Ran_Qi_Guan,5A,Ben_Xi_Shi,Liaoning,110.0,Premium,22,Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Ben_Xi_Shi Ben_Xi_Shi 5A Liaoning Premium
+Bing Lang Gu,Min_Su_Wen_Hua,5A,Bao_Ting_Xian,Hainan,96.0,Premium,23,Min_Su_Wen_Hua Min_Su_Wen_Hua Min_Su_Wen_Hua Bao_Ting_Xian Bao_Ting_Xian 5A Hainan Premium
+Bo Zhou Hua Xi Lou,Historical_Architecture,4A,Bo_Zhou_Shi,Anhui,60.0,Premium,24,Historical_Architecture Historical_Architecture Historical_Architecture Bo_Zhou_Shi Bo_Zhou_Shi 4A Anhui Premium
+Cai Shi Ji,Historical_Culture,5A,Ma_An_Shan_Shi,Anhui,68.0,Premium,25,Historical_Culture Historical_Culture Historical_Culture Ma_An_Shan_Shi Ma_An_Shan_Shi 5A Anhui Premium
+Cha Gan Hu,Natural_Scenery,4A,Song_Yuan_Shi,Jilin,25.0,Premium,26,Natural_Scenery Natural_Scenery Natural_Scenery Song_Yuan_Shi Song_Yuan_Shi 4A Jilin Premium
+Cha Ya Shan,Natural_Scenery,5A,Zhu_Ma_Dian_Shi,Henan,70.0,Premium,27,Natural_Scenery Natural_Scenery Natural_Scenery Zhu_Ma_Dian_Shi Zhu_Ma_Dian_Shi 5A Henan Premium
+Chang Bai Shan,Natural_Scenery,5A,Yan_Bian_Zhou,Jilin,125.0,Premium,28,Natural_Scenery Natural_Scenery Natural_Scenery Yan_Bian_Zhou Yan_Bian_Zhou 5A Jilin Premium
+Chang Chun Dian Ying Zhi Pian Chang,Gong_Ye_Lv_You,4A,Chang_Chun_Shi,Jilin,90.0,Premium,29,Gong_Ye_Lv_You Gong_Ye_Lv_You Gong_Ye_Lv_You Chang_Chun_Shi Chang_Chun_Shi 4A Jilin Premium
+Chang Chun Shi Jie Diao Su Yuan,Wen_Hua_Yi_Shu,5A,Chang_Chun_Shi,Jilin,30.0,Premium,30,Wen_Hua_Yi_Shu Wen_Hua_Yi_Shu Wen_Hua_Yi_Shu Chang_Chun_Shi Chang_Chun_Shi 5A Jilin Premium
+Chang Jia Zhuang Yuan,Historical_Architecture,4A,Jin_Zhong_Shi,Shanxi,60.0,Premium,31,Historical_Architecture Historical_Architecture Historical_Architecture Jin_Zhong_Shi Jin_Zhong_Shi 4A Shanxi Premium
+Chang Sha Shi Jie Zhi Chuang,Theme_Park,4A,Chang_Sha_Shi,Hunan,200.0,Premium,32,Theme_Park Theme_Park Theme_Park Chang_Sha_Shi Chang_Sha_Shi 4A Hunan Premium
+Chang Zhou Zhong Hua Kong Long Yuan,Theme_Park,5A,Chang_Zhou_Shi,Jiangsu,260.0,Premium,33,Theme_Park Theme_Park Theme_Park Chang_Zhou_Shi Chang_Zhou_Shi 5A Jiangsu Premium
+Chao Hu,Natural_Scenery,4A,He_Fei_Shi,Anhui,0.0,MidRange,34,Natural_Scenery Natural_Scenery Natural_Scenery He_Fei_Shi He_Fei_Shi 4A Anhui MidRange
+Chao Zhou Guang Ji Qiao,Historical_Architecture,4A,Chao_Zhou_Shi,Guangdong,20.0,Premium,35,Historical_Architecture Historical_Architecture Historical_Architecture Chao_Zhou_Shi Chao_Zhou_Shi 4A Guangdong Premium
+Chen Jia Ci,Historical_Architecture,4A,Guang_Zhou_Shi,Guangdong,10.0,Premium,36,Historical_Architecture Historical_Architecture Historical_Architecture Guang_Zhou_Shi Guang_Zhou_Shi 4A Guangdong Premium
+Cheng De Bi Shu Shan Zhuang,Historical_Culture,5A,Cheng_De_Shi,Hebei,130.0,Premium,37,Historical_Culture Historical_Culture Historical_Culture Cheng_De_Shi Cheng_De_Shi 5A Hebei Premium
+Cheng Du Da Xiong Mao Fan Yu Ji Di,Zoo,4A,Cheng_Du_Shi,Sichuan,58.0,Premium,38,Zoo Zoo Zoo Cheng_Du_Shi Cheng_Du_Shi 4A Sichuan Premium
+Chong Sheng Si San Ta,Religious_Culture,5A,Da_Li_Zhou,Yunnan,75.0,Premium,39,Religious_Culture Religious_Culture Religious_Culture Da_Li_Zhou Da_Li_Zhou 5A Yunnan Premium
+Da Jue Shan,Natural_Scenery,5A,Fu_Zhou_Shi,Jiangxi,60.0,Premium,40,Natural_Scenery Natural_Scenery Natural_Scenery Fu_Zhou_Shi Fu_Zhou_Shi 5A Jiangxi Premium
+Da Li Gu Cheng,Ancient_Town,4A,Da_Li_Zhou,Yunnan,0.0,MidRange,41,Ancient_Town Ancient_Town Ancient_Town Da_Li_Zhou Da_Li_Zhou 4A Yunnan MidRange
+Da Lian Lao Hu Tan Hai Yang Gong Yuan,Theme_Park,5A,Da_Lian_Shi,Liaoning,220.0,Premium,42,Theme_Park Theme_Park Theme_Park Da_Lian_Shi Da_Lian_Shi 5A Liaoning Premium
+Da Lian Sen Lin Dong Wu Yuan,Zoo,4A,Da_Lian_Shi,Liaoning,120.0,Premium,43,Zoo Zoo Zoo Da_Lian_Shi Da_Lian_Shi 4A Liaoning Premium
+Da Lian Xing Hai Guang Chang,Urban_Landscape,4A,Da_Lian_Shi,Liaoning,0.0,MidRange,44,Urban_Landscape Urban_Landscape Urban_Landscape Da_Lian_Shi Da_Lian_Shi 4A Liaoning MidRange
+Da Ming Hu,Natural_Scenery,4A,Ji_Nan_Shi,Shandong,30.0,Premium,45,Natural_Scenery Natural_Scenery Natural_Scenery Ji_Nan_Shi Ji_Nan_Shi 4A Shandong Premium
+Da Qing Tie Ren Ji Nian Guan,Revolutionary_Site,4A,Da_Qing_Shi,Heilongjiang,0.0,MidRange,46,Revolutionary_Site Revolutionary_Site Revolutionary_Site Da_Qing_Shi Da_Qing_Shi 4A Heilongjiang MidRange
+Da Tang Fu Rong Yuan,Theme_Park,5A,Xi_An_Shi,Shaanxi,120.0,Premium,47,Theme_Park Theme_Park Theme_Park Xi_An_Shi Xi_An_Shi 5A Shaanxi Premium
+Da Tong Huo Shan Qun,Zi_Ran_Qi_Guan,4A,Da_Tong_Shi,Shanxi,0.0,MidRange,48,Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Da_Tong_Shi Da_Tong_Shi 4A Shanxi MidRange
+Da Xing An Ling Mo He Bei Ji Cun,Natural_Scenery,4A,Da_Xing_An_Ling_Di_Qu,Heilongjiang,68.0,Premium,49,Natural_Scenery Natural_Scenery Natural_Scenery Da_Xing_An_Ling_Di_Qu Da_Xing_An_Ling_Di_Qu 4A Heilongjiang Premium
+Da Yan Ta,Historical_Culture,5A,Xi_An_Shi,Shaanxi,50.0,Premium,50,Historical_Culture Historical_Culture Historical_Culture Xi_An_Shi Xi_An_Shi 5A Shaanxi Premium
+Dan Dong Feng Huang Shan,Natural_Scenery,4A,Dan_Dong_Shi,Liaoning,80.0,Premium,51,Natural_Scenery Natural_Scenery Natural_Scenery Dan_Dong_Shi Dan_Dong_Shi 4A Liaoning Premium
+Dan Xia Shan,Natural_Scenery,5A,Shao_Guan_Shi,Guangdong,100.0,Premium,52,Natural_Scenery Natural_Scenery Natural_Scenery Shao_Guan_Shi Shao_Guan_Shi 5A Guangdong Premium
+Dao Cheng Ya Ding,Natural_Scenery,5A,Gan_Zi_Zhou,Sichuan,146.0,Premium,53,Natural_Scenery Natural_Scenery Natural_Scenery Gan_Zi_Zhou Gan_Zi_Zhou 5A Sichuan Premium
+De Hang Da Xia Gu,Natural_Scenery,4A,Xiang_Xi_Zhou,Hunan,100.0,Premium,54,Natural_Scenery Natural_Scenery Natural_Scenery Xiang_Xi_Zhou Xiang_Xi_Zhou 4A Hunan Premium
+De Tian Pu Bu,Natural_Scenery,5A,Chong_Zuo_Shi,Guangxi,115.0,Premium,55,Natural_Scenery Natural_Scenery Natural_Scenery Chong_Zuo_Shi Chong_Zuo_Shi 5A Guangxi Premium
+De Zhou Tai Yang Gu,Theme_Park,4A,De_Zhou_Shi,Shandong,80.0,Premium,56,Theme_Park Theme_Park Theme_Park De_Zhou_Shi De_Zhou_Shi 4A Shandong Premium
+Dian Chi,Natural_Scenery,4A,Kun_Ming_Shi,Yunnan,0.0,MidRange,57,Natural_Scenery Natural_Scenery Natural_Scenery Kun_Ming_Shi Kun_Ming_Shi 4A Yunnan MidRange
+Dong Bei Hu Lin Yuan,Zoo,4A,Ha_Er_Bin_Shi,Heilongjiang,90.0,Premium,58,Zoo Zoo Zoo Ha_Er_Bin_Shi Ha_Er_Bin_Shi 4A Heilongjiang Premium
+Dong Fang Ming Zhu,Urban_Landmark,5A,Shanghai,Shanghai,220.0,Premium,59,Urban_Landmark Urban_Landmark Urban_Landmark Shanghai Shanghai 5A Shanghai Premium
+Dong Guan Ke Yuan,Historical_Architecture,4A,Dong_Guan_Shi,Guangdong,8.0,Premium,60,Historical_Architecture Historical_Architecture Historical_Architecture Dong_Guan_Shi Dong_Guan_Shi 4A Guangdong Premium
+Dong Hu,Natural_Scenery,5A,Wu_Han_Shi,Hubei,0.0,MidRange,61,Natural_Scenery Natural_Scenery Natural_Scenery Wu_Han_Shi Wu_Han_Shi 5A Hubei MidRange
+Dong Jiang Hu,Natural_Scenery,5A,Chen_Zhou_Shi,Hunan,80.0,Premium,62,Natural_Scenery Natural_Scenery Natural_Scenery Chen_Zhou_Shi Chen_Zhou_Shi 5A Hunan Premium
+Dong Lin Si,Religious_Culture,4A,Jiu_Jiang_Shi,Jiangxi,0.0,MidRange,63,Religious_Culture Religious_Culture Religious_Culture Jiu_Jiang_Shi Jiu_Jiang_Shi 4A Jiangxi MidRange
+Du Fu Cao Tang,Historical_Culture,4A,Cheng_Du_Shi,Sichuan,60.0,Premium,64,Historical_Culture Historical_Culture Historical_Culture Cheng_Du_Shi Cheng_Du_Shi 4A Sichuan Premium
+Du Jiang Yan,Historical_Site,5A,Cheng_Du_Shi,Sichuan,90.0,Premium,65,Historical_Site Historical_Site Historical_Site Cheng_Du_Shi Cheng_Du_Shi 5A Sichuan Premium
+E Mei Shan,Natural_Culture,5A,Le_Shan_Shi,Sichuan,160.0,Premium,66,Natural_Culture Natural_Culture Natural_Culture Le_Shan_Shi Le_Shan_Shi 5A Sichuan Premium
+E Zhou Liang Zi Hu,Natural_Scenery,4A,E_Zhou_Shi,Hubei,0.0,MidRange,67,Natural_Scenery Natural_Scenery Natural_Scenery E_Zhou_Shi E_Zhou_Shi 4A Hubei MidRange
+En Shi Da Xia Gu,Natural_Scenery,5A,En_Shi_Zhou,Hubei,170.0,Premium,68,Natural_Scenery Natural_Scenery Natural_Scenery En_Shi_Zhou En_Shi_Zhou 5A Hubei Premium
+Fa Men Si,Religious_Culture,5A,Bao_Ji_Shi,Shaanxi,100.0,Premium,69,Religious_Culture Religious_Culture Religious_Culture Bao_Ji_Shi Bao_Ji_Shi 5A Shaanxi Premium
+Fang Cheng Gang Shi Wan Da Shan,Natural_Scenery,4A,Fang_Cheng_Gang_Shi,Guangxi,60.0,Premium,70,Natural_Scenery Natural_Scenery Natural_Scenery Fang_Cheng_Gang_Shi Fang_Cheng_Gang_Shi 4A Guangxi Premium
+Fang Chuan Feng Jing Qu,Natural_Scenery,4A,Yan_Bian_Zhou,Jilin,70.0,Premium,71,Natural_Scenery Natural_Scenery Natural_Scenery Yan_Bian_Zhou Yan_Bian_Zhou 4A Jilin Premium
+Fang Te Huan Le Shi Jie,Theme_Park,5A,Wu_Hu_Shi,Anhui,280.0,Premium,72,Theme_Park Theme_Park Theme_Park Wu_Hu_Shi Wu_Hu_Shi 5A Anhui Premium
+Fen Jie Zhou Dao,Natural_Scenery,5A,Ling_Shui_Xian,Hainan,132.0,Premium,73,Natural_Scenery Natural_Scenery Natural_Scenery Ling_Shui_Xian Ling_Shui_Xian 5A Hainan Premium
+Feng Huang Gu Cheng,Ancient_Town,4A,Xiang_Xi_Zhou,Hunan,148.0,Premium,74,Ancient_Town Ancient_Town Ancient_Town Xiang_Xi_Zhou Xiang_Xi_Zhou 4A Hunan Premium
+Fu Jian Tu Lou,Historical_Architecture,5A,Long_Yan_Shi,Fujian,100.0,Premium,75,Historical_Architecture Historical_Architecture Historical_Architecture Long_Yan_Shi Long_Yan_Shi 5A Fujian Premium
+Fu Rong Zhen,Ancient_Town,4A,Xiang_Xi_Zhou,Hunan,75.0,Premium,76,Ancient_Town Ancient_Town Ancient_Town Xiang_Xi_Zhou Xiang_Xi_Zhou 4A Hunan Premium
+Fu Shun He Tu A La Cheng,Historical_Culture,4A,Fu_Shun_Shi,Liaoning,60.0,Premium,77,Historical_Culture Historical_Culture Historical_Culture Fu_Shun_Shi Fu_Shun_Shi 4A Liaoning Premium
+Fu Xian Hu,Natural_Scenery,4A,Yu_Xi_Shi,Yunnan,0.0,MidRange,78,Natural_Scenery Natural_Scenery Natural_Scenery Yu_Xi_Shi Yu_Xi_Shi 4A Yunnan MidRange
+Fu Xin Hai Tang Shan,Natural_Culture,4A,Fu_Xin_Shi,Liaoning,50.0,Premium,79,Natural_Culture Natural_Culture Natural_Culture Fu_Xin_Shi Fu_Xin_Shi 4A Liaoning Premium
+Fu Zhou Gu Shan,Natural_Scenery,4A,Fu_Zhou_Shi,Fujian,40.0,Premium,80,Natural_Scenery Natural_Scenery Natural_Scenery Fu_Zhou_Shi Fu_Zhou_Shi 4A Fujian Premium
+Fu Zhou San Shan Liang Ta,Historical_Culture,4A,Fu_Zhou_Shi,Fujian,0.0,MidRange,81,Historical_Culture Historical_Culture Historical_Culture Fu_Zhou_Shi Fu_Zhou_Shi 4A Fujian MidRange
+Fu Zi Miao Qin Huai Feng Guang Dai,Historical_Culture,5A,Nan_Jing_Shi,Jiangsu,0.0,MidRange,82,Historical_Culture Historical_Culture Historical_Culture Nan_Jing_Shi Nan_Jing_Shi 5A Jiangsu MidRange
+Gao Ju Li Yi Zhi,Historical_Site,5A,Tong_Hua_Shi,Jilin,100.0,Premium,83,Historical_Site Historical_Site Historical_Site Tong_Hua_Shi Tong_Hua_Shi 5A Jilin Premium
+Gong Wang Fu,Historical_Architecture,5A,Beijing,Beijing,40.0,Premium,84,Historical_Architecture Historical_Architecture Historical_Architecture Beijing Beijing 5A Beijing Premium
+Gu Bei Shui Zhen,Ancient_Town,4A,Beijing,Beijing,140.0,Premium,85,Ancient_Town Ancient_Town Ancient_Town Beijing Beijing 4A Beijing Premium
+Gu Gong Bo Wu Yuan,Historical_Culture,5A,Beijing,Beijing,60.0,Premium,86,Historical_Culture Historical_Culture Historical_Culture Beijing Beijing 5A Beijing Premium
+Gu Hui Zhou Wen Hua Lv You Qu,Historical_Culture,5A,Huang_Shan_Shi,Anhui,148.0,Premium,87,Historical_Culture Historical_Culture Historical_Culture Huang_Shan_Shi Huang_Shan_Shi 5A Anhui Premium
+Gu Lang Yu,Historical_Culture,5A,Xia_Men_Shi,Fujian,90.0,Premium,88,Historical_Culture Historical_Culture Historical_Culture Xia_Men_Shi Xia_Men_Shi 5A Fujian Premium
+Guan Lin,Historical_Culture,4A,Luo_Yang_Shi,Henan,40.0,Premium,89,Historical_Culture Historical_Culture Historical_Culture Luo_Yang_Shi Luo_Yang_Shi 4A Henan Premium
+Guang Fu Gu Cheng,Ancient_Town,5A,Han_Dan_Shi,Hebei,90.0,Premium,90,Ancient_Town Ancient_Town Ancient_Town Han_Dan_Shi Han_Dan_Shi 5A Hebei Premium
+Guang Zhou Ta,Urban_Landmark,4A,Guang_Zhou_Shi,Guangdong,150.0,Premium,91,Urban_Landmark Urban_Landmark Urban_Landmark Guang_Zhou_Shi Guang_Zhou_Shi 4A Guangdong Premium
+Guang Zhou Zhang Long Lv You Du Jia Qu,Theme_Park,5A,Guang_Zhou_Shi,Guangdong,350.0,Premium,92,Theme_Park Theme_Park Theme_Park Guang_Zhou_Shi Guang_Zhou_Shi 5A Guangdong Premium
+Gui Feng,Natural_Scenery,5A,Shang_Rao_Shi,Jiangxi,60.0,Premium,93,Natural_Scenery Natural_Scenery Natural_Scenery Shang_Rao_Shi Shang_Rao_Shi 5A Jiangxi Premium
+Gui Gang Gui Ping Xi Shan,Natural_Culture,4A,Gui_Gang_Shi,Guangxi,80.0,Premium,94,Natural_Culture Natural_Culture Natural_Culture Gui_Gang_Shi Gui_Gang_Shi 4A Guangxi Premium
+Gui Lin Li Jiang,Natural_Scenery,5A,Gui_Lin_Shi,Guangxi,210.0,Premium,95,Natural_Scenery Natural_Scenery Natural_Scenery Gui_Lin_Shi Gui_Lin_Shi 5A Guangxi Premium
+Gui Lin Liang Jiang Si Hu,Natural_Scenery,5A,Gui_Lin_Shi,Guangxi,190.0,Premium,96,Natural_Scenery Natural_Scenery Natural_Scenery Gui_Lin_Shi Gui_Lin_Shi 5A Guangxi Premium
+Gui Lin Xiang Bi Shan,Natural_Scenery,4A,Gui_Lin_Shi,Guangxi,55.0,Premium,97,Natural_Scenery Natural_Scenery Natural_Scenery Gui_Lin_Shi Gui_Lin_Shi 4A Guangxi Premium
+Guo Jia Bo Wu Guan,Wen_Bo_Yuan_Guan,4A,Beijing,Beijing,0.0,MidRange,98,Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Beijing Beijing 4A Beijing MidRange
+Ha Er Bin Bing Xue Da Shi Jie,Theme_Park,4A,Ha_Er_Bin_Shi,Heilongjiang,330.0,Premium,99,Theme_Park Theme_Park Theme_Park Ha_Er_Bin_Shi Ha_Er_Bin_Shi 4A Heilongjiang Premium
+Hai Kou Huo Shan Kou,Natural_Scenery,4A,Hai_Kou_Shi,Hainan,54.0,Premium,100,Natural_Scenery Natural_Scenery Natural_Scenery Hai_Kou_Shi Hai_Kou_Shi 4A Hainan Premium
+Hai Kou Qi Lou Lao Jie,Historical_Culture,3A,Hai_Kou_Shi,Hainan,0.0,MidRange,101,Historical_Culture Historical_Culture Historical_Culture Hai_Kou_Shi Hai_Kou_Shi 3A Hainan MidRange
+Hai Luo Gou,Natural_Scenery,5A,Gan_Zi_Zhou,Sichuan,90.0,Premium,102,Natural_Scenery Natural_Scenery Natural_Scenery Gan_Zi_Zhou Gan_Zi_Zhou 5A Sichuan Premium
+Han Yang Ling,Historical_Site,4A,Xian_Yang_Shi,Shaanxi,70.0,Premium,103,Historical_Site Historical_Site Historical_Site Xian_Yang_Shi Xian_Yang_Shi 4A Shaanxi Premium
+Hang Zhou Song Cheng,Theme_Park,4A,Hang_Zhou_Shi,Zhejiang,320.0,Premium,104,Theme_Park Theme_Park Theme_Park Hang_Zhou_Shi Hang_Zhou_Shi 4A Zhejiang Premium
+Hang Zhou Xi Hu,Natural_Scenery,5A,Hang_Zhou_Shi,Zhejiang,0.0,MidRange,105,Natural_Scenery Natural_Scenery Natural_Scenery Hang_Zhou_Shi Hang_Zhou_Shi 5A Zhejiang MidRange
+Hang Zhou Xi Xi Shi Di,Natural_Scenery,5A,Hang_Zhou_Shi,Zhejiang,80.0,Premium,106,Natural_Scenery Natural_Scenery Natural_Scenery Hang_Zhou_Shi Hang_Zhou_Shi 5A Zhejiang Premium
+He Chi Ba Ma Chang Shou Cun,Min_Su_Wen_Hua,4A,He_Chi_Shi,Guangxi,0.0,MidRange,107,Min_Su_Wen_Hua Min_Su_Wen_Hua Min_Su_Wen_Hua He_Chi_Shi He_Chi_Shi 4A Guangxi MidRange
+He Gang Luo Bei Ming Shan Dao,Natural_Scenery,4A,He_Gang_Shi,Heilongjiang,50.0,Premium,108,Natural_Scenery Natural_Scenery Natural_Scenery He_Gang_Shi He_Gang_Shi 4A Heilongjiang Premium
+He Shun Gu Zhen,Ancient_Town,4A,Bao_Shan_Shi,Yunnan,55.0,Premium,109,Ancient_Town Ancient_Town Ancient_Town Bao_Shan_Shi Bao_Shan_Shi 4A Yunnan Premium
+He Zhou Huang Yao Gu Zhen,Ancient_Town,4A,He_Zhou_Shi,Guangxi,100.0,Premium,110,Ancient_Town Ancient_Town Ancient_Town He_Zhou_Shi He_Zhou_Shi 4A Guangxi Premium
+Hei He Ai Hui Gu Cheng,Historical_Culture,4A,Hei_He_Shi,Heilongjiang,50.0,Premium,111,Historical_Culture Historical_Culture Historical_Culture Hei_He_Shi Hei_He_Shi 4A Heilongjiang Premium
+Heng Dian Ying Shi Cheng,Theme_Park,5A,Jin_Hua_Shi,Zhejiang,310.0,Premium,112,Theme_Park Theme_Park Theme_Park Jin_Hua_Shi Jin_Hua_Shi 5A Zhejiang Premium
+Heng Shui Hu,Natural_Scenery,4A,Heng_Shui_Shi,Hebei,30.0,Premium,113,Natural_Scenery Natural_Scenery Natural_Scenery Heng_Shui_Shi Heng_Shui_Shi 4A Hebei Premium
+Hong Dong Da Huai Shu,Historical_Culture,5A,Lin_Fen_Shi,Shanxi,80.0,Premium,114,Historical_Culture Historical_Culture Historical_Culture Lin_Fen_Shi Lin_Fen_Shi 5A Shanxi Premium
+Hong Hai Tan,Natural_Scenery,5A,Pan_Jin_Shi,Liaoning,85.0,Premium,115,Natural_Scenery Natural_Scenery Natural_Scenery Pan_Jin_Shi Pan_Jin_Shi 5A Liaoning Premium
+Hong Qi Qu,Revolutionary_Site,5A,An_Yang_Shi,Henan,80.0,Premium,116,Revolutionary_Site Revolutionary_Site Revolutionary_Site An_Yang_Shi An_Yang_Shi 5A Henan Premium
+Hu Kou Pu Bu,Natural_Scenery,4A,Lin_Fen_Shi,Shanxi,95.48672566371681,Premium,117,Natural_Scenery Natural_Scenery Natural_Scenery Lin_Fen_Shi Lin_Fen_Shi 4A Shanxi Premium
+Hu Lu Dao Xing Cheng Gu Cheng,Historical_Culture,4A,Hu_Lu_Dao_Shi,Liaoning,50.0,Premium,118,Historical_Culture Historical_Culture Historical_Culture Hu_Lu_Dao_Shi Hu_Lu_Dao_Shi 4A Liaoning Premium
+Hu Nan Sheng Bo Wu Guan,Wen_Bo_Yuan_Guan,4A,Chang_Sha_Shi,Hunan,0.0,MidRange,119,Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Chang_Sha_Shi Chang_Sha_Shi 4A Hunan MidRange
+Hu Tiao Xia,Natural_Scenery,4A,Di_Qing_Zhou,Yunnan,65.0,Premium,120,Natural_Scenery Natural_Scenery Natural_Scenery Di_Qing_Zhou Di_Qing_Zhou 4A Yunnan Premium
+Hua Guo Shan,Natural_Culture,5A,Lian_Yun_Gang_Shi,Jiangsu,90.0,Premium,121,Natural_Culture Natural_Culture Natural_Culture Lian_Yun_Gang_Shi Lian_Yun_Gang_Shi 5A Jiangsu Premium
+Hua Qing Gong,Historical_Culture,5A,Xi_An_Shi,Shaanxi,120.0,Premium,122,Historical_Culture Historical_Culture Historical_Culture Xi_An_Shi Xi_An_Shi 5A Shaanxi Premium
+Hua Shan,Natural_Scenery,5A,Wei_Nan_Shi,Shaanxi,160.0,Premium,123,Natural_Scenery Natural_Scenery Natural_Scenery Wei_Nan_Shi Wei_Nan_Shi 5A Shaanxi Premium
+Hua Shan Mi Ku,Zi_Ran_Qi_Guan,4A,Huang_Shan_Shi,Anhui,91.0,Premium,124,Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Huang_Shan_Shi Huang_Shan_Shi 4A Anhui Premium
+Huang Cheng Xiang Fu,Historical_Architecture,5A,Jin_Cheng_Shi,Shanxi,120.0,Premium,125,Historical_Architecture Historical_Architecture Historical_Architecture Jin_Cheng_Shi Jin_Cheng_Shi 5A Shanxi Premium
+Huang Di Ling,Historical_Culture,5A,Yan_An_Shi,Shaanxi,75.0,Premium,126,Historical_Culture Historical_Culture Historical_Culture Yan_An_Shi Yan_An_Shi 5A Shaanxi Premium
+Huang He Feng Jing Qu,Natural_Scenery,4A,Zheng_Zhou_Shi,Henan,60.0,Premium,127,Natural_Scenery Natural_Scenery Natural_Scenery Zheng_Zhou_Shi Zheng_Zhou_Shi 4A Henan Premium
+Huang He Lou,Historical_Architecture,5A,Wu_Han_Shi,Hubei,70.0,Premium,128,Historical_Architecture Historical_Architecture Historical_Architecture Wu_Han_Shi Wu_Han_Shi 5A Hubei Premium
+Huang Long,Natural_Scenery,5A,A_Ba_Zhou,Sichuan,170.0,Premium,129,Natural_Scenery Natural_Scenery Natural_Scenery A_Ba_Zhou A_Ba_Zhou 5A Sichuan Premium
+Huang Shan,Natural_Scenery,5A,Huang_Shan_Shi,Anhui,190.0,Premium,130,Natural_Scenery Natural_Scenery Natural_Scenery Huang_Shan_Shi Huang_Shan_Shi 5A Anhui Premium
+Huang Shi Guo Jia Kuang Shan Gong Yuan,Gong_Ye_Lv_You,4A,Huang_Shi_Shi,Hubei,50.0,Premium,131,Gong_Ye_Lv_You Gong_Ye_Lv_You Gong_Ye_Lv_You Huang_Shi_Shi Huang_Shi_Shi 4A Hubei Premium
+Hui Min Jie,Food_Street,3A,Xi_An_Shi,Shaanxi,0.0,MidRange,132,Food_Street Food_Street Food_Street Xi_An_Shi Xi_An_Shi 3A Shaanxi MidRange
+Hui Zhou Xi Hu,Natural_Scenery,4A,Hui_Zhou_Shi,Guangdong,0.0,MidRange,133,Natural_Scenery Natural_Scenery Natural_Scenery Hui_Zhou_Shi Hui_Zhou_Shi 4A Guangdong MidRange
+Ji Gong Shan,Natural_Scenery,4A,Xin_Yang_Shi,Henan,60.0,Premium,134,Natural_Scenery Natural_Scenery Natural_Scenery Xin_Yang_Shi Xin_Yang_Shi 4A Henan Premium
+Ji Lin Bei Shan,Natural_Culture,4A,Ji_Lin_Shi,Jilin,0.0,MidRange,135,Natural_Culture Natural_Culture Natural_Culture Ji_Lin_Shi Ji_Lin_Shi 4A Jilin MidRange
+Ji Xi Xing Kai Hu,Natural_Scenery,4A,Ji_Xi_Shi,Heilongjiang,45.0,Premium,136,Natural_Scenery Natural_Scenery Natural_Scenery Ji_Xi_Shi Ji_Xi_Shi 4A Heilongjiang Premium
+Jia Mu Si Tong Jiang San Jiang Kou,Natural_Scenery,4A,Jia_Mu_Si_Shi,Heilongjiang,30.0,Premium,137,Natural_Scenery Natural_Scenery Natural_Scenery Jia_Mu_Si_Shi Jia_Mu_Si_Shi 4A Heilongjiang Premium
+Jia Xing Nan Hu,Revolutionary_Site,5A,Jia_Xing_Shi,Zhejiang,60.0,Premium,138,Revolutionary_Site Revolutionary_Site Revolutionary_Site Jia_Xing_Shi Jia_Xing_Shi 5A Zhejiang Premium
+Jian Men Guan,Historical_Culture,5A,Guang_Yuan_Shi,Sichuan,105.0,Premium,139,Historical_Culture Historical_Culture Historical_Culture Guang_Yuan_Shi Guang_Yuan_Shi 5A Sichuan Premium
+Jian Shui Gu Cheng,Ancient_Town,4A,Hong_He_Zhou,Yunnan,0.0,MidRange,140,Ancient_Town Ancient_Town Ancient_Town Hong_He_Zhou Hong_He_Zhou 4A Yunnan MidRange
+Jin Ci,Historical_Culture,4A,Tai_Yuan_Shi,Shanxi,80.0,Premium,141,Historical_Culture Historical_Culture Historical_Culture Tai_Yuan_Shi Tai_Yuan_Shi 4A Shanxi Premium
+Jin Ji Hu,Urban_Landscape,5A,Su_Zhou_Shi,Jiangsu,0.0,MidRange,142,Urban_Landscape Urban_Landscape Urban_Landscape Su_Zhou_Shi Su_Zhou_Shi 5A Jiangsu MidRange
+Jin Li,Historical_Culture,3A,Cheng_Du_Shi,Sichuan,0.0,MidRange,143,Historical_Culture Historical_Culture Historical_Culture Cheng_Du_Shi Cheng_Du_Shi 3A Sichuan MidRange
+Jin Shan Ling Chang Cheng,Historical_Culture,4A,Cheng_De_Shi,Hebei,65.0,Premium,144,Historical_Culture Historical_Culture Historical_Culture Cheng_De_Shi Cheng_De_Shi 4A Hebei Premium
+Jin Shi Tan,Natural_Scenery,5A,Da_Lian_Shi,Liaoning,120.0,Premium,145,Natural_Scenery Natural_Scenery Natural_Scenery Da_Lian_Shi Da_Lian_Shi 5A Liaoning Premium
+Jin Si Xia,Natural_Scenery,5A,Shang_Luo_Shi,Shaanxi,100.0,Premium,146,Natural_Scenery Natural_Scenery Natural_Scenery Shang_Luo_Shi Shang_Luo_Shi 5A Shaanxi Premium
+Jin Zhou Bi Jia Shan,Natural_Scenery,4A,Jin_Zhou_Shi,Liaoning,65.0,Premium,147,Natural_Scenery Natural_Scenery Natural_Scenery Jin_Zhou_Shi Jin_Zhou_Shi 4A Liaoning Premium
+Jing De Zhen Gu Yao,Historical_Culture,5A,Jing_De_Zhen_Shi,Jiangxi,95.0,Premium,148,Historical_Culture Historical_Culture Historical_Culture Jing_De_Zhen_Shi Jing_De_Zhen_Shi 5A Jiangxi Premium
+Jing De Zhen Tao Ci Bo Wu Guan,Wen_Bo_Yuan_Guan,4A,Jing_De_Zhen_Shi,Jiangxi,0.0,MidRange,149,Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Jing_De_Zhen_Shi Jing_De_Zhen_Shi 4A Jiangxi MidRange
+Jing Gang Shan,Revolutionary_Site,5A,Ji_An_Shi,Jiangxi,165.0,Premium,150,Revolutionary_Site Revolutionary_Site Revolutionary_Site Ji_An_Shi Ji_An_Shi 5A Jiangxi Premium
+Jing Men Ming Xian Ling,Historical_Site,4A,Jing_Men_Shi,Hubei,50.0,Premium,151,Historical_Site Historical_Site Historical_Site Jing_Men_Shi Jing_Men_Shi 4A Hubei Premium
+Jing Po Hu,Natural_Scenery,5A,Mu_Dan_Jiang_Shi,Heilongjiang,100.0,Premium,152,Natural_Scenery Natural_Scenery Natural_Scenery Mu_Dan_Jiang_Shi Mu_Dan_Jiang_Shi 5A Heilongjiang Premium
+Jing Yue Tan,Natural_Scenery,5A,Chang_Chun_Shi,Jilin,30.0,Premium,153,Natural_Scenery Natural_Scenery Natural_Scenery Chang_Chun_Shi Chang_Chun_Shi 5A Jilin Premium
+Jing Zhou Gu Cheng,Historical_Culture,4A,Jing_Zhou_Shi,Hubei,35.0,Premium,154,Historical_Culture Historical_Culture Historical_Culture Jing_Zhou_Shi Jing_Zhou_Shi 4A Hubei Premium
+Jiu Hua Shan,Religious_Culture,5A,Chi_Zhou_Shi,Anhui,160.0,Premium,155,Religious_Culture Religious_Culture Religious_Culture Chi_Zhou_Shi Chi_Zhou_Shi 5A Anhui Premium
+Jiu Yi Ba Li Shi Bo Wu Guan,Revolutionary_Site,4A,Shen_Yang_Shi,Liaoning,0.0,MidRange,156,Revolutionary_Site Revolutionary_Site Revolutionary_Site Shen_Yang_Shi Shen_Yang_Shi 4A Liaoning MidRange
+Jiu Zhai Gou,Natural_Scenery,5A,A_Ba_Zhou,Sichuan,220.0,Premium,157,Natural_Scenery Natural_Scenery Natural_Scenery A_Ba_Zhou A_Ba_Zhou 5A Sichuan Premium
+Ju Zi Zhou,Cheng_Shi_Gong_Yuan,5A,Chang_Sha_Shi,Hunan,0.0,MidRange,158,Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Chang_Sha_Shi Chang_Sha_Shi 5A Hunan MidRange
+Kai Feng Fu,Historical_Culture,4A,Kai_Feng_Shi,Henan,65.0,Premium,159,Historical_Culture Historical_Culture Historical_Culture Kai_Feng_Shi Kai_Feng_Shi 4A Henan Premium
+Kai Ping Diao Lou,Historical_Architecture,5A,Jiang_Men_Shi,Guangdong,180.0,Premium,160,Historical_Architecture Historical_Architecture Historical_Architecture Jiang_Men_Shi Jiang_Men_Shi 5A Guangdong Premium
+Kuan Zhai Xiang Zi,Historical_Culture,3A,Cheng_Du_Shi,Sichuan,0.0,MidRange,161,Historical_Culture Historical_Culture Historical_Culture Cheng_Du_Shi Cheng_Du_Shi 3A Sichuan MidRange
+Kun Ming Shi Bo Yuan,Theme_Park,5A,Kun_Ming_Shi,Yunnan,100.0,Premium,162,Theme_Park Theme_Park Theme_Park Kun_Ming_Shi Kun_Ming_Shi 5A Yunnan Premium
+Lai Bin Jin Xiu Sheng Tang Shan,Natural_Scenery,4A,Lai_Bin_Shi,Guangxi,65.0,Premium,163,Natural_Scenery Natural_Scenery Natural_Scenery Lai_Bin_Shi Lai_Bin_Shi 4A Guangxi Premium
+Lang Fang Tian Xia Di Yi Cheng,Theme_Park,4A,Lang_Fang_Shi,Hebei,80.0,Premium,164,Theme_Park Theme_Park Theme_Park Lang_Fang_Shi Lang_Fang_Shi 4A Hebei Premium
+Lang Shan,Natural_Scenery,5A,Shao_Yang_Shi,Hunan,136.0,Premium,165,Natural_Scenery Natural_Scenery Natural_Scenery Shao_Yang_Shi Shao_Yang_Shi 5A Hunan Premium
+Lang Ya Shan,Natural_Culture,4A,Chu_Zhou_Shi,Anhui,95.0,Premium,166,Natural_Culture Natural_Culture Natural_Culture Chu_Zhou_Shi Chu_Zhou_Shi 4A Anhui Premium
+Lang Zhong Gu Cheng,Ancient_Town,5A,Nan_Chong_Shi,Sichuan,120.0,Premium,167,Ancient_Town Ancient_Town Ancient_Town Nan_Chong_Shi Nan_Chong_Shi 5A Sichuan Premium
+Lao Jun Shan,Natural_Culture,5A,Luo_Yang_Shi,Henan,100.0,Premium,168,Natural_Culture Natural_Culture Natural_Culture Luo_Yang_Shi Luo_Yang_Shi 5A Henan Premium
+Lao Shan,Natural_Scenery,5A,Qing_Dao_Shi,Shandong,90.0,Premium,169,Natural_Scenery Natural_Scenery Natural_Scenery Qing_Dao_Shi Qing_Dao_Shi 5A Shandong Premium
+Le Shan Da Fu,Religious_Culture,5A,Le_Shan_Shi,Sichuan,80.0,Premium,170,Religious_Culture Religious_Culture Religious_Culture Le_Shan_Shi Le_Shan_Shi 5A Sichuan Premium
+Li Jiang Gu Cheng,Ancient_Town,5A,Li_Jiang_Shi,Yunnan,80.0,Premium,171,Ancient_Town Ancient_Town Ancient_Town Li_Jiang_Shi Li_Jiang_Shi 5A Yunnan Premium
+Li Shui Yun He Ti Tian,Natural_Scenery,4A,Li_Shui_Shi,Zhejiang,80.0,Premium,172,Natural_Scenery Natural_Scenery Natural_Scenery Li_Shui_Shi Li_Shui_Shi 4A Zhejiang Premium
+Liao Cheng Dong Chang Hu,Natural_Scenery,4A,Liao_Cheng_Shi,Shandong,0.0,MidRange,173,Natural_Scenery Natural_Scenery Natural_Scenery Liao_Cheng_Shi Liao_Cheng_Shi 4A Shandong MidRange
+Liao Yang Guang You Si,Religious_Culture,4A,Liao_Yang_Shi,Liaoning,40.0,Premium,174,Religious_Culture Religious_Culture Religious_Culture Liao_Yang_Shi Liao_Yang_Shi 4A Liaoning Premium
+Liao Yuan Kuang Gong Mu,Revolutionary_Site,4A,Liao_Yuan_Shi,Jilin,30.0,Premium,175,Revolutionary_Site Revolutionary_Site Revolutionary_Site Liao_Yuan_Shi Liao_Yuan_Shi 4A Jilin Premium
+Ling Shan Da Fu,Religious_Culture,5A,Wu_Xi_Shi,Jiangsu,210.0,Premium,176,Religious_Culture Religious_Culture Religious_Culture Wu_Xi_Shi Wu_Xi_Shi 5A Jiangsu Premium
+Liu Ding Shan,Religious_Culture,5A,Yan_Bian_Zhou,Jilin,110.0,Premium,177,Religious_Culture Religious_Culture Religious_Culture Yan_Bian_Zhou Yan_Bian_Zhou 5A Jilin Premium
+Liu Gong Dao,Revolutionary_Site,5A,Wei_Hai_Shi,Shandong,130.0,Premium,178,Revolutionary_Site Revolutionary_Site Revolutionary_Site Wei_Hai_Shi Wei_Hai_Shi 5A Shandong Premium
+Liu Ye Hu,Natural_Scenery,4A,Chang_De_Shi,Hunan,0.0,MidRange,179,Natural_Scenery Natural_Scenery Natural_Scenery Chang_De_Shi Chang_De_Shi 4A Hunan MidRange
+Liu Zhou Long Tan Gong Yuan,Natural_Scenery,4A,Liu_Zhou_Shi,Guangxi,0.0,MidRange,180,Natural_Scenery Natural_Scenery Natural_Scenery Liu_Zhou_Shi Liu_Zhou_Shi 4A Guangxi MidRange
+Long Hu Shan,Natural_Culture,5A,Ying_Tan_Shi,Jiangxi,165.0,Premium,181,Natural_Culture Natural_Culture Natural_Culture Ying_Tan_Shi Ying_Tan_Shi 5A Jiangxi Premium
+Long Ji Ti Tian,Natural_Scenery,4A,Gui_Lin_Shi,Guangxi,80.0,Premium,182,Natural_Scenery Natural_Scenery Natural_Scenery Gui_Lin_Shi Gui_Lin_Shi 4A Guangxi Premium
+Long Men Shi Ku,Historical_Culture,5A,Luo_Yang_Shi,Henan,90.0,Premium,183,Historical_Culture Historical_Culture Historical_Culture Luo_Yang_Shi Luo_Yang_Shi 5A Henan Premium
+Long Ting Gong Yuan,Historical_Culture,4A,Kai_Feng_Shi,Henan,50.0,Premium,184,Historical_Culture Historical_Culture Historical_Culture Kai_Feng_Shi Kai_Feng_Shi 4A Henan Premium
+Long Wan Qun Guo Jia Sen Lin Gong Yuan,Natural_Scenery,4A,Tong_Hua_Shi,Jilin,50.0,Premium,185,Natural_Scenery Natural_Scenery Natural_Scenery Tong_Hua_Shi Tong_Hua_Shi 4A Jilin Premium
+Long Yan Guan Zhi Shan,Natural_Scenery,4A,Long_Yan_Shi,Fujian,115.0,Premium,186,Natural_Scenery Natural_Scenery Natural_Scenery Long_Yan_Shi Long_Yan_Shi 4A Fujian Premium
+Lu Gu Hu,Natural_Scenery,4A,Liang_Shan_Zhou,Sichuan,70.0,Premium,187,Natural_Scenery Natural_Scenery Natural_Scenery Liang_Shan_Zhou Liang_Shan_Zhou 4A Sichuan Premium
+Lu Gu Hu ( Yun Nan Bu Fen ),Natural_Scenery,4A,Li_Jiang_Shi,Yunnan,70.0,Premium,188,Natural_Scenery Natural_Scenery Natural_Scenery Li_Jiang_Shi Li_Jiang_Shi 4A Yunnan Premium
+Lu Shan,Natural_Culture,5A,Jiu_Jiang_Shi,Jiangxi,160.0,Premium,189,Natural_Culture Natural_Culture Natural_Culture Jiu_Jiang_Shi Jiu_Jiang_Shi 5A Jiangxi Premium
+Lu Shui He Guo Jia Sen Lin Gong Yuan,Natural_Scenery,4A,Bai_Shan_Shi,Jilin,60.0,Premium,190,Natural_Scenery Natural_Scenery Natural_Scenery Bai_Shan_Shi Bai_Shan_Shi 4A Jilin Premium
+Lu Ya Shan,Natural_Scenery,4A,Xin_Zhou_Shi,Shanxi,100.0,Premium,191,Natural_Scenery Natural_Scenery Natural_Scenery Xin_Zhou_Shi Xin_Zhou_Shi 4A Shanxi Premium
+Luo Fu Shan,Natural_Scenery,5A,Hui_Zhou_Shi,Guangdong,60.0,Premium,192,Natural_Scenery Natural_Scenery Natural_Scenery Hui_Zhou_Shi Hui_Zhou_Shi 5A Guangdong Premium
+Mang Dang Shan,Historical_Culture,5A,Shang_Qiu_Shi,Henan,90.0,Premium,193,Historical_Culture Historical_Culture Historical_Culture Shang_Qiu_Shi Shang_Qiu_Shi 5A Henan Premium
+Mang Shan,Natural_Scenery,4A,Chen_Zhou_Shi,Hunan,80.0,Premium,194,Natural_Scenery Natural_Scenery Natural_Scenery Chen_Zhou_Shi Chen_Zhou_Shi 4A Hunan Premium
+Mao Ling,Historical_Site,4A,Xian_Yang_Shi,Shaanxi,80.0,Premium,195,Historical_Site Historical_Site Historical_Site Xian_Yang_Shi Xian_Yang_Shi 4A Shaanxi Premium
+Mao Shan,Religious_Culture,5A,Zhen_Jiang_Shi,Jiangsu,120.0,Premium,196,Religious_Culture Religious_Culture Religious_Culture Zhen_Jiang_Shi Zhen_Jiang_Shi 5A Jiangsu Premium
+Mei Li Xue Shan,Natural_Scenery,4A,Di_Qing_Zhou,Yunnan,150.0,Premium,197,Natural_Scenery Natural_Scenery Natural_Scenery Di_Qing_Zhou Di_Qing_Zhou 4A Yunnan Premium
+Mei Zhou Dao,Natural_Culture,5A,Pu_Tian_Shi,Fujian,65.0,Premium,198,Natural_Culture Natural_Culture Natural_Culture Pu_Tian_Shi Pu_Tian_Shi 5A Fujian Premium
+Mei Zhou Ke Tian Xia,Wen_Hua_Lv_You,4A,Mei_Zhou_Shi,Guangdong,100.0,Premium,199,Wen_Hua_Lv_You Wen_Hua_Lv_You Wen_Hua_Lv_You Mei_Zhou_Shi Mei_Zhou_Shi 4A Guangdong Premium
+Mian Shan,Natural_Culture,5A,Jin_Zhong_Shi,Shanxi,110.0,Premium,200,Natural_Culture Natural_Culture Natural_Culture Jin_Zhong_Shi Jin_Zhong_Shi 5A Shanxi Premium
+Ming Huang Ling,Historical_Site,4A,Chu_Zhou_Shi,Anhui,70.0,Premium,201,Historical_Site Historical_Site Historical_Site Chu_Zhou_Shi Chu_Zhou_Shi 4A Anhui Premium
+Ming Yue Shan,Natural_Scenery,5A,Yi_Chun_Shi,Jiangxi,95.0,Premium,202,Natural_Scenery Natural_Scenery Natural_Scenery Yi_Chun_Shi Yi_Chun_Shi 5A Jiangxi Premium
+Mo Gan Shan,Natural_Scenery,4A,Hu_Zhou_Shi,Zhejiang,80.0,Premium,203,Natural_Scenery Natural_Scenery Natural_Scenery Hu_Zhou_Shi Hu_Zhou_Shi 4A Zhejiang Premium
+Mu Lan Wen Hua Sheng Tai Lv You Qu,Natural_Culture,5A,Wu_Han_Shi,Hubei,80.0,Premium,204,Natural_Culture Natural_Culture Natural_Culture Wu_Han_Shi Wu_Han_Shi 5A Hubei Premium
+Mu Tian Yu Chang Cheng,Historical_Culture,4A,Beijing,Beijing,45.0,Premium,205,Historical_Culture Historical_Culture Historical_Culture Beijing Beijing 4A Beijing Premium
+Nan Chang Ba Yi Qi Yi Ji Nian Guan,Revolutionary_Site,4A,Nan_Chang_Shi,Jiangxi,0.0,MidRange,206,Revolutionary_Site Revolutionary_Site Revolutionary_Site Nan_Chang_Shi Nan_Chang_Shi 4A Jiangxi MidRange
+Nan Jing Bo Wu Yuan,Wen_Bo_Yuan_Guan,4A,Nan_Jing_Shi,Jiangsu,0.0,MidRange,207,Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Nan_Jing_Shi Nan_Jing_Shi 4A Jiangsu MidRange
+Nan Luo Gu Xiang,Historical_Culture,4A,Beijing,Beijing,0.0,MidRange,208,Historical_Culture Historical_Culture Historical_Culture Beijing Beijing 4A Beijing MidRange
+Nan Ning Qing Xiu Shan,Natural_Scenery,5A,Nan_Ning_Shi,Guangxi,20.0,Premium,209,Natural_Scenery Natural_Scenery Natural_Scenery Nan_Ning_Shi Nan_Ning_Shi 5A Guangxi Premium
+Nan Ping He Ping Gu Zhen,Ancient_Town,4A,Nan_Ping_Shi,Fujian,70.0,Premium,210,Ancient_Town Ancient_Town Ancient_Town Nan_Ping_Shi Nan_Ping_Shi 4A Fujian Premium
+Nan Shan Wen Hua Lv You Qu,Religious_Culture,5A,San_Ya_Shi,Hainan,129.0,Premium,211,Religious_Culture Religious_Culture Religious_Culture San_Ya_Shi San_Ya_Shi 5A Hainan Premium
+Nan Tong Lang Shan,Natural_Culture,4A,Nan_Tong_Shi,Jiangsu,70.0,Premium,212,Natural_Culture Natural_Culture Natural_Culture Nan_Tong_Shi Nan_Tong_Shi 4A Jiangsu Premium
+Nan Xun Gu Zhen,Ancient_Town,5A,Hu_Zhou_Shi,Zhejiang,80.0,Premium,213,Ancient_Town Ancient_Town Ancient_Town Hu_Zhou_Shi Hu_Zhou_Shi 5A Zhejiang Premium
+Nan Yue Heng Shan,Natural_Culture,5A,Heng_Yang_Shi,Hunan,110.0,Premium,214,Natural_Culture Natural_Culture Natural_Culture Heng_Yang_Shi Heng_Yang_Shi 5A Hunan Premium
+Ning Bo Tian Yi Ge,Historical_Architecture,4A,Ning_Bo_Shi,Zhejiang,30.0,Premium,215,Historical_Architecture Historical_Architecture Historical_Architecture Ning_Bo_Shi Ning_Bo_Shi 4A Zhejiang Premium
+Ning De Yuan Yang Xi,Natural_Scenery,5A,Ning_De_Shi,Fujian,78.0,Premium,216,Natural_Scenery Natural_Scenery Natural_Scenery Ning_De_Shi Ning_De_Shi 5A Fujian Premium
+Peng Lai Ge,Historical_Culture,5A,Yan_Tai_Shi,Shandong,100.0,Premium,217,Historical_Culture Historical_Culture Historical_Culture Yan_Tai_Shi Yan_Tai_Shi 5A Shandong Premium
+Ping Yao Gu Cheng,Ancient_Town,5A,Jin_Zhong_Shi,Shanxi,125.0,Premium,218,Ancient_Town Ancient_Town Ancient_Town Jin_Zhong_Shi Jin_Zhong_Shi 5A Shanxi Premium
+Po Yang Hu,Natural_Scenery,4A,Jiu_Jiang_Shi,Jiangxi,0.0,MidRange,219,Natural_Scenery Natural_Scenery Natural_Scenery Jiu_Jiang_Shi Jiu_Jiang_Shi 4A Jiangxi MidRange
+Pu Da Cuo Guo Jia Gong Yuan,Natural_Scenery,5A,Di_Qing_Zhou,Yunnan,138.0,Premium,220,Natural_Scenery Natural_Scenery Natural_Scenery Di_Qing_Zhou Di_Qing_Zhou 5A Yunnan Premium
+Pu Tian Jiu Li Hu,Natural_Scenery,4A,Pu_Tian_Shi,Fujian,50.0,Premium,221,Natural_Scenery Natural_Scenery Natural_Scenery Pu_Tian_Shi Pu_Tian_Shi 4A Fujian Premium
+Pu Tuo Shan,Religious_Culture,5A,Zhou_Shan_Shi,Zhejiang,160.0,Premium,222,Religious_Culture Religious_Culture Religious_Culture Zhou_Shan_Shi Zhou_Shan_Shi 5A Zhejiang Premium
+Qi Kou Gu Zhen,Ancient_Town,4A,Lv_Liang_Shi,Shanxi,0.0,MidRange,223,Ancient_Town Ancient_Town Ancient_Town Lv_Liang_Shi Lv_Liang_Shi 4A Shanxi MidRange
+Qi Tai He Bo Li Xi Da Quan,Natural_Scenery,4A,Qi_Tai_He_Shi,Heilongjiang,30.0,Premium,224,Natural_Scenery Natural_Scenery Natural_Scenery Qi_Tai_He_Shi Qi_Tai_He_Shi 4A Heilongjiang Premium
+Qi Yun Shan,Natural_Culture,4A,Huang_Shan_Shi,Anhui,75.0,Premium,225,Natural_Culture Natural_Culture Natural_Culture Huang_Shan_Shi Huang_Shan_Shi 4A Anhui Premium
+Qian Dao Hu,Natural_Scenery,5A,Hang_Zhou_Shi,Zhejiang,130.0,Premium,226,Natural_Scenery Natural_Scenery Natural_Scenery Hang_Zhou_Shi Hang_Zhou_Shi 5A Zhejiang Premium
+Qian Fo Shan,Natural_Culture,4A,Ji_Nan_Shi,Shandong,30.0,Premium,227,Natural_Culture Natural_Culture Natural_Culture Ji_Nan_Shi Ji_Nan_Shi 4A Shandong Premium
+Qian Jiang Cao Yu Gong Yuan,Cheng_Shi_Gong_Yuan,4A,Qian_Jiang_Shi,Hubei,0.0,MidRange,228,Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Qian_Jiang_Shi Qian_Jiang_Shi 4A Hubei MidRange
+Qian Ling,Historical_Site,4A,Xian_Yang_Shi,Shaanxi,102.0,Premium,229,Historical_Site Historical_Site Historical_Site Xian_Yang_Shi Xian_Yang_Shi 4A Shaanxi Premium
+Qian Shan,Natural_Scenery,5A,An_Shan_Shi,Liaoning,80.0,Premium,230,Natural_Scenery Natural_Scenery Natural_Scenery An_Shan_Shi An_Shan_Shi 5A Liaoning Premium
+Qiao Jia Da Yuan,Historical_Architecture,5A,Jin_Zhong_Shi,Shanxi,115.0,Premium,231,Historical_Architecture Historical_Architecture Historical_Architecture Jin_Zhong_Shi Jin_Zhong_Shi 5A Shanxi Premium
+Qin Shi Huang Bing Ma Yong,Historical_Site,5A,Xi_An_Shi,Shaanxi,120.0,Premium,232,Historical_Site Historical_Site Historical_Site Xi_An_Shi Xi_An_Shi 5A Shaanxi Premium
+Qin Zhou San Niang Wan,Natural_Scenery,4A,Qin_Zhou_Shi,Guangxi,40.0,Premium,233,Natural_Scenery Natural_Scenery Natural_Scenery Qin_Zhou_Shi Qin_Zhou_Shi 4A Guangxi Premium
+Qing Cheng Shan,Religious_Culture,5A,Cheng_Du_Shi,Sichuan,90.0,Premium,234,Religious_Culture Religious_Culture Religious_Culture Cheng_Du_Shi Cheng_Du_Shi 5A Sichuan Premium
+Qing Dao Hai Bin Feng Jing Qu,Natural_Scenery,4A,Qing_Dao_Shi,Shandong,0.0,MidRange,235,Natural_Scenery Natural_Scenery Natural_Scenery Qing_Dao_Shi Qing_Dao_Shi 4A Shandong MidRange
+Qing Dao Pi Jiu Bo Wu Guan,Gong_Ye_Lv_You,4A,Qing_Dao_Shi,Shandong,60.0,Premium,236,Gong_Ye_Lv_You Gong_Ye_Lv_You Gong_Ye_Lv_You Qing_Dao_Shi Qing_Dao_Shi 4A Shandong Premium
+Qing Dong Ling,Historical_Site,5A,Tang_Shan_Shi,Hebei,108.0,Premium,237,Historical_Site Historical_Site Historical_Site Tang_Shan_Shi Tang_Shan_Shi 5A Hebei Premium
+Qing Jiang Hua Lang,Natural_Scenery,5A,Yi_Chang_Shi,Hubei,100.0,Premium,238,Natural_Scenery Natural_Scenery Natural_Scenery Yi_Chang_Shi Yi_Chang_Shi 5A Hubei Premium
+Qing Ming Shang He Yuan,Theme_Park,5A,Kai_Feng_Shi,Henan,120.0,Premium,239,Theme_Park Theme_Park Theme_Park Kai_Feng_Shi Kai_Feng_Shi 5A Henan Premium
+Qing Xi Ling,Historical_Site,5A,Bao_Ding_Shi,Hebei,90.0,Premium,240,Historical_Site Historical_Site Historical_Site Bao_Ding_Shi Bao_Ding_Shi 5A Hebei Premium
+Qing Yuan Shan,Natural_Culture,5A,Quan_Zhou_Shi,Fujian,70.0,Premium,241,Natural_Culture Natural_Culture Natural_Culture Quan_Zhou_Shi Quan_Zhou_Shi 5A Fujian Premium
+Qiong Hai Bo Ao Ya Zhou Lun Tan,Theme_Park,4A,Qiong_Hai_Shi,Hainan,128.0,Premium,242,Theme_Park Theme_Park Theme_Park Qiong_Hai_Shi Qiong_Hai_Shi 4A Hainan Premium
+Qu Fu San Kong,Historical_Culture,5A,Ji_Ning_Shi,Shandong,140.0,Premium,243,Historical_Culture Historical_Culture Historical_Culture Ji_Ning_Shi Ji_Ning_Shi 5A Shandong Premium
+Qu Zhou Jiang Lang Shan,Natural_Scenery,5A,Qu_Zhou_Shi,Zhejiang,100.0,Premium,244,Natural_Scenery Natural_Scenery Natural_Scenery Qu_Zhou_Shi Qu_Zhou_Shi 5A Zhejiang Premium
+Quan Zhou Kai Yuan Si,Religious_Culture,4A,Quan_Zhou_Shi,Fujian,0.0,MidRange,245,Religious_Culture Religious_Culture Religious_Culture Quan_Zhou_Shi Quan_Zhou_Shi 4A Fujian MidRange
+Quan Zhou Qing Jing Tao Yuan,Natural_Scenery,4A,Quan_Zhou_Shi,Fujian,50.0,Premium,246,Natural_Scenery Natural_Scenery Natural_Scenery Quan_Zhou_Shi Quan_Zhou_Shi 4A Fujian Premium
+Ri Zhao Hai Bin Guo Jia Sen Lin Gong Yuan,Natural_Scenery,4A,Ri_Zhao_Shi,Shandong,60.0,Premium,247,Natural_Scenery Natural_Scenery Natural_Scenery Ri_Zhao_Shi Ri_Zhao_Shi 4A Shandong Premium
+Rui Jin Gong He Guo Yao Lan,Revolutionary_Site,5A,Gan_Zhou_Shi,Jiangxi,65.0,Premium,248,Revolutionary_Site Revolutionary_Site Revolutionary_Site Gan_Zhou_Shi Gan_Zhou_Shi 5A Jiangxi Premium
+San Fang Qi Xiang,Historical_Culture,5A,Fu_Zhou_Shi,Fujian,0.0,MidRange,249,Historical_Culture Historical_Culture Historical_Culture Fu_Zhou_Shi Fu_Zhou_Shi 5A Fujian MidRange
+San He Gu Zhen,Ancient_Town,5A,He_Fei_Shi,Anhui,0.0,MidRange,250,Ancient_Town Ancient_Town Ancient_Town He_Fei_Shi He_Fei_Shi 5A Anhui MidRange
+San Jiang Cheng Yang Ba Zhai,Min_Su_Wen_Hua,4A,Liu_Zhou_Shi,Guangxi,60.0,Premium,251,Min_Su_Wen_Hua Min_Su_Wen_Hua Min_Su_Wen_Hua Liu_Zhou_Shi Liu_Zhou_Shi 4A Guangxi Premium
+San Ming Tai Ning Da Jin Hu,Natural_Scenery,5A,San_Ming_Shi,Fujian,80.0,Premium,252,Natural_Scenery Natural_Scenery Natural_Scenery San_Ming_Shi San_Ming_Shi 5A Fujian Premium
+San Qing Shan,Natural_Scenery,5A,Shang_Rao_Shi,Jiangxi,120.0,Premium,253,Natural_Scenery Natural_Scenery Natural_Scenery Shang_Rao_Shi Shang_Rao_Shi 5A Jiangxi Premium
+San Xia Da Ba,Shui_Li_Gong_Cheng,5A,Yi_Chang_Shi,Hubei,105.0,Premium,254,Shui_Li_Gong_Cheng Shui_Li_Gong_Cheng Shui_Li_Gong_Cheng Yi_Chang_Shi Yi_Chang_Shi 5A Hubei Premium
+San Xia Ren Jia,Natural_Culture,5A,Yi_Chang_Shi,Hubei,150.0,Premium,255,Natural_Culture Natural_Culture Natural_Culture Yi_Chang_Shi Yi_Chang_Shi 5A Hubei Premium
+San Xing Dui Yi Zhi,Historical_Site,4A,De_Yang_Shi,Sichuan,80.0,Premium,256,Historical_Site Historical_Site Historical_Site De_Yang_Shi De_Yang_Shi 4A Sichuan Premium
+San Ya Da Xiao Dong Tian,Natural_Culture,5A,San_Ya_Shi,Hainan,90.0,Premium,257,Natural_Culture Natural_Culture Natural_Culture San_Ya_Shi San_Ya_Shi 5A Hainan Premium
+San Ya Ya Long Wan,Natural_Scenery,4A,San_Ya_Shi,Hainan,0.0,MidRange,258,Natural_Scenery Natural_Scenery Natural_Scenery San_Ya_Shi San_Ya_Shi 4A Hainan MidRange
+Sha Jia Bang,Revolutionary_Site,5A,Su_Zhou_Shi,Jiangsu,100.0,Premium,259,Revolutionary_Site Revolutionary_Site Revolutionary_Site Su_Zhou_Shi Su_Zhou_Shi 5A Jiangsu Premium
+Sha Mian Dao,Historical_Culture,4A,Guang_Zhou_Shi,Guangdong,0.0,MidRange,260,Historical_Culture Historical_Culture Historical_Culture Guang_Zhou_Shi Guang_Zhou_Shi 4A Guangdong MidRange
+Shan Hai Guan,Historical_Culture,5A,Qin_Huang_Dao_Shi,Hebei,50.0,Premium,261,Historical_Culture Historical_Culture Historical_Culture Qin_Huang_Dao_Shi Qin_Huang_Dao_Shi 5A Hebei Premium
+Shan Xi Li Shi Bo Wu Guan,Wen_Bo_Yuan_Guan,4A,Xi_An_Shi,Shaanxi,0.0,MidRange,262,Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Xi_An_Shi Xi_An_Shi 4A Shaanxi MidRange
+Shang Hai Bo Wu Guan,Wen_Bo_Yuan_Guan,4A,Shanghai,Shanghai,0.0,MidRange,263,Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Shanghai Shanghai 4A Shanghai MidRange
+Shang Hai Chen Shan Zhi Wu Yuan,Botanical_Garden,4A,Shanghai,Shanghai,60.0,Premium,264,Botanical_Garden Botanical_Garden Botanical_Garden Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Da Guan Yuan,Theme_Park,4A,Shanghai,Shanghai,60.0,Premium,265,Theme_Park Theme_Park Theme_Park Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Di Shi Ni Le Yuan,Theme_Park,5A,Shanghai,Shanghai,399.0,Premium,266,Theme_Park Theme_Park Theme_Park Shanghai Shanghai 5A Shanghai Premium
+Shang Hai Dong Wu Yuan,Zoo,4A,Shanghai,Shanghai,40.0,Premium,267,Zoo Zoo Zoo Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Du Sha Fu Ren La Xiang Guan,Zhu_Ti_Zhan_Lan,4A,Shanghai,Shanghai,190.0,Premium,268,Zhu_Ti_Zhan_Lan Zhu_Ti_Zhan_Lan Zhu_Ti_Zhan_Lan Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Hai Yang Shui Zu Guan,Shui_Zu_Guan,4A,Shanghai,Shanghai,160.0,Premium,269,Shui_Zu_Guan Shui_Zu_Guan Shui_Zu_Guan Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Huan Le Gu,Theme_Park,4A,Shanghai,Shanghai,230.0,Premium,270,Theme_Park Theme_Park Theme_Park Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Huan Qiu Jin Rong Zhong Xin,Urban_Landmark,4A,Shanghai,Shanghai,180.0,Premium,271,Urban_Landmark Urban_Landmark Urban_Landmark Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Ke Ji Guan,Ke_Pu_Jiao_Yu,5A,Shanghai,Shanghai,45.0,Premium,272,Ke_Pu_Jiao_Yu Ke_Pu_Jiao_Yu Ke_Pu_Jiao_Yu Shanghai Shanghai 5A Shanghai Premium
+Shang Hai Shi Ji Gong Yuan,Cheng_Shi_Gong_Yuan,4A,Shanghai,Shanghai,10.0,Premium,273,Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Ye Sheng Dong Wu Yuan,Zoo,5A,Shanghai,Shanghai,165.0,Premium,274,Zoo Zoo Zoo Shanghai Shanghai 5A Shanghai Premium
+Shang Hai Ying Shi Le Yuan,Theme_Park,4A,Shanghai,Shanghai,80.0,Premium,275,Theme_Park Theme_Park Theme_Park Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Zhang Feng Hai Yang Shi Jie,Shui_Zu_Guan,4A,Shanghai,Shanghai,180.0,Premium,276,Shui_Zu_Guan Shui_Zu_Guan Shui_Zu_Guan Shanghai Shanghai 4A Shanghai Premium
+Shang Hai Zi Ran Bo Wu Guan,Wen_Bo_Yuan_Guan,4A,Shanghai,Shanghai,30.0,Premium,277,Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Wen_Bo_Yuan_Guan Shanghai Shanghai 4A Shanghai Premium
+Shang Rao Ji Zhong Ying,Revolutionary_Site,4A,Shang_Rao_Shi,Jiangxi,0.0,MidRange,278,Revolutionary_Site Revolutionary_Site Revolutionary_Site Shang_Rao_Shi Shang_Rao_Shi 4A Jiangxi MidRange
+Shao Lin Si,Religious_Culture,5A,Zheng_Zhou_Shi,Henan,100.0,Premium,279,Religious_Culture Religious_Culture Religious_Culture Zheng_Zhou_Shi Zheng_Zhou_Shi 5A Henan Premium
+Shao Shan,Revolutionary_Site,5A,Xiang_Tan_Shi,Hunan,60.0,Premium,280,Revolutionary_Site Revolutionary_Site Revolutionary_Site Xiang_Tan_Shi Xiang_Tan_Shi 5A Hunan Premium
+Shao Xing Lu Xun Gu Li,Historical_Culture,5A,Shao_Xing_Shi,Zhejiang,0.0,MidRange,281,Historical_Culture Historical_Culture Historical_Culture Shao_Xing_Shi Shao_Xing_Shi 5A Zhejiang MidRange
+Shen Nong Jia,Natural_Scenery,5A,Shen_Nong_Jia_Lin_Qu,Hubei,130.0,Premium,282,Natural_Scenery Natural_Scenery Natural_Scenery Shen_Nong_Jia_Lin_Qu Shen_Nong_Jia_Lin_Qu 5A Hubei Premium
+Shen Yang Gu Gong,Historical_Culture,4A,Shen_Yang_Shi,Liaoning,60.0,Premium,283,Historical_Culture Historical_Culture Historical_Culture Shen_Yang_Shi Shen_Yang_Shi 4A Liaoning Premium
+Shen Yang Shi Bo Yuan,Theme_Park,5A,Shen_Yang_Shi,Liaoning,50.0,Premium,284,Theme_Park Theme_Park Theme_Park Shen_Yang_Shi Shen_Yang_Shi 5A Liaoning Premium
+Shen Zhen Dong Bu Hua Qiao Cheng,Theme_Park,5A,Shen_Zhen_Shi,Guangdong,180.0,Premium,285,Theme_Park Theme_Park Theme_Park Shen_Zhen_Shi Shen_Zhen_Shi 5A Guangdong Premium
+Shen Zhen Hua Qiao Cheng,Theme_Park,5A,Shen_Zhen_Shi,Guangdong,230.0,Premium,286,Theme_Park Theme_Park Theme_Park Shen_Zhen_Shi Shen_Zhen_Shi 5A Guangdong Premium
+Shen Zhen Shi Jie Zhi Chuang,Theme_Park,5A,Shen_Zhen_Shi,Guangdong,220.0,Premium,287,Theme_Park Theme_Park Theme_Park Shen_Zhen_Shi Shen_Zhen_Shi 5A Guangdong Premium
+Sheng Suo Fei Ya Jiao Tang,Historical_Architecture,4A,Ha_Er_Bin_Shi,Heilongjiang,20.0,Premium,288,Historical_Architecture Historical_Architecture Historical_Architecture Ha_Er_Bin_Shi Ha_Er_Bin_Shi 4A Heilongjiang Premium
+Shi Jie Gong Yuan,Theme_Park,4A,Beijing,Beijing,100.0,Premium,289,Theme_Park Theme_Park Theme_Park Beijing Beijing 4A Beijing Premium
+Shi Lin,Zi_Ran_Qi_Guan,5A,Kun_Ming_Shi,Yunnan,130.0,Premium,290,Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Kun_Ming_Shi Kun_Ming_Shi 5A Yunnan Premium
+Shou Xi Hu,Natural_Scenery,5A,Yang_Zhou_Shi,Jiangsu,150.0,Premium,291,Natural_Scenery Natural_Scenery Natural_Scenery Yang_Zhou_Shi Yang_Zhou_Shi 5A Jiangsu Premium
+Shou Xian Gu Cheng,Historical_Culture,4A,Huai_Nan_Shi,Anhui,0.0,MidRange,292,Historical_Culture Historical_Culture Historical_Culture Huai_Nan_Shi Huai_Nan_Shi 4A Anhui MidRange
+Shu Nan Zhu Hai,Natural_Scenery,4A,Yi_Bin_Shi,Sichuan,100.0,Premium,293,Natural_Scenery Natural_Scenery Natural_Scenery Yi_Bin_Shi Yi_Bin_Shi 4A Sichuan Premium
+Shuang Ya Shan Qi Xing Feng,Natural_Scenery,4A,Shuang_Ya_Shan_Shi,Heilongjiang,40.0,Premium,294,Natural_Scenery Natural_Scenery Natural_Scenery Shuang_Ya_Shan_Shi Shuang_Ya_Shan_Shi 4A Heilongjiang Premium
+Si Gu Niang Shan,Natural_Scenery,4A,A_Ba_Zhou,Sichuan,150.0,Premium,295,Natural_Scenery Natural_Scenery Natural_Scenery A_Ba_Zhou A_Ba_Zhou 4A Sichuan Premium
+Si Ping Zhan Yi Ji Nian Guan,Revolutionary_Site,4A,Si_Ping_Shi,Jilin,0.0,MidRange,296,Revolutionary_Site Revolutionary_Site Revolutionary_Site Si_Ping_Shi Si_Ping_Shi 4A Jilin MidRange
+Song Hua Hu,Natural_Scenery,4A,Ji_Lin_Shi,Jilin,50.0,Premium,297,Natural_Scenery Natural_Scenery Natural_Scenery Ji_Lin_Shi Ji_Lin_Shi 4A Jilin Premium
+Su Zhou Hu Qiu,Historical_Culture,5A,Su_Zhou_Shi,Jiangsu,80.0,Premium,298,Historical_Culture Historical_Culture Historical_Culture Su_Zhou_Shi Su_Zhou_Shi 5A Jiangsu Premium
+Su Zhou Yuan Lin,Historical_Culture,5A,Su_Zhou_Shi,Jiangsu,90.0,Premium,299,Historical_Culture Historical_Culture Historical_Culture Su_Zhou_Shi Su_Zhou_Shi 5A Jiangsu Premium
+Sui Hua Jin Gui Shan Zhuang,Natural_Scenery,4A,Sui_Hua_Shi,Heilongjiang,50.0,Premium,300,Natural_Scenery Natural_Scenery Natural_Scenery Sui_Hua_Shi Sui_Hua_Shi 4A Heilongjiang Premium
+Sui Zhou Yan Di Gu Li,Historical_Culture,4A,Sui_Zhou_Shi,Hubei,60.0,Premium,301,Historical_Culture Historical_Culture Historical_Culture Sui_Zhou_Shi Sui_Zhou_Shi 4A Hubei Premium
+Tai Bai Shan,Natural_Scenery,5A,Bao_Ji_Shi,Shaanxi,90.0,Premium,302,Natural_Scenery Natural_Scenery Natural_Scenery Bao_Ji_Shi Bao_Ji_Shi 5A Shaanxi Premium
+Tai Er Zhuang Gu Cheng,Ancient_Town,5A,Zao_Zhuang_Shi,Shandong,160.0,Premium,303,Ancient_Town Ancient_Town Ancient_Town Zao_Zhuang_Shi Zao_Zhuang_Shi 5A Shandong Premium
+Tai Hang Shan Da Xia Gu,Natural_Scenery,5A,Zhang_Zhi_Shi,Shanxi,140.0,Premium,304,Natural_Scenery Natural_Scenery Natural_Scenery Zhang_Zhi_Shi Zhang_Zhi_Shi 5A Shanxi Premium
+Tai Ji Dong,Zi_Ran_Qi_Guan,4A,Xuan_Cheng_Shi,Anhui,80.0,Premium,305,Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Xuan_Cheng_Shi Xuan_Cheng_Shi 4A Anhui Premium
+Tai Lao Shan,Natural_Scenery,5A,Ning_De_Shi,Fujian,130.0,Premium,306,Natural_Scenery Natural_Scenery Natural_Scenery Ning_De_Shi Ning_De_Shi 5A Fujian Premium
+Tai Shan,Natural_Culture,5A,Tai_An_Shi,Shandong,115.0,Premium,307,Natural_Culture Natural_Culture Natural_Culture Tai_An_Shi Tai_An_Shi 5A Shandong Premium
+Tai Xing Da Xia Gu,Natural_Scenery,4A,An_Yang_Shi,Henan,140.0,Premium,308,Natural_Scenery Natural_Scenery Natural_Scenery An_Yang_Shi An_Yang_Shi 4A Henan Premium
+Tai Yang Dao,Natural_Scenery,5A,Ha_Er_Bin_Shi,Heilongjiang,30.0,Premium,309,Natural_Scenery Natural_Scenery Natural_Scenery Ha_Er_Bin_Shi Ha_Er_Bin_Shi 5A Heilongjiang Premium
+Tai Yuan Fen He Gong Yuan,Cheng_Shi_Gong_Yuan,4A,Tai_Yuan_Shi,Shanxi,0.0,MidRange,310,Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Tai_Yuan_Shi Tai_Yuan_Shi 4A Shanxi MidRange
+Tai Zhou Shen Xian Ju,Natural_Scenery,5A,Tai_Zhou_Shi,Zhejiang,110.0,Premium,311,Natural_Scenery Natural_Scenery Natural_Scenery Tai_Zhou_Shi Tai_Zhou_Shi 5A Zhejiang Premium
+Tang Shan Nan Hu,Cheng_Shi_Gong_Yuan,4A,Tang_Shan_Shi,Hebei,0.0,MidRange,312,Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Cheng_Shi_Gong_Yuan Tang_Shan_Shi Tang_Shan_Shi 4A Hebei MidRange
+Tao Hua Yuan,Natural_Culture,4A,Chang_De_Shi,Hunan,128.0,Premium,313,Natural_Culture Natural_Culture Natural_Culture Chang_De_Shi Chang_De_Shi 4A Hunan Premium
+Teng Chong Re Hai,Zi_Ran_Qi_Guan,5A,Bao_Shan_Shi,Yunnan,78.0,Premium,314,Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Bao_Shan_Shi Bao_Shan_Shi 5A Yunnan Premium
+Teng Wang Ge,Historical_Architecture,5A,Nan_Chang_Shi,Jiangxi,50.0,Premium,315,Historical_Architecture Historical_Architecture Historical_Architecture Nan_Chang_Shi Nan_Chang_Shi 5A Jiangxi Premium
+Tian Men Lu Yu Gu Li,Historical_Culture,4A,Tian_Men_Shi,Hubei,60.0,Premium,316,Historical_Culture Historical_Culture Historical_Culture Tian_Men_Shi Tian_Men_Shi 4A Hubei Premium
+Tian Men Shan,Natural_Scenery,5A,Zhang_Jia_Jie_Shi,Hunan,258.0,Premium,317,Natural_Scenery Natural_Scenery Natural_Scenery Zhang_Jia_Jie_Shi Zhang_Jia_Jie_Shi 5A Hunan Premium
+Tian Mu Hu,Natural_Scenery,5A,Chang_Zhou_Shi,Jiangsu,180.0,Premium,318,Natural_Scenery Natural_Scenery Natural_Scenery Chang_Zhou_Shi Chang_Zhou_Shi 5A Jiangsu Premium
+Tian Tai Shan,Natural_Culture,5A,Tai_Zhou_Shi,Zhejiang,65.0,Premium,319,Natural_Culture Natural_Culture Natural_Culture Tai_Zhou_Shi Tai_Zhou_Shi 5A Zhejiang Premium
+Tian Tan Gong Yuan,Historical_Culture,5A,Beijing,Beijing,15.0,Premium,320,Historical_Culture Historical_Culture Historical_Culture Beijing Beijing 5A Beijing Premium
+Tian Tang Zhai,Natural_Scenery,5A,Lu_An_Shi,Anhui,115.0,Premium,321,Natural_Scenery Natural_Scenery Natural_Scenery Lu_An_Shi Lu_An_Shi 5A Anhui Premium
+Tian Xia Di Yi Quan,Natural_Scenery,5A,Ji_Nan_Shi,Shandong,40.0,Premium,322,Natural_Scenery Natural_Scenery Natural_Scenery Ji_Nan_Shi Ji_Nan_Shi 5A Shandong Premium
+Tian Ya Hai Jiao,Natural_Scenery,4A,San_Ya_Shi,Hainan,81.0,Premium,323,Natural_Scenery Natural_Scenery Natural_Scenery San_Ya_Shi San_Ya_Shi 4A Hainan Premium
+Tian Zhu Shan,Natural_Scenery,5A,An_Qing_Shi,Anhui,130.0,Premium,324,Natural_Scenery Natural_Scenery Natural_Scenery An_Qing_Shi An_Qing_Shi 5A Anhui Premium
+Tian Zi Fang,Wen_Hua_Yi_Shu,3A,Shanghai,Shanghai,0.0,MidRange,325,Wen_Hua_Yi_Shu Wen_Hua_Yi_Shu Wen_Hua_Yi_Shu Shanghai Shanghai 3A Shanghai MidRange
+Tie Ling Long Shou Shan,Natural_Scenery,4A,Tie_Ling_Shi,Liaoning,0.0,MidRange,326,Natural_Scenery Natural_Scenery Natural_Scenery Tie_Ling_Shi Tie_Ling_Shi 4A Liaoning MidRange
+Tong Li Gu Zhen,Ancient_Town,5A,Su_Zhou_Shi,Jiangsu,100.0,Premium,327,Ancient_Town Ancient_Town Ancient_Town Su_Zhou_Shi Su_Zhou_Shi 5A Jiangsu Premium
+Tong Ling Tian Jing Hu,Natural_Scenery,4A,Tong_Ling_Shi,Anhui,0.0,MidRange,328,Natural_Scenery Natural_Scenery Natural_Scenery Tong_Ling_Shi Tong_Ling_Shi 4A Anhui MidRange
+Tong Tian Yan,Natural_Culture,4A,Gan_Zhou_Shi,Jiangxi,60.0,Premium,329,Natural_Culture Natural_Culture Natural_Culture Gan_Zhou_Shi Gan_Zhou_Shi 4A Jiangxi Premium
+Wa Huang Gong,Religious_Culture,5A,Han_Dan_Shi,Hebei,70.0,Premium,330,Religious_Culture Religious_Culture Religious_Culture Han_Dan_Shi Han_Dan_Shi 5A Hebei Premium
+Wai Tan,Urban_Landscape,4A,Shanghai,Shanghai,0.0,MidRange,331,Urban_Landscape Urban_Landscape Urban_Landscape Shanghai Shanghai 4A Shanghai MidRange
+Wan Nian Bing Dong,Zi_Ran_Qi_Guan,4A,Xin_Zhou_Shi,Shanxi,120.0,Premium,332,Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Xin_Zhou_Shi Xin_Zhou_Shi 4A Shanxi Premium
+Wan Ning Xing Long Re Dai Zhi Wu Yuan,Botanical_Garden,4A,Wan_Ning_Shi,Hainan,60.0,Premium,333,Botanical_Garden Botanical_Garden Botanical_Garden Wan_Ning_Shi Wan_Ning_Shi 4A Hainan Premium
+Wang Jia Da Yuan,Historical_Architecture,4A,Jin_Zhong_Shi,Shanxi,55.0,Premium,334,Historical_Architecture Historical_Architecture Historical_Architecture Jin_Zhong_Shi Jin_Zhong_Shi 4A Shanxi Premium
+Wei Fang Qing Zhou Gu Cheng,Ancient_Town,5A,Wei_Fang_Shi,Shandong,0.0,MidRange,335,Ancient_Town Ancient_Town Ancient_Town Wei_Fang_Shi Wei_Fang_Shi 5A Shandong MidRange
+Wei Hai Hua Xia Cheng,Theme_Park,5A,Wei_Hai_Shi,Shandong,98.0,Premium,336,Theme_Park Theme_Park Theme_Park Wei_Hai_Shi Wei_Hai_Shi 5A Shandong Premium
+Wei Man Huang Gong Bo Wu Yuan,Historical_Culture,5A,Chang_Chun_Shi,Jilin,70.0,Premium,337,Historical_Culture Historical_Culture Historical_Culture Chang_Chun_Shi Chang_Chun_Shi 5A Jilin Premium
+Wei Zhou Dao,Natural_Scenery,5A,Bei_Hai_Shi,Guangxi,98.0,Premium,338,Natural_Scenery Natural_Scenery Natural_Scenery Bei_Hai_Shi Bei_Hai_Shi 5A Guangxi Premium
+Wen Chang Dong Jiao Ye Lin,Natural_Scenery,3A,Wen_Chang_Shi,Hainan,0.0,MidRange,339,Natural_Scenery Natural_Scenery Natural_Scenery Wen_Chang_Shi Wen_Chang_Shi 3A Hainan MidRange
+Wen Zhou Nan Xi Jiang,Natural_Scenery,4A,Wen_Zhou_Shi,Zhejiang,50.0,Premium,340,Natural_Scenery Natural_Scenery Natural_Scenery Wen_Zhou_Shi Wen_Zhou_Shi 4A Zhejiang Premium
+Wu Da Lian Chi,Zi_Ran_Qi_Guan,5A,Hei_He_Shi,Heilongjiang,60.0,Premium,341,Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Hei_He_Shi Hei_He_Shi 5A Heilongjiang Premium
+Wu Dang Shan,Natural_Culture,5A,Shi_Yan_Shi,Hubei,243.0,Premium,342,Natural_Culture Natural_Culture Natural_Culture Shi_Yan_Shi Shi_Yan_Shi 5A Hubei Premium
+Wu Gong Shan,Natural_Scenery,5A,Ping_Xiang_Shi,Jiangxi,70.0,Premium,343,Natural_Scenery Natural_Scenery Natural_Scenery Ping_Xiang_Shi Ping_Xiang_Shi 5A Jiangxi Premium
+Wu Hou Ci,Historical_Culture,4A,Cheng_Du_Shi,Sichuan,60.0,Premium,344,Historical_Culture Historical_Culture Historical_Culture Cheng_Du_Shi Cheng_Du_Shi 4A Sichuan Premium
+Wu Qiao Za Ji Da Shi Jie,Theme_Park,4A,Cang_Zhou_Shi,Hebei,120.0,Premium,345,Theme_Park Theme_Park Theme_Park Cang_Zhou_Shi Cang_Zhou_Shi 4A Hebei Premium
+Wu Song Dao,Zi_Ran_Qi_Guan,4A,Ji_Lin_Shi,Jilin,60.0,Premium,346,Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Zi_Ran_Qi_Guan Ji_Lin_Shi Ji_Lin_Shi 4A Jilin Premium
+Wu Tai Shan,Religious_Culture,5A,Xin_Zhou_Shi,Shanxi,135.0,Premium,347,Religious_Culture Religious_Culture Religious_Culture Xin_Zhou_Shi Xin_Zhou_Shi 5A Shanxi Premium
+Wu Xi Ying Shi Ji Di,Theme_Park,5A,Wu_Xi_Shi,Jiangsu,150.0,Premium,348,Theme_Park Theme_Park Theme_Park Wu_Xi_Shi Wu_Xi_Shi 5A Jiangsu Premium
+Wu Yi Shan,Natural_Culture,5A,Nan_Ping_Shi,Fujian,140.0,Premium,349,Natural_Culture Natural_Culture Natural_Culture Nan_Ping_Shi Nan_Ping_Shi 5A Fujian Premium
+Wu Yuan,Natural_Scenery,5A,Shang_Rao_Shi,Jiangxi,210.0,Premium,350,Natural_Scenery Natural_Scenery Natural_Scenery Shang_Rao_Shi Shang_Rao_Shi 5A Jiangxi Premium
+Wu Zhen,Ancient_Town,5A,Jia_Xing_Shi,Zhejiang,150.0,Premium,351,Ancient_Town Ancient_Town Ancient_Town Jia_Xing_Shi Jia_Xing_Shi 5A Zhejiang Premium
+Wu Zhi Zhou Dao,Natural_Scenery,5A,San_Ya_Shi,Hainan,144.0,Premium,352,Natural_Scenery Natural_Scenery Natural_Scenery San_Ya_Shi San_Ya_Shi 5A Hainan Premium
+Wu Zhou Qi Lou Cheng,Historical_Culture,4A,Wu_Zhou_Shi,Guangxi,0.0,MidRange,353,Historical_Culture Historical_Culture Historical_Culture Wu_Zhou_Shi Wu_Zhou_Shi 4A Guangxi MidRange
+Xi An Cheng Qiang,Historical_Architecture,5A,Xi_An_Shi,Shaanxi,54.0,Premium,354,Historical_Architecture Historical_Architecture Historical_Architecture Xi_An_Shi Xi_An_Shi 5A Shaanxi Premium
+Xi An Zhong Gu Lou,Historical_Architecture,4A,Xi_An_Shi,Shaanxi,50.0,Premium,355,Historical_Architecture Historical_Architecture Historical_Architecture Xi_An_Shi Xi_An_Shi 4A Shaanxi Premium
+Xi Bai Po,Revolutionary_Site,5A,Shi_Jia_Zhuang_Shi,Hebei,0.0,MidRange,356,Revolutionary_Site Revolutionary_Site Revolutionary_Site Shi_Jia_Zhuang_Shi Shi_Jia_Zhuang_Shi 5A Hebei MidRange
+Xi Di Hong Cun,Ancient_Town,5A,Huang_Shan_Shi,Anhui,104.0,Premium,357,Ancient_Town Ancient_Town Ancient_Town Huang_Shan_Shi Huang_Shan_Shi 5A Anhui Premium
+Xi Ling Xue Shan,Natural_Scenery,4A,Cheng_Du_Shi,Sichuan,120.0,Premium,358,Natural_Scenery Natural_Scenery Natural_Scenery Cheng_Du_Shi Cheng_Du_Shi 4A Sichuan Premium
+Xi Qiao Shan,Natural_Culture,5A,Fo_Shan_Shi,Guangdong,55.0,Premium,359,Natural_Culture Natural_Culture Natural_Culture Fo_Shan_Shi Fo_Shan_Shi 5A Guangdong Premium
+Xi Shuang Ban Na Re Dai Zhi Wu Yuan,Botanical_Garden,5A,Xi_Shuang_Ban_Na_Zhou,Yunnan,80.0,Premium,360,Botanical_Garden Botanical_Garden Botanical_Garden Xi_Shuang_Ban_Na_Zhou Xi_Shuang_Ban_Na_Zhou 5A Yunnan Premium
+Xi Shuang Ban Na Ye Xiang Gu,Natural_Scenery,4A,Xi_Shuang_Ban_Na_Zhou,Yunnan,60.0,Premium,361,Natural_Scenery Natural_Scenery Natural_Scenery Xi_Shuang_Ban_Na_Zhou Xi_Shuang_Ban_Na_Zhou 4A Yunnan Premium
+Xi Tang Gu Zhen,Ancient_Town,5A,Jia_Xing_Shi,Zhejiang,95.0,Premium,362,Ancient_Town Ancient_Town Ancient_Town Jia_Xing_Shi Jia_Xing_Shi 5A Zhejiang Premium
+Xia Men Ceng Cuo An,Historical_Culture,3A,Xia_Men_Shi,Fujian,0.0,MidRange,363,Historical_Culture Historical_Culture Historical_Culture Xia_Men_Shi Xia_Men_Shi 3A Fujian MidRange
+Xia Men Yuan Lin Zhi Wu Yuan,Botanical_Garden,4A,Xia_Men_Shi,Fujian,40.0,Premium,364,Botanical_Garden Botanical_Garden Botanical_Garden Xia_Men_Shi Xia_Men_Shi 4A Fujian Premium
+Xian Ning Jiu Gong Shan,Natural_Scenery,4A,Xian_Ning_Shi,Hubei,60.0,Premium,365,Natural_Scenery Natural_Scenery Natural_Scenery Xian_Ning_Shi Xian_Ning_Shi 4A Hubei Premium
+Xian Nv Hu,Natural_Scenery,4A,Xin_Yu_Shi,Jiangxi,90.0,Premium,366,Natural_Scenery Natural_Scenery Natural_Scenery Xin_Yu_Shi Xin_Yu_Shi 4A Jiangxi Premium
+Xian Tao Meng Li Shui Xiang,Natural_Scenery,4A,Xian_Tao_Shi,Hubei,100.0,Premium,367,Natural_Scenery Natural_Scenery Natural_Scenery Xian_Tao_Shi Xian_Tao_Shi 4A Hubei Premium
+Xiang Ge Li La,Natural_Culture,5A,Di_Qing_Zhou,Yunnan,0.0,MidRange,368,Natural_Culture Natural_Culture Natural_Culture Di_Qing_Zhou Di_Qing_Zhou 5A Yunnan MidRange
+Xiang Hai Zi Ran Bao Hu Qu,Natural_Scenery,4A,Bai_Cheng_Shi,Jilin,70.0,Premium,369,Natural_Scenery Natural_Scenery Natural_Scenery Bai_Cheng_Shi Bai_Cheng_Shi 4A Jilin Premium
+Xiang Shan Gong Yuan,Natural_Scenery,4A,Beijing,Beijing,10.0,Premium,370,Natural_Scenery Natural_Scenery Natural_Scenery Beijing Beijing 4A Beijing Premium
+Xiang Yang Gu Long Zhong,Historical_Culture,5A,Xiang_Yang_Shi,Hubei,87.0,Premium,371,Historical_Culture Historical_Culture Historical_Culture Xiang_Yang_Shi Xiang_Yang_Shi 5A Hubei Premium
+Xiao Gan Shuang Feng Shan,Natural_Scenery,4A,Xiao_Gan_Shi,Hubei,45.0,Premium,372,Natural_Scenery Natural_Scenery Natural_Scenery Xiao_Gan_Shi Xiao_Gan_Shi 4A Hubei Premium
+Xiao Lang Di,Shui_Li_Gong_Cheng,4A,Luo_Yang_Shi,Henan,40.0,Premium,373,Shui_Li_Gong_Cheng Shui_Li_Gong_Cheng Shui_Li_Gong_Cheng Luo_Yang_Shi Luo_Yang_Shi 4A Henan Premium
+Xing Tai Da Xia Gu,Natural_Scenery,4A,Xing_Tai_Shi,Hebei,50.0,Premium,374,Natural_Scenery Natural_Scenery Natural_Scenery Xing_Tai_Shi Xing_Tai_Shi 4A Hebei Premium
+Xu Zhou Yun Long Hu,Natural_Scenery,5A,Xu_Zhou_Shi,Jiangsu,0.0,MidRange,375,Natural_Scenery Natural_Scenery Natural_Scenery Xu_Zhou_Shi Xu_Zhou_Shi 5A Jiangsu MidRange
+Xuan Kong Si,Religious_Culture,4A,Da_Tong_Shi,Shanxi,125.0,Premium,376,Religious_Culture Religious_Culture Religious_Culture Da_Tong_Shi Da_Tong_Shi 4A Shanxi Premium
+Ya Bu Li Hua Xue Chang,Sports_&_Leisure,4A,Ha_Er_Bin_Shi,Heilongjiang,180.0,Premium,377,Sports_&_Leisure Sports_&_Leisure Sports_&_Leisure Ha_Er_Bin_Shi Ha_Er_Bin_Shi 4A Heilongjiang Premium
+Ya Lu Jiang Duan Qiao,Revolutionary_Site,4A,Dan_Dong_Shi,Liaoning,30.0,Premium,378,Revolutionary_Site Revolutionary_Site Revolutionary_Site Dan_Dong_Shi Dan_Dong_Shi 4A Liaoning Premium
+Ya Nuo Da Yu Lin,Natural_Scenery,5A,San_Ya_Shi,Hainan,168.0,Premium,379,Natural_Scenery Natural_Scenery Natural_Scenery San_Ya_Shi San_Ya_Shi 5A Hainan Premium
+Yan An Ge Ming Ji Nian Guan,Revolutionary_Site,5A,Yan_An_Shi,Shaanxi,0.0,MidRange,380,Revolutionary_Site Revolutionary_Site Revolutionary_Site Yan_An_Shi Yan_An_Shi 5A Shaanxi MidRange
+Yan Bian Chao Xian Zu Min Su Yuan,Min_Su_Wen_Hua,4A,Yan_Bian_Zhou,Jilin,30.0,Premium,381,Min_Su_Wen_Hua Min_Su_Wen_Hua Min_Su_Wen_Hua Yan_Bian_Zhou Yan_Bian_Zhou 4A Jilin Premium
+Yan Cheng Dan Ding He Shi Di,Natural_Scenery,4A,Yan_Cheng_Shi,Jiangsu,45.0,Premium,382,Natural_Scenery Natural_Scenery Natural_Scenery Yan_Cheng_Shi Yan_Cheng_Shi 4A Jiangsu Premium
+Yan Dang Shan,Natural_Scenery,5A,Wen_Zhou_Shi,Zhejiang,90.0,Premium,383,Natural_Scenery Natural_Scenery Natural_Scenery Wen_Zhou_Shi Wen_Zhou_Shi 5A Zhejiang Premium
+Yan Di Ling,Historical_Culture,5A,Zhu_Zhou_Shi,Hunan,60.0,Premium,384,Historical_Culture Historical_Culture Historical_Culture Zhu_Zhou_Shi Zhu_Zhou_Shi 5A Hunan Premium
+Yan Men Guan,Historical_Culture,5A,Xin_Zhou_Shi,Shanxi,90.0,Premium,385,Historical_Culture Historical_Culture Historical_Culture Xin_Zhou_Shi Xin_Zhou_Shi 5A Shanxi Premium
+Yan Tai Shan,Natural_Scenery,4A,Yan_Tai_Shi,Shandong,50.0,Premium,386,Natural_Scenery Natural_Scenery Natural_Scenery Yan_Tai_Shi Yan_Tai_Shi 4A Shandong Premium
+Yang Shuo Xi Jie,Ancient_Town,4A,Gui_Lin_Shi,Guangxi,0.0,MidRange,387,Ancient_Town Ancient_Town Ancient_Town Gui_Lin_Shi Gui_Lin_Shi 4A Guangxi MidRange
+Ye San Po,Natural_Scenery,5A,Bao_Ding_Shi,Hebei,100.0,Premium,388,Natural_Scenery Natural_Scenery Natural_Scenery Bao_Ding_Shi Bao_Ding_Shi 5A Hebei Premium
+Yi Chun Wu Ying Guo Jia Sen Lin Gong Yuan,Natural_Scenery,4A,Yi_Chun_Shi,Heilongjiang,60.0,Premium,389,Natural_Scenery Natural_Scenery Natural_Scenery Yi_Chun_Shi Yi_Chun_Shi 4A Heilongjiang Premium
+Yi He Yuan,Historical_Culture,5A,Beijing,Beijing,30.0,Premium,390,Historical_Culture Historical_Culture Historical_Culture Beijing Beijing 5A Beijing Premium
+Yi Meng Shan,Natural_Scenery,5A,Lin_Yi_Shi,Shandong,70.0,Premium,391,Natural_Scenery Natural_Scenery Natural_Scenery Lin_Yi_Shi Lin_Yi_Shi 5A Shandong Premium
+Yin Xu,Historical_Site,5A,An_Yang_Shi,Henan,70.0,Premium,392,Historical_Site Historical_Site Historical_Site An_Yang_Shi An_Yang_Shi 5A Henan Premium
+Ying Hu,Natural_Scenery,4A,An_Kang_Shi,Shaanxi,70.0,Premium,393,Natural_Scenery Natural_Scenery Natural_Scenery An_Kang_Shi An_Kang_Shi 4A Shaanxi Premium
+Ying Kou Ba Yu Quan,Natural_Scenery,4A,Ying_Kou_Shi,Liaoning,0.0,MidRange,394,Natural_Scenery Natural_Scenery Natural_Scenery Ying_Kou_Shi Ying_Kou_Shi 4A Liaoning MidRange
+Yong He Gong,Religious_Culture,4A,Beijing,Beijing,25.0,Premium,395,Religious_Culture Religious_Culture Religious_Culture Beijing Beijing 4A Beijing Premium
+Yu Lin Yun Tian Wen Hua Cheng,Theme_Park,4A,Yu_Lin_Shi,Guangxi,150.0,Premium,396,Theme_Park Theme_Park Theme_Park Yu_Lin_Shi Yu_Lin_Shi 4A Guangxi Premium
+Yu Long Xue Shan,Natural_Scenery,5A,Li_Jiang_Shi,Yunnan,130.0,Premium,397,Natural_Scenery Natural_Scenery Natural_Scenery Li_Jiang_Shi Li_Jiang_Shi 5A Yunnan Premium
+Yu Yuan,Historical_Architecture,4A,Shanghai,Shanghai,40.0,Premium,398,Historical_Architecture Historical_Architecture Historical_Architecture Shanghai Shanghai 4A Shanghai Premium
+Yuan Ming Yuan Yi Zhi Gong Yuan,Historical_Site,4A,Beijing,Beijing,25.0,Premium,399,Historical_Site Historical_Site Historical_Site Beijing Beijing 4A Beijing Premium
+Yuan Tou Zhu,Natural_Scenery,5A,Wu_Xi_Shi,Jiangsu,90.0,Premium,400,Natural_Scenery Natural_Scenery Natural_Scenery Wu_Xi_Shi Wu_Xi_Shi 5A Jiangsu Premium
+Yuan Yang Ti Tian,Natural_Scenery,4A,Hong_He_Zhou,Yunnan,70.0,Premium,401,Natural_Scenery Natural_Scenery Natural_Scenery Hong_He_Zhou Hong_He_Zhou 4A Yunnan Premium
+Yue Lu Shan,Natural_Culture,5A,Chang_Sha_Shi,Hunan,0.0,MidRange,402,Natural_Culture Natural_Culture Natural_Culture Chang_Sha_Shi Chang_Sha_Shi 5A Hunan MidRange
+Yue Yang Jun Shan Dao,Natural_Scenery,5A,Yue_Yang_Shi,Hunan,78.0,Premium,403,Natural_Scenery Natural_Scenery Natural_Scenery Yue_Yang_Shi Yue_Yang_Shi 5A Hunan Premium
+Yue Yang Lou,Historical_Architecture,5A,Yue_Yang_Shi,Hunan,70.0,Premium,404,Historical_Architecture Historical_Architecture Historical_Architecture Yue_Yang_Shi Yue_Yang_Shi 5A Hunan Premium
+Yun Cheng Yan Hu,Natural_Scenery,4A,Yun_Cheng_Shi,Shanxi,30.0,Premium,405,Natural_Scenery Natural_Scenery Natural_Scenery Yun_Cheng_Shi Yun_Cheng_Shi 4A Shanxi Premium
+Yun Gang Shi Ku,Historical_Culture,5A,Da_Tong_Shi,Shanxi,120.0,Premium,406,Historical_Culture Historical_Culture Historical_Culture Da_Tong_Shi Da_Tong_Shi 5A Shanxi Premium
+Yun Nan Min Zu Cun,Theme_Park,4A,Kun_Ming_Shi,Yunnan,90.0,Premium,407,Theme_Park Theme_Park Theme_Park Kun_Ming_Shi Kun_Ming_Shi 4A Yunnan Premium
+Yun Tai Shan,Natural_Scenery,5A,Jiao_Zuo_Shi,Henan,120.0,Premium,408,Natural_Scenery Natural_Scenery Natural_Scenery Jiao_Zuo_Shi Jiao_Zuo_Shi 5A Henan Premium
+Zha Long Zi Ran Bao Hu Qu,Natural_Scenery,4A,Qi_Qi_Ha_Er_Shi,Heilongjiang,65.0,Premium,409,Natural_Scenery Natural_Scenery Natural_Scenery Qi_Qi_Ha_Er_Shi Qi_Qi_Ha_Er_Shi 4A Heilongjiang Premium
+Zhan Jiang Hu Guang Yan,Natural_Scenery,4A,Zhan_Jiang_Shi,Guangdong,50.0,Premium,410,Natural_Scenery Natural_Scenery Natural_Scenery Zhan_Jiang_Shi Zhan_Jiang_Shi 4A Guangdong Premium
+Zhang Jia Jie Wu Ling Yuan,Natural_Scenery,5A,Zhang_Jia_Jie_Shi,Hunan,225.0,Premium,411,Natural_Scenery Natural_Scenery Natural_Scenery Zhang_Jia_Jie_Shi Zhang_Jia_Jie_Shi 5A Hunan Premium
+Zhang Jia Kou Da Jing Men,Historical_Culture,4A,Zhang_Jia_Kou_Shi,Hebei,20.0,Premium,412,Historical_Culture Historical_Culture Historical_Culture Zhang_Jia_Kou_Shi Zhang_Jia_Kou_Shi 4A Hebei Premium
+Zhang Zhou Dong Shan Dao,Natural_Scenery,4A,Zhang_Zhou_Shi,Fujian,60.0,Premium,413,Natural_Scenery Natural_Scenery Natural_Scenery Zhang_Zhou_Shi Zhang_Zhou_Shi 4A Fujian Premium
+Zhao Qing Xing Hu,Natural_Scenery,5A,Zhao_Qing_Shi,Guangdong,78.0,Premium,414,Natural_Scenery Natural_Scenery Natural_Scenery Zhao_Qing_Shi Zhao_Qing_Shi 5A Guangdong Premium
+Zhao Yang Feng Huang Shan,Natural_Culture,4A,Zhao_Yang_Shi,Liaoning,60.0,Premium,415,Natural_Culture Natural_Culture Natural_Culture Zhao_Yang_Shi Zhao_Yang_Shi 4A Liaoning Premium
+Zhao Zhou Qiao,Historical_Architecture,4A,Shi_Jia_Zhuang_Shi,Hebei,40.0,Premium,416,Historical_Architecture Historical_Architecture Historical_Architecture Shi_Jia_Zhuang_Shi Shi_Jia_Zhuang_Shi 4A Hebei Premium
+Zheng Ding Long Xing Si,Religious_Culture,4A,Shi_Jia_Zhuang_Shi,Hebei,50.0,Premium,417,Religious_Culture Religious_Culture Religious_Culture Shi_Jia_Zhuang_Shi Shi_Jia_Zhuang_Shi 4A Hebei Premium
+Zhong Du Gou,Natural_Scenery,4A,Luo_Yang_Shi,Henan,120.0,Premium,418,Natural_Scenery Natural_Scenery Natural_Scenery Luo_Yang_Shi Luo_Yang_Shi 4A Henan Premium
+Zhong Guo Ke Ji Guan,Ke_Pu_Jiao_Yu,4A,Beijing,Beijing,30.0,Premium,419,Ke_Pu_Jiao_Yu Ke_Pu_Jiao_Yu Ke_Pu_Jiao_Yu Beijing Beijing 4A Beijing Premium
+Zhong Guo Xue Xiang,Natural_Scenery,4A,Mu_Dan_Jiang_Shi,Heilongjiang,120.0,Premium,420,Natural_Scenery Natural_Scenery Natural_Scenery Mu_Dan_Jiang_Shi Mu_Dan_Jiang_Shi 4A Heilongjiang Premium
+Zhong Nan Shan,Natural_Culture,4A,Xi_An_Shi,Shaanxi,65.0,Premium,421,Natural_Culture Natural_Culture Natural_Culture Xi_An_Shi Xi_An_Shi 4A Shaanxi Premium
+Zhong Shan Ling,Revolutionary_Site,5A,Nan_Jing_Shi,Jiangsu,0.0,MidRange,422,Revolutionary_Site Revolutionary_Site Revolutionary_Site Nan_Jing_Shi Nan_Jing_Shi 5A Jiangsu MidRange
+Zhong Shan Sun Zhong Shan Gu Ju,Revolutionary_Site,5A,Zhong_Shan_Shi,Guangdong,0.0,MidRange,423,Revolutionary_Site Revolutionary_Site Revolutionary_Site Zhong_Shan_Shi Zhong_Shan_Shi 5A Guangdong MidRange
+Zhong Yang Da Jie,Historical_Culture,4A,Ha_Er_Bin_Shi,Heilongjiang,0.0,MidRange,424,Historical_Culture Historical_Culture Historical_Culture Ha_Er_Bin_Shi Ha_Er_Bin_Shi 4A Heilongjiang MidRange
+Zhou Shan Zhu Jia Jian,Natural_Scenery,4A,Zhou_Shan_Shi,Zhejiang,120.0,Premium,425,Natural_Scenery Natural_Scenery Natural_Scenery Zhou_Shan_Shi Zhou_Shan_Shi 4A Zhejiang Premium
+Zhou Zhuang Gu Zhen,Ancient_Town,5A,Su_Zhou_Shi,Jiangsu,100.0,Premium,426,Ancient_Town Ancient_Town Ancient_Town Su_Zhou_Shi Su_Zhou_Shi 5A Jiangsu Premium
+Zhu Hai Zhang Long Hai Yang Wang Guo,Theme_Park,5A,Zhu_Hai_Shi,Guangdong,395.0,Premium,427,Theme_Park Theme_Park Theme_Park Zhu_Hai_Shi Zhu_Hai_Shi 5A Guangdong Premium
+Zhu Jia Jiao Gu Zhen,Ancient_Town,4A,Shanghai,Shanghai,60.0,Premium,428,Ancient_Town Ancient_Town Ancient_Town Shanghai Shanghai 4A Shanghai Premium
+Zi Bo Zhou Cun Gu Shang Cheng,Ancient_Town,4A,Zi_Bo_Shi,Shandong,70.0,Premium,429,Ancient_Town Ancient_Town Ancient_Town Zi_Bo_Shi Zi_Bo_Shi 4A Shandong Premium
+Zi Que Jie Ti Tian,Natural_Scenery,4A,Lou_Di_Shi,Hunan,68.0,Premium,430,Natural_Scenery Natural_Scenery Natural_Scenery Lou_Di_Shi Lou_Di_Shi 4A Hunan Premium
