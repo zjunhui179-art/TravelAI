@@ -1259,8 +1259,8 @@ try:
             {
                 "name": "Neural Network",
                 "sub": "Deep Learning Model",
-                "pill": "🏆 Top Performer",
-                "is_best": True, 
+                "pill": "Deep Learning",
+                "is_best": False, 
                 "metrics": [
                     ("Accuracy", "88.95%", 88.9), 
                     ("Class F1", "94.00%", 94.0),
@@ -1282,8 +1282,8 @@ try:
             {
                 "name": "Hybrid Ensemble",
                 "sub": "Multi-Model Architecture",
-                "pill": "comprehensive",
-                "is_best": False,
+                "pill": "🏆 Top Performer",
+                "is_best": True,
                 "metrics": [
                     ("Accuracy", "89.63%", 89.6), 
                     ("Class F1", "94.52%", 94.5),
