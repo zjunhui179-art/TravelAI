@@ -1251,7 +1251,7 @@ try:
                 "pill": "metadata / categories",
                 "is_best": False,
                 "metrics": [
-                    ("Accuracy", "87.74%", 87.7), 
+                    ("Accuracy", "87.75%", 87.7), 
                     ("Class F1", "93.22%", 93.2),
                     ("RMSE", "0.3475", 55), 
                     ("MAE", "0.2852", 55), 
