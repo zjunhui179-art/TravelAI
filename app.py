@@ -339,89 +339,111 @@ def load_all_data_v2():
 # =========================================================================
 
 # =========================================================================
-# START PART 6: MAIN APPLICATION EXECUTION
+# START PART 6.1: RECOMMENDATION ENGINE LOGIC (REFACTORED)
 # =========================================================================
-try:
-    df_raw, attr_meta, eval_metrics_df, matrices, idx_to_item, user_to_idx, train_seen, ml_ready, attraction_spend_map = load_all_data_v2()
+def generate_recommendations(tourist_id, selected_model, age, province, category, duration,
+                             spend_range, min_rating, season, top_n=8):
+    filtered = df_raw.copy()
+    
+    # 1. Real-time User Preferences (Contextual Inputs)
+    if age != "Ignore": 
+        filtered = filtered[filtered['age_group'] == age]
+    if province != "Ignore": 
+        filtered = filtered[filtered['province'] == province]
+    if category != "Ignore": 
+        filtered = filtered[filtered['attraction_category'] == category]
+    if season != "Ignore": 
+        filtered = filtered[filtered['season'] == season]
 
-    # =========================================================================
-    # START PART 6.1: RECOMMENDATION ENGINE LOGIC
-    # =========================================================================
-    def generate_recommendations(tourist_id, selected_model, age, province, category, duration,
-                                 spend_range, min_rating, season, top_n=8):
-        filtered = df_raw.copy()
-        if age != "Ignore": filtered = filtered[filtered['age_group'] == age]
-        if province != "Ignore": filtered = filtered[filtered['province'] == province]
-        if category != "Ignore": filtered = filtered[filtered['attraction_category'] == category]
-        if duration != "Ignore":
-            if duration == "Short (1-3 hours)": filtered = filtered[filtered['visit_duration_hours'] <= 3]
-            elif duration == "Medium (3-5 hours)": filtered = filtered[(filtered['visit_duration_hours'] > 3) & (filtered['visit_duration_hours'] <= 5)]
-            elif duration == "Long (5+ hours)": filtered = filtered[filtered['visit_duration_hours'] > 5]
-        if season != "Ignore": filtered = filtered[filtered['season'] == season]
-        
-        # Spend amount filter (range)
-        if spend_range is not None:
-            min_spend, max_spend = spend_range
-            attraction_avg_spend = df_raw.groupby('attraction_name')['spend_amount'].mean()
-            valid_spend_attractions = attraction_avg_spend[
-                (attraction_avg_spend >= min_spend) & (attraction_avg_spend <= max_spend)
-            ].index
-            filtered = filtered[filtered['attraction_name'].isin(valid_spend_attractions)]
-            
-        # Minimum rating filter
-        if min_rating is not None:
-            filtered = filtered[filtered['rating'] >= min_rating]
-            
-        valid_candidates = set(filtered['attraction_name'].unique())
-        
-        if not valid_candidates:
-            return [], False
+    # 2. Item-Level Historical Aggregations (Prevents Row-Level Post-Visit Data Leakage)
+    # Compute static/historical item metrics across past visits
+    item_stats = df_raw.groupby('attraction_name').agg(
+        historical_avg_spend=('spend_amount', 'mean'),
+        historical_avg_duration=('visit_duration_hours', 'mean'),
+        historical_avg_rating=('rating', 'mean')
+    ).reset_index()
 
-        if tourist_id is not None and ml_ready and tourist_id in user_to_idx and selected_model in matrices:
-            user_idx = user_to_idx[tourist_id]
-            selected_matrix = matrices[selected_model]
-            scores = selected_matrix[user_idx].copy()
-            min_score, max_score = scores.min(), scores.max()
-            
-            if max_score > 5.0 or min_score < 0.0:
-                if max_score > min_score: 
-                    scores = 1.0 + 4.0 * ((scores - min_score) / (max_score - min_score))
-                else: 
-                    scores = np.full_like(scores, 5.0)
-            else:
-                scores = np.clip(scores, 1.0, 5.0)
-            seen_indices = train_seen.get(user_idx, set())
-            
-            recs = []
-            for item_idx, item_name in idx_to_item.items():
-                if item_idx in seen_indices: continue 
-                if item_name in valid_candidates:
-                    recs.append((item_name, scores[item_idx]))
-                    
-            recs.sort(key=lambda x: x[1], reverse=True)
-            top_recs = recs[:top_n]
-            if top_recs:
-                max_score, min_score = top_recs[0][1], top_recs[-1][1]
-                final_recs = []
-                for name, score in top_recs:
-                    if max_score > min_score:
-                        match_pct = 80 + 19 * ((score - min_score) / (max_score - min_score))
-                    else:
-                        match_pct = 95.0 
-                    final_recs.append((name, match_pct))
-                return final_recs, True
-            return recs[:top_n], True
-            
-        grouped = filtered.groupby('attraction_name').agg(
-            avg_rating=('rating', 'mean'), visit_count=('rating', 'count')
-        ).reset_index()
+    # Apply Duration constraint against Item Historical/Estimated Duration (NOT raw target visit_duration_hours)
+    if duration != "Ignore":
+        if duration == "Short (1-3 hours)":
+            valid_dur_items = item_stats[item_stats['historical_avg_duration'] <= 3]['attraction_name']
+        elif duration == "Medium (3-5 hours)":
+            valid_dur_items = item_stats[(item_stats['historical_avg_duration'] > 3) & (item_stats['historical_avg_duration'] <= 5)]['attraction_name']
+        elif duration == "Long (5+ hours)":
+            valid_dur_items = item_stats[item_stats['historical_avg_duration'] > 5]['attraction_name']
         
-        top_spots = grouped.sort_values(by=['avg_rating', 'visit_count'], ascending=[False, False]).head(top_n)
-        recs = [(row['attraction_name'], row['avg_rating']) for _, row in top_spots.iterrows()]
-        return recs, False
-    # =========================================================================
-    # END PART 6.1: RECOMMENDATION ENGINE LOGIC
-    # =========================================================================
+        filtered = filtered[filtered['attraction_name'].isin(valid_dur_items)]
+
+    # Apply Spend Budget filter against Item Historical Average Spend
+    if spend_range is not None:
+        min_spend, max_spend = spend_range
+        valid_spend_items = item_stats[
+            (item_stats['historical_avg_spend'] >= min_spend) & 
+            (item_stats['historical_avg_spend'] <= max_spend)
+        ]['attraction_name']
+        filtered = filtered[filtered['attraction_name'].isin(valid_spend_items)]
+
+    # Apply Rating Filter against Item Historical Average Rating
+    if min_rating is not None:
+        valid_rating_items = item_stats[item_stats['historical_avg_rating'] >= min_rating]['attraction_name']
+        filtered = filtered[filtered['attraction_name'].isin(valid_rating_items)]
+
+    valid_candidates = set(filtered['attraction_name'].unique())
+
+    if not valid_candidates:
+        return [], False
+
+    # 3. Model Scoring Pipeline
+    if tourist_id is not None and ml_ready and tourist_id in user_to_idx and selected_model in matrices:
+        user_idx = user_to_idx[tourist_id]
+        selected_matrix = matrices[selected_model]
+        scores = selected_matrix[user_idx].copy()
+        
+        min_score, max_score = scores.min(), scores.max()
+        if max_score > 5.0 or min_score < 0.0:
+            if max_score > min_score: 
+                scores = 1.0 + 4.0 * ((scores - min_score) / (max_score - min_score))
+            else: 
+                scores = np.full_like(scores, 5.0)
+        else:
+            scores = np.clip(scores, 1.0, 5.0)
+            
+        seen_indices = train_seen.get(user_idx, set())
+        
+        recs = []
+        for item_idx, item_name in idx_to_item.items():
+            if item_idx in seen_indices: 
+                continue 
+            if item_name in valid_candidates:
+                recs.append((item_name, scores[item_idx]))
+                
+        recs.sort(key=lambda x: x[1], reverse=True)
+        top_recs = recs[:top_n]
+        
+        if top_recs:
+            max_s, min_s = top_recs[0][1], top_recs[-1][1]
+            final_recs = []
+            for name, score in top_recs:
+                if max_s > min_s:
+                    match_pct = 80 + 19 * ((score - min_s) / (max_s - min_s))
+                else:
+                    match_pct = 95.0 
+                final_recs.append((name, match_pct))
+            return final_recs, True
+        return recs[:top_n], True
+
+    # Fallback Popularity Baseline
+    grouped = filtered.groupby('attraction_name').agg(
+        avg_rating=('rating', 'mean'), 
+        visit_count=('rating', 'count')
+    ).reset_index()
+
+    top_spots = grouped.sort_values(by=['avg_rating', 'visit_count'], ascending=[False, False]).head(top_n)
+    recs = [(row['attraction_name'], row['avg_rating']) for _, row in top_spots.iterrows()]
+    return recs, False
+# =========================================================================
+# END PART 6.1: RECOMMENDATION ENGINE LOGIC
+# =========================================================================
 
     # =========================================================================
     # START PART 6.2: SIDEBAR & ALGORITHM SELECTION
