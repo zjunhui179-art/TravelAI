@@ -347,17 +347,7 @@ try:
     # =========================================================================
     # START PART 6.1: RECOMMENDATION ENGINE LOGIC
     # =========================================================================
-    def match_persona(df_raw, selected_age, selected_province, selected_category, selected_season):
-        """
-        Finds a representative historical tourist_id matching the user's stated
-        preferences, without over-relying on age_group as the sole key.
-
-        Returns (active_id, mode):
-        "popularity"    -> no filters set at all
-        "full_match"    -> a traveler matches every filter the user set
-        "partial_match" -> no exact match; filters relaxed until a match was found
-        "cold_start"    -> no historical traveler resembles this combo at all
-        """
+    def match_persona(df_raw, selected_age, selected_province, selected_category, selected_season, user_to_idx, ml_ready):
         filters = {
             'age_group': selected_age,
             'province': selected_province,
@@ -365,39 +355,40 @@ try:
             'season': selected_season,
         }
         active_filters = {k: v for k, v in filters.items() if v != "Ignore"}
-
+    
         if not active_filters:
             return None, "popularity"
-
+    
         def apply_filters(filter_dict):
             d = df_raw
             for col, val in filter_dict.items():
                 d = d[d[col] == val]
             return d
-
-        # 1. Try an exact match across every filter the user set
+    
         persona_df = apply_filters(active_filters)
         if not persona_df.empty:
             active_id = persona_df['tourist_id'].value_counts().index[0]
-            return active_id, "full_match"
-
-        # 2. Relax filters one at a time (drop least identity-defining first)
-        #    so age_group is no longer treated as special/mandatory
-        relax_order = ['season', 'attraction_category', 'province', 'age_group']
-        remaining = dict(active_filters)
-        for field in relax_order:
-            if field in remaining:
-                remaining.pop(field)
+            mode = "full_match"
+        else:
+            # relax progressively — always finds a match given dropdown-sourced values
+            remaining = dict(active_filters)
+            relax_order = ['season', 'attraction_category', 'province', 'age_group']
+            active_id = None
+            for field in relax_order:
+                if field in remaining:
+                    remaining.pop(field)
                 persona_df = apply_filters(remaining)
                 if not persona_df.empty:
                     active_id = persona_df['tourist_id'].value_counts().index[0]
-                    return active_id, "partial_match"
-            if not remaining:
-                break
-
-        # 3. Nothing matched even after relaxing everything -> genuine cold start
-        return 605, "cold_start"
-
+                    break
+            mode = "partial_match"
+    
+        # Real cold-start check: does the trained model actually know this tourist?
+        if ml_ready and user_to_idx is not None and active_id not in user_to_idx:
+            return active_id, "cold_start"
+    
+        return active_id, mode
+        
     def generate_recommendations(tourist_id, selected_model, age, province, category, duration,
                              spend_range, min_rating, season, top_n=8):
         filtered = df_raw.copy()
