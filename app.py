@@ -768,7 +768,8 @@ try:
         # ========== Persona Matching & Recommendation Generation ==========
         # This now runs automatically every time a filter is changed
         active_id, persona_mode = match_persona(
-            df_raw, selected_age, selected_province, selected_category, selected_season
+            df_raw, selected_age, selected_province, selected_category, selected_season,
+            user_to_idx, ml_ready
         )
 
         if persona_mode == "popularity":
