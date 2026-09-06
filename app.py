@@ -750,6 +750,16 @@ try:
             selected_season != "Ignore"
         ])
         
+        # Actually narrow the persona pool by the demographic filters the user picked
+        if selected_age != "Ignore":
+            persona_df = persona_df[persona_df['age_group'] == selected_age]
+        if selected_province != "Ignore":
+            persona_df = persona_df[persona_df['province'] == selected_province]
+        if selected_category != "Ignore":
+            persona_df = persona_df[persona_df['attraction_category'] == selected_category]
+        if selected_season != "Ignore":
+            persona_df = persona_df[persona_df['season'] == selected_season]
+        
         if not has_active_filters:
             active_id = None
             st.sidebar.info(
@@ -764,6 +774,8 @@ try:
                 f"Mapping session preferences to historical proxy cohort: **Tourist ID {active_id}**"
             )
         else:
+            # persona_df came back empty after filtering — no traveler in history matches this
+            # combination, so fall back to a fixed baseline proxy instead of crashing on value_counts()
             active_id = 605
             st.sidebar.warning(
                 "🧊 **Filtered Cold-Start Fallback**\n\n"
@@ -781,8 +793,8 @@ try:
         st.session_state.active_tourist_id = active_id
         
         st.subheader("Your Personalized Itinerary")
-    
-        if st.session_state.is_personalized and not df_raw.empty:
+
+        if st.session_state.is_personalized and st.session_state.recommendations and not df_raw.empty:
             user_history = df_raw[(df_raw['tourist_id'] == st.session_state.active_tourist_id) & (df_raw['rating'] >= 4.0)]
             if len(user_history) > 0:
                 top_past = user_history['attraction_name'].iloc[0]
