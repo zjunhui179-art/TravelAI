@@ -258,12 +258,10 @@ def get_attraction_photo(attraction_name, attr_meta_df):
     if attr_meta_df is not None and not attr_meta_df.empty:
         meta_row = attr_meta_df[attr_meta_df['attraction_name'] == attraction_name]
         if not meta_row.empty:
-            # Check for common column names for the image URL
-            for col in ['image_url', 'image_url', 'image', 'Image', 'url', 'photo_url']:
+            for col in ['image_url', 'image', 'Image', 'url', 'photo_url']:
                 if col in meta_row.columns and pd.notna(meta_row[col].iloc[0]) and str(meta_row[col].iloc[0]).strip() != "":
                     return str(meta_row[col].iloc[0]).strip()
                     
-    # Fallback placeholder if no URL is found in the CSV
     seed = sum(ord(c) for c in attraction_name)
     return f"https://loremflickr.com/400/300/landscape,chinese?lock={seed}"
 # =========================================================================
@@ -285,7 +283,6 @@ def load_all_data_v2():
         df_raw = pd.DataFrame()
         attraction_spend_map = {}
     try:
-        # UPDATED: Load the new file containing image URLs
         attr_meta = pd.read_csv('attraction_metadata_with_images.csv')
     except Exception:
         attr_meta = pd.DataFrame()
@@ -339,111 +336,116 @@ def load_all_data_v2():
 # =========================================================================
 
 # =========================================================================
-# START PART 6.1: RECOMMENDATION ENGINE LOGIC (REFACTORED)
+# START PART 6: MAIN APPLICATION EXECUTION
 # =========================================================================
-def generate_recommendations(tourist_id, selected_model, age, province, category, duration,
-                             spend_range, min_rating, season, top_n=8):
-    filtered = df_raw.copy()
-    
-    # 1. Real-time User Preferences (Contextual Inputs)
-    if age != "Ignore": 
-        filtered = filtered[filtered['age_group'] == age]
-    if province != "Ignore": 
-        filtered = filtered[filtered['province'] == province]
-    if category != "Ignore": 
-        filtered = filtered[filtered['attraction_category'] == category]
-    if season != "Ignore": 
-        filtered = filtered[filtered['season'] == season]
+try:
+    df_raw, attr_meta, eval_metrics_df, matrices, idx_to_item, user_to_idx, train_seen, ml_ready, attraction_spend_map = load_all_data_v2()
 
-    # 2. Item-Level Historical Aggregations (Prevents Row-Level Post-Visit Data Leakage)
-    # Compute static/historical item metrics across past visits
-    item_stats = df_raw.groupby('attraction_name').agg(
-        historical_avg_spend=('spend_amount', 'mean'),
-        historical_avg_duration=('visit_duration_hours', 'mean'),
-        historical_avg_rating=('rating', 'mean')
-    ).reset_index()
-
-    # Apply Duration constraint against Item Historical/Estimated Duration (NOT raw target visit_duration_hours)
-    if duration != "Ignore":
-        if duration == "Short (1-3 hours)":
-            valid_dur_items = item_stats[item_stats['historical_avg_duration'] <= 3]['attraction_name']
-        elif duration == "Medium (3-5 hours)":
-            valid_dur_items = item_stats[(item_stats['historical_avg_duration'] > 3) & (item_stats['historical_avg_duration'] <= 5)]['attraction_name']
-        elif duration == "Long (5+ hours)":
-            valid_dur_items = item_stats[item_stats['historical_avg_duration'] > 5]['attraction_name']
+    # =========================================================================
+    # START PART 6.1: RECOMMENDATION ENGINE LOGIC (REFACTORED)
+    # =========================================================================
+    def generate_recommendations(tourist_id, selected_model, age, province, category, duration,
+                                 spend_range, min_rating, season, top_n=8):
+        filtered = df_raw.copy()
         
-        filtered = filtered[filtered['attraction_name'].isin(valid_dur_items)]
+        # 1. Real-time User Preferences (Contextual Inputs)
+        if age != "Ignore": 
+            filtered = filtered[filtered['age_group'] == age]
+        if province != "Ignore": 
+            filtered = filtered[filtered['province'] == province]
+        if category != "Ignore": 
+            filtered = filtered[filtered['attraction_category'] == category]
+        if season != "Ignore": 
+            filtered = filtered[filtered['season'] == season]
 
-    # Apply Spend Budget filter against Item Historical Average Spend
-    if spend_range is not None:
-        min_spend, max_spend = spend_range
-        valid_spend_items = item_stats[
-            (item_stats['historical_avg_spend'] >= min_spend) & 
-            (item_stats['historical_avg_spend'] <= max_spend)
-        ]['attraction_name']
-        filtered = filtered[filtered['attraction_name'].isin(valid_spend_items)]
+        # 2. Item-Level Historical Aggregations (Prevents Data Leakage)
+        item_stats = df_raw.groupby('attraction_name').agg(
+            historical_avg_spend=('spend_amount', 'mean'),
+            historical_avg_duration=('visit_duration_hours', 'mean'),
+            historical_avg_rating=('rating', 'mean')
+        ).reset_index()
 
-    # Apply Rating Filter against Item Historical Average Rating
-    if min_rating is not None:
-        valid_rating_items = item_stats[item_stats['historical_avg_rating'] >= min_rating]['attraction_name']
-        filtered = filtered[filtered['attraction_name'].isin(valid_rating_items)]
-
-    valid_candidates = set(filtered['attraction_name'].unique())
-
-    if not valid_candidates:
-        return [], False
-
-    # 3. Model Scoring Pipeline
-    if tourist_id is not None and ml_ready and tourist_id in user_to_idx and selected_model in matrices:
-        user_idx = user_to_idx[tourist_id]
-        selected_matrix = matrices[selected_model]
-        scores = selected_matrix[user_idx].copy()
-        
-        min_score, max_score = scores.min(), scores.max()
-        if max_score > 5.0 or min_score < 0.0:
-            if max_score > min_score: 
-                scores = 1.0 + 4.0 * ((scores - min_score) / (max_score - min_score))
-            else: 
-                scores = np.full_like(scores, 5.0)
-        else:
-            scores = np.clip(scores, 1.0, 5.0)
+        # Apply Duration constraint against Item Historical Duration
+        if duration != "Ignore":
+            if duration == "Short (1-3 hours)":
+                valid_dur_items = item_stats[item_stats['historical_avg_duration'] <= 3]['attraction_name']
+            elif duration == "Medium (3-5 hours)":
+                valid_dur_items = item_stats[(item_stats['historical_avg_duration'] > 3) & (item_stats['historical_avg_duration'] <= 5)]['attraction_name']
+            elif duration == "Long (5+ hours)":
+                valid_dur_items = item_stats[item_stats['historical_avg_duration'] > 5]['attraction_name']
             
-        seen_indices = train_seen.get(user_idx, set())
-        
-        recs = []
-        for item_idx, item_name in idx_to_item.items():
-            if item_idx in seen_indices: 
-                continue 
-            if item_name in valid_candidates:
-                recs.append((item_name, scores[item_idx]))
+            filtered = filtered[filtered['attraction_name'].isin(valid_dur_items)]
+
+        # Apply Spend Budget filter against Item Historical Average Spend
+        if spend_range is not None:
+            min_spend, max_spend = spend_range
+            valid_spend_items = item_stats[
+                (item_stats['historical_avg_spend'] >= min_spend) & 
+                (item_stats['historical_avg_spend'] <= max_spend)
+            ]['attraction_name']
+            filtered = filtered[filtered['attraction_name'].isin(valid_spend_items)]
+
+        # Apply Rating Filter against Item Historical Average Rating
+        if min_rating is not None:
+            valid_rating_items = item_stats[item_stats['historical_avg_rating'] >= min_rating]['attraction_name']
+            filtered = filtered[filtered['attraction_name'].isin(valid_rating_items)]
+
+        valid_candidates = set(filtered['attraction_name'].unique())
+
+        if not valid_candidates:
+            return [], False
+
+        # 3. Model Scoring Pipeline
+        if tourist_id is not None and ml_ready and tourist_id in user_to_idx and selected_model in matrices:
+            user_idx = user_to_idx[tourist_id]
+            selected_matrix = matrices[selected_model]
+            scores = selected_matrix[user_idx].copy()
+            
+            min_score, max_score = scores.min(), scores.max()
+            if max_score > 5.0 or min_score < 0.0:
+                if max_score > min_score: 
+                    scores = 1.0 + 4.0 * ((scores - min_score) / (max_score - min_score))
+                else: 
+                    scores = np.full_like(scores, 5.0)
+            else:
+                scores = np.clip(scores, 1.0, 5.0)
                 
-        recs.sort(key=lambda x: x[1], reverse=True)
-        top_recs = recs[:top_n]
-        
-        if top_recs:
-            max_s, min_s = top_recs[0][1], top_recs[-1][1]
-            final_recs = []
-            for name, score in top_recs:
-                if max_s > min_s:
-                    match_pct = 80 + 19 * ((score - min_s) / (max_s - min_s))
-                else:
-                    match_pct = 95.0 
-                final_recs.append((name, match_pct))
-            return final_recs, True
-        return recs[:top_n], True
+            seen_indices = train_seen.get(user_idx, set())
+            
+            recs = []
+            for item_idx, item_name in idx_to_item.items():
+                if item_idx in seen_indices: 
+                    continue 
+                if item_name in valid_candidates:
+                    recs.append((item_name, scores[item_idx]))
+                    
+            recs.sort(key=lambda x: x[1], reverse=True)
+            top_recs = recs[:top_n]
+            
+            if top_recs:
+                max_s, min_s = top_recs[0][1], top_recs[-1][1]
+                final_recs = []
+                for name, score in top_recs:
+                    if max_s > min_s:
+                        match_pct = 80 + 19 * ((score - min_s) / (max_s - min_s))
+                    else:
+                        match_pct = 95.0 
+                    final_recs.append((name, match_pct))
+                return final_recs, True
+            return recs[:top_n], True
 
-    # Fallback Popularity Baseline
-    grouped = filtered.groupby('attraction_name').agg(
-        avg_rating=('rating', 'mean'), 
-        visit_count=('rating', 'count')
-    ).reset_index()
+        # Fallback Popularity Baseline
+        grouped = filtered.groupby('attraction_name').agg(
+            avg_rating=('rating', 'mean'), 
+            visit_count=('rating', 'count')
+        ).reset_index()
 
-    top_spots = grouped.sort_values(by=['avg_rating', 'visit_count'], ascending=[False, False]).head(top_n)
-    recs = [(row['attraction_name'], row['avg_rating']) for _, row in top_spots.iterrows()]
-    return recs, False
-# =========================================================================
-# END PART 6.1: RECOMMENDATION ENGINE LOGIC
-# =========================================================================
+        top_spots = grouped.sort_values(by=['avg_rating', 'visit_count'], ascending=[False, False]).head(top_n)
+        recs = [(row['attraction_name'], row['avg_rating']) for _, row in top_spots.iterrows()]
+        return recs, False
+    # =========================================================================
+    # END PART 6.1: RECOMMENDATION ENGINE LOGIC
+    # =========================================================================
 
     # =========================================================================
     # START PART 6.2: SIDEBAR & ALGORITHM SELECTION
@@ -542,7 +544,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             </div>
         """, unsafe_allow_html=True)
 
-        # Streamlit button for "Start Explore"
         with st.container():
             col_btn1, col_btn2, col_btn3 = st.columns([1, 2, 1])
             with col_btn2:
@@ -550,7 +551,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                     st.session_state.active_page = "Recommendations"
                     st.rerun()
 
-        # Trending destinations 
         st.markdown("""
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; margin-top: 20px;">
                 <h3 style="margin: 0; padding: 0;">Trending Destinations China</h3>
@@ -585,7 +585,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                 lat = float(meta_row['latitude'].iloc[0]) if not meta_row.empty and not pd.isna(meta_row['latitude'].iloc[0]) else 35.0
                 lon = float(meta_row['longitude'].iloc[0]) if not meta_row.empty and not pd.isna(meta_row['longitude'].iloc[0]) else 105.0
         
-                # UPDATED: Call get_attraction_photo with attr_meta
                 img_url = get_attraction_photo(name, attr_meta)
                 seed = sum(ord(c) for c in name)
                 est_spend = f"¥{150 + (seed % 200)} ($22–$50)"
@@ -608,35 +607,34 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                 """
                 st.markdown(card_html, unsafe_allow_html=True)
                 
-        # ========== Why Choose TravelAI ==========
         st.markdown("<br>", unsafe_allow_html=True)
 
         why_items = [
-                ("👍", "Personalized", "Recommendations just for you"),
-                ("🗺️", "Smart & Accurate", "AI-powered insights"),
-                ("💰", "Budget Friendly", "Find the best value"),
-                ("❤️", "Plan with Confidence", "Explore with ease"),
-            ]
+            ("👍", "Personalized", "Recommendations just for you"),
+            ("🗺️", "Smart & Accurate", "AI-powered insights"),
+            ("💰", "Budget Friendly", "Find the best value"),
+            ("❤️", "Plan with Confidence", "Explore with ease"),
+        ]
     
         cards_html = "".join(
-                f'<div class="why-choose-card">'
-                f'<div class="why-choose-icon">{icon}</div>'
-                f'<div>'
-                f'<div class="why-choose-title">{title}</div>'
-                f'<div class="why-choose-sub">{sub}</div>'
-                f'</div>'
-                f'</div>'
-                for icon, title, sub in why_items
-            )
+            f'<div class="why-choose-card">'
+            f'<div class="why-choose-icon">{icon}</div>'
+            f'<div>'
+            f'<div class="why-choose-title">{title}</div>'
+            f'<div class="why-choose-sub">{sub}</div>'
+            f'</div>'
+            f'</div>'
+            for icon, title, sub in why_items
+        )
     
         why_choose_html = (
-                '<div class="why-choose-wrapper">'
-                '<h3 class="why-choose-heading">Why Choose TravelAI?</h3>'
-                '<div style="display:flex; gap:24px; flex-wrap:wrap;">'
-                + cards_html +
-                '</div>'
-                '</div>'
-            )
+            '<div class="why-choose-wrapper">'
+            '<h3 class="why-choose-heading">Why Choose TravelAI?</h3>'
+            '<div style="display:flex; gap:24px; flex-wrap:wrap;">'
+            + cards_html +
+            '</div>'
+            '</div>'
+        )
     
         st.markdown(why_choose_html, unsafe_allow_html=True)
 
@@ -644,7 +642,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
     # TAB 2: RECOMMENDATIONS
     # -------------------------------------------------------------------------
     elif st.session_state.active_page == "Recommendations":
-        # ========== Banner ==========
         st.markdown("""
             <div style="
                 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -666,7 +663,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             </div>
         """, unsafe_allow_html=True)
 
-        # ========== Filters ==========
         st.markdown("""
             <style>
             .filter-title {
@@ -732,7 +728,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                     min_spend, max_spend = 0, 1000
                 spend_range = st.slider("Budget (¥)", min_spend, max_spend, (min_spend, max_spend))
 
-            # ROW 2 
             r2_col1, r2_col2, r2_col3 = st.columns(3)
             with r2_col1:
                 selected_duration = st.selectbox("Trip Duration", dur_options, index=get_default_index(dur_options))
@@ -746,9 +741,7 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
         st.markdown("<br><hr style='border: none; border-bottom: 1px solid #eaeaea;'><br>", unsafe_allow_html=True)
         
         # ========== Persona Matching & Recommendation Generation ==========
-        # This now runs automatically every time a filter is changed
         persona_df = df_raw.copy()
-        # 1. Check if user set ANY explicit filter
         has_active_filters = any([
             selected_age != "Ignore",
             selected_province != "Ignore",
@@ -758,7 +751,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
         ])
         
         if not has_active_filters:
-            # Pure cold-start: No session filters provided
             active_id = None
             st.sidebar.info(
                 "🔥 **Popularity Fallback Mode**\n\n"
@@ -766,27 +758,28 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                 "Displaying overall trending destinations."
             )
         elif not persona_df.empty and 'tourist_id' in persona_df.columns:
-            # Match a demographic proxy using filtered cohort
             active_id = persona_df['tourist_id'].value_counts().index[0]
             st.sidebar.success(
                 f"🎯 **Demographic Proxy Matched**\n\n"
                 f"Mapping session preferences to historical proxy cohort: **Tourist ID {active_id}**"
             )
         else:
-            # Fallback when filters yield zero matching historical rows in dataset
-            active_id = 605  # Standard active profile proxy for UI demo
+            active_id = 605
             st.sidebar.warning(
                 "🧊 **Filtered Cold-Start Fallback**\n\n"
                 "No direct historical match found for this filter combination. "
                 "Applying session constraints over default baseline proxy (ID: 605)."
             )
-        
-        # Save to session state so the Map tab can access it
+
+        recs, personalized = generate_recommendations(
+            active_id, selected_model, selected_age, selected_province, 
+            selected_category, selected_duration, spend_range, min_rating, selected_season, top_n
+        )
+
         st.session_state.recommendations = recs
         st.session_state.is_personalized = personalized
         st.session_state.active_tourist_id = active_id
         
-        # ========== Display Itinerary ==========
         st.subheader("Your Personalized Itinerary")
     
         if st.session_state.is_personalized and not df_raw.empty:
@@ -808,7 +801,7 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                 st.info("🔥 **Trending Destinations** | Showing highest-rated attractions across all demographics.")
         
             if st.session_state.recommendations:
-                num_cols = 3   # drop from 4 to 3 since the panel now takes some width
+                num_cols = 3
                 for row_idx in range(0, len(st.session_state.recommendations), num_cols):
                     row_items = st.session_state.recommendations[row_idx : row_idx + num_cols]
                     cols = st.columns(num_cols)
@@ -821,7 +814,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                             lat = float(meta_row['latitude'].iloc[0]) if not meta_row.empty and not pd.isna(meta_row['latitude'].iloc[0]) else 35.0
                             lon = float(meta_row['longitude'].iloc[0]) if not meta_row.empty and not pd.isna(meta_row['longitude'].iloc[0]) else 105.0
                             
-                            # UPDATED: Call get_attraction_photo with attr_meta
                             img_url = get_attraction_photo(name, attr_meta)
                             seed = sum(ord(c) for c in name)
                             avg_spend = attraction_spend_map.get(name)
@@ -829,7 +821,7 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                                 est_spend = f"¥{avg_spend:.0f}"
                             else:
                                 seed = sum(ord(c) for c in name)
-                                est_spend = f"¥{150 + (seed % 200)} (est.)"   # fallback only if no real data exists
+                                est_spend = f"¥{150 + (seed % 200)} (est.)"
                             nav_link = f"https://www.google.com/maps/dir/?api=1&destination={lat},{lon}"
                             
                             item_data = df_raw[df_raw['attraction_name'] == name] if not df_raw.empty else pd.DataFrame()
@@ -840,7 +832,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                             elif "Hybrid" in selected_model: reason = "✨ Top Ensemble Pick"
                             else: reason = "🧠 Deep Learning Match"
                             
-                            # 1. The Hover Card (Image with name and details inside)
                             card_html = f"""
                             <div class="dest-card">
                                 <img src="{img_url}" alt="{name}">
@@ -857,13 +848,9 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                             </div>
                             """
                             st.markdown(card_html, unsafe_allow_html=True)
-                            
-                            # 2. The Text Below (Reason and Caption kept, Name removed)
                             st.markdown(f"*{reason}*")
                             st.caption(f"🎯 {score:.0f}% AI Match | Avg Rating: {real_avg_rating:.2f} ⭐ | {level}")
-                            pass
-        
-        # --- Monochrome info-panel CSS (matches white background) ---
+
         st.markdown("""
         <style>
         .info-card {
@@ -924,9 +911,7 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
         </style>
         """, unsafe_allow_html=True)
         
-        
         def render_info_panel(recommendations, spend_range, top_n, attraction_spend_map, selected_model):
-            # --- Card 1: How We Recommend (dynamic based on selected model) ---
             MODEL_INFO = {
                 "Hybrid Recommender (Ensemble)": {
                     "icon": "✨",
@@ -961,7 +946,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                 </div>
             """, unsafe_allow_html=True)
 
-            # --- Card 2: Estimated Trip Cost ---
             if recommendations:
                 est_total = sum(
                     attraction_spend_map.get(name, 150 + (sum(ord(c) for c in name) % 200))
@@ -987,7 +971,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                 </div>
             """, unsafe_allow_html=True)
         
-            # --- Card 3: Suggested Itinerary (first 3 recs as a mini day plan) ---
             if recommendations:
                 days_html = ""
                 for i, (name, score) in enumerate(recommendations[:3], start=1):
@@ -1001,7 +984,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
         with side_col:
             render_info_panel(st.session_state.recommendations, spend_range, top_n, attraction_spend_map, selected_model)
 
-        # ========== Spatial Map (moved here from its own tab) ==========
         st.markdown("<br>", unsafe_allow_html=True)
         st.subheader("3D Journey & Spatial Layout")
         st.info("Interactive routing from your origin point to recommended destinations.")
@@ -1149,7 +1131,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             flex-direction: column;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
-        /* New classes for the highlighted "Best Model" */
         .model-card.best-model {
             border: 2px solid #0078D4;
             box-shadow: 0 8px 20px rgba(0, 120, 212, 0.15);
@@ -1344,7 +1325,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
                     
                 caps_html = "".join([f"<li><span style='color:#a1a1aa;'>✓</span> {cap.replace('✓ ', '')}</li>" for cap in model["capabilities"]])
                 
-                # Apply the CSS class dynamically
                 card_class = "model-card best-model" if model["is_best"] else "model-card"
                 
                 st.markdown(f"""
@@ -1367,13 +1347,11 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
         """, unsafe_allow_html=True)
         st.divider()
         
-        # 1. Initialize states for both buttons
         if "show_top_n" not in st.session_state:
             st.session_state.show_top_n = False
         if "show_rating_pred" not in st.session_state:
             st.session_state.show_rating_pred = False
 
-        # 2. Place buttons side-by-side using columns
         btn_col1, btn_col2 = st.columns(2)
 
         with btn_col1:
@@ -1386,7 +1364,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
 
         st.markdown("<br>", unsafe_allow_html=True)
 
-        # 3. Conditionally display Top-N Metrics
         if st.session_state.show_top_n:
             st.markdown("### Top-N Ranking Performance")
             r1_col1, r1_col2, r1_col3, r1_col4, r1_col5 = st.columns(5)
@@ -1403,13 +1380,11 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             )
             st.markdown("### Ranking Metrics Dashboard")
             
-            # Set the dataframe index to Model for easy plotting
             metrics_to_plot = eval_metrics_df.set_index('Algorithm')
 
             sns.set_theme(style="whitegrid")
             fig = plt.figure(figsize=(16, 12))
 
-            # Plot A: Precision & Recall @5 
             ax1 = plt.subplot2grid((2, 2), (0, 0))
             metrics_to_plot[['Precision@5', 'Recall@5']].plot(kind='barh', ax=ax1, colormap='Blues_r', edgecolor='black')
             ax1.set_title('A. Precision & Recall @ 5', fontsize=14, fontweight='bold')
@@ -1422,7 +1397,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             for container in ax1.containers:
                 ax1.bar_label(container, fmt='%.4f', padding=3, fontsize=10)
 
-            # Plot B: F1-Score @5
             ax2 = plt.subplot2grid((2, 2), (0, 1))
             metrics_to_plot[['F1@5']].plot(kind='barh', ax=ax2, color='mediumseagreen', edgecolor='black', legend=False)
             ax2.set_title('B. F1-Score @5', fontsize=14, fontweight='bold')
@@ -1434,7 +1408,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             for container in ax2.containers:
                 ax2.bar_label(container, fmt='%.4f', padding=3, fontsize=10)
 
-            # Plot C: Hit Rate (HR) @5 
             ax3 = plt.subplot2grid((2, 2), (1, 0))
             metrics_to_plot[['HR@5']].plot(kind='barh', ax=ax3, color='coral', edgecolor='black', legend=False)
             ax3.set_title('C. Hit Rate @5 (Users with ≥1 relevant item)', fontsize=14, fontweight='bold')
@@ -1446,7 +1419,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             for container in ax3.containers:
                 ax3.bar_label(container, fmt='%.4f', padding=3, fontsize=10)
 
-            # Plot D: NDCG @5 
             ax4 = plt.subplot2grid((2, 2), (1, 1))
             metrics_to_plot[['NDCG@5']].plot(kind='barh', ax=ax4, color='mediumpurple', edgecolor='black', legend=False)
             ax4.set_title('D. NDCG @5 (Ranking Quality)', fontsize=14, fontweight='bold')
@@ -1461,13 +1433,9 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             plt.suptitle('Final Model Ranking Evaluation (Top-5 Recommendations)', fontsize=18, fontweight='bold', y=0.98)
             plt.tight_layout(pad=3.0)
             
-            # Replace plt.show() with st.pyplot()
             st.pyplot(fig)
-            
-            # Clear the figure from memory to prevent overlap on reruns
             plt.close(fig)
 
-        # 4. Conditionally display Rating Prediction Metrics
         if st.session_state.show_rating_pred:
             st.markdown("### Rating Prediction & Classification")
             r2_col1, r2_col2, r2_col3, r2_col4 = st.columns(4)
@@ -1484,14 +1452,11 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             )
             st.markdown("### Rating Prediction Dashboard")
             
-            # Map your existing Streamlit dataframe for plotting
             rating_metrics_plot = eval_metrics_df.set_index('Algorithm')
 
             sns.set_theme(style="whitegrid")
-            # Adjusted figsize and grid layout so it doesn't leave huge empty spaces
             fig = plt.figure(figsize=(15, 8))
 
-            # Plot A: Error Metrics (Lower is better)
             ax1 = plt.subplot2grid((1, 2), (0, 0))
             rating_metrics_plot[['RMSE', 'MAE']].plot(kind='bar', ax=ax1, colormap='Reds_r', edgecolor='black')
             ax1.set_title('A. Prediction Error (Lower is Better)', fontsize=14, fontweight='bold')
@@ -1502,9 +1467,7 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
             for container in ax1.containers:
                 ax1.bar_label(container, fmt='%.4f', padding=3, fontsize=10)
 
-            # Plot B: Classification Metrics (Higher is better)
             ax2 = plt.subplot2grid((1, 2), (0, 1))
-            # Mapped 'F1-Score' to 'Class F1-Score' to match your dataframe schema
             rating_metrics_plot[['Accuracy', 'Class F1-Score']].plot(kind='bar', ax=ax2, colormap='Greens_r', edgecolor='black')
             ax2.set_title('B. Classification Performance (Higher is Better)', fontsize=14, fontweight='bold')
             ax2.set_ylabel('Score', fontsize=12)
@@ -1516,7 +1479,6 @@ def generate_recommendations(tourist_id, selected_model, age, province, category
 
             plt.tight_layout()
             
-            # Render the plot in Streamlit and clear memory
             st.pyplot(fig)
             plt.close(fig)
 # =========================================================================
