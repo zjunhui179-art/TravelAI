@@ -989,19 +989,24 @@ try:
             else:
                 est_total = 0
         
-            budget_cap = spend_range[1] if spend_range else 1000
-            fill_pct = min(100, int((est_total / budget_cap) * 100)) if budget_cap else 0
+            # Calculate total budget cap for all stops combined
+            max_single_budget = spend_range[1] if spend_range else 1000
+            budget_cap = max_single_budget * num_stops if num_stops > 0 else max_single_budget
+            
+            # Calculate percentage filled relative to total budget cap
+            fill_pct = min(100, int((est_total / budget_cap) * 100)) if budget_cap > 0 else 0
             within_budget = est_total <= budget_cap
-        
+            
             st.markdown(f"""
                 <div class="info-card">
                     <h4>💰 Estimated Trip Cost</h4>
                     <p style="font-size:1.6rem; font-weight:800; color:#111111; margin-bottom:2px;">
-                        ¥{est_total:,.2f} <span style="font-size:0.9rem; font-weight:500; color:#666;">({len(recommendations)} stops)</span>
+                        ¥{est_total:,.2f} <span style="font-size:0.9rem; font-weight:500; color:#666;">({num_stops} stops)</span>
                     </p>
                     <div class="cost-bar-track"><div class="cost-bar-fill" style="width:{fill_pct}%;"></div></div>
                     <p style="font-size:0.85rem; color:{'#111' if within_budget else '#a33'};">
-                        {'✓ Within your budget' if within_budget else '⚠ Above your budget'}
+                        {'✓ Within your budget' if within_budget else '⚠️ Above your budget'} 
+                        <span style="color:#666;">(¥{budget_cap:,.0f} max budget)</span>
                     </p>
                 </div>
             """, unsafe_allow_html=True)
