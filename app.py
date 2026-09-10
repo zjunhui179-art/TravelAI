@@ -981,6 +981,7 @@ try:
             """, unsafe_allow_html=True)
 
             # --- Card 2: Estimated Trip Cost ---
+            num_stops = len(recommendations)
             if recommendations:
                 est_total = sum(
                     attraction_spend_map.get(name, 150 + (sum(ord(c) for c in name) % 200))
@@ -988,13 +989,12 @@ try:
                 )
             else:
                 est_total = 0
-        
-            # Calculate total budget cap for all stops combined
-            max_single_budget = spend_range[1] if spend_range else 1000
-            budget_cap = max_single_budget * num_stops if num_stops > 0 else max_single_budget
             
-            # Calculate percentage filled relative to total budget cap
-            fill_pct = min(100, int((est_total / budget_cap) * 100)) if budget_cap > 0 else 0
+            # Multiply selected max budget per stop by the total number of recommendations/stops
+            max_per_stop = spend_range[1] if spend_range else 1000
+            budget_cap = max_per_stop * num_stops if num_stops > 0 else max_per_stop
+            
+            fill_pct = min(100, int((est_total / budget_cap) * 100)) if budget_cap else 0
             within_budget = est_total <= budget_cap
             
             st.markdown(f"""
@@ -1005,7 +1005,7 @@ try:
                     </p>
                     <div class="cost-bar-track"><div class="cost-bar-fill" style="width:{fill_pct}%;"></div></div>
                     <p style="font-size:0.85rem; color:{'#111' if within_budget else '#a33'};">
-                        {'✓ Within your budget' if within_budget else '⚠️ Above your budget'} 
+                        {'✓ Within your budget' if within_budget else '⚠ Above your budget'} 
                         <span style="color:#666;">(¥{budget_cap:,.0f} max budget)</span>
                     </p>
                 </div>
